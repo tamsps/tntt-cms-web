@@ -1,8 +1,60 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model List<Book>
+
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+@foreach (var book in Model)
+{
+  <div class="book">
+    <h2>@book.BookTitle</h2>
+    <p>Book ID: @book.BookId</p>
+    <img src="@book.ImageUrl" alt="Book Image" />
+
+    <h3>Lessons</h3>
+    @foreach (var lesson in book.Lessons)
+    {
+      <div class="lesson">
+        <h4>Main Content</h4>
+        <ul>
+          @foreach (var content in lesson.MainContent)
+          {
+            <li>@content</li>
+          }
+        </ul>
+
+        <h4>Questions</h4>
+        <ul>
+          @foreach (var question in lesson.Questions)
+          {
+            <li>
+              <strong>@question.Ask</strong><br />
+              Answer: @question.Answer
+            </li>
+          }
+        </ul>
+
+        <h4>Memo Content</h4>
+        <ul>
+          @foreach (var memo in lesson.MemoContent)
+          {
+            <li>@memo</li>
+          }
+        </ul>
+
+        <h4>Actions</h4>
+        <ul>
+          @foreach (var action in lesson.Actions)
+          {
+            <li>@action</li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+}
