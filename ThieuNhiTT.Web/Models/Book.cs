@@ -12,8 +12,10 @@ namespace ThieuNhiTT.Web.Models
 
 				[JsonPropertyName("imageUrl")]
 				public string ImageUrl { get; set; }
+			 [JsonPropertyName("description")]
+			 public List<string> Description { get; set; }
 
-				[JsonPropertyName("lessons")]
+		[JsonPropertyName("lessons")]
 				public List<Lesson> Lessons { get; set; }
 		}
 }

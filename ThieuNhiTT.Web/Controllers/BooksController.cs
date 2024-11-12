@@ -16,5 +16,11 @@ namespace ThieuNhiTT.Web.Controllers
 						var books = _bookService.GetAllBooks();
 						return View(books);
 				}
+		public IActionResult Detail(string bookdId)
+		{
+			var bookDetail = _bookService.GetBookById(bookdId);
+			return View(bookDetail);
 		}
+
+	}
 }

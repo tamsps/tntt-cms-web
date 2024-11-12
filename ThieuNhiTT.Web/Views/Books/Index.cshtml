@@ -2,12 +2,13 @@
   ViewData["Title"] = "Chương trình giáo lý Thăng Tiến";
   ViewData["RenderBody"] = false;
 }
+@model List<Book>
 
 <!-- Breadcrumb -->
 <div class="container">
 	<div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
 		<div class="f2-s-1 p-r-30 m-tb-6">
-			<a href="index.html" class="breadcrumb-item f1-s-3 cl9">
+			<a href="~/Home" class="breadcrumb-item f1-s-3 cl9">
 				Home
 			</a>
 
@@ -39,8 +40,36 @@
 			<div class="col-md-10 col-lg-12 p-b-80">
 				<div class="p-r-10 p-r-0-sr991">
 					<div class="m-t--40 p-b-40">
+						@foreach (var book in Model )
+						{
+							<!-- Item post -->
+							<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
+								<a asp-controller="Books"  asp-action="Detail" asp-route-bookId="@book.BookId"  class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
+									<img src="~/images/@book.ImageUrl" alt="IMG">
+								</a>
+
+								<div class="size-w-9 w-full-sr575 m-b-25">
+									<h5 class="p-b-12">
+										<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+											@book.BookTitle
+										</a>
+									</h5>
+										@foreach (var desc in book.Description)
+                    {
+												<p class="f1-s-1 cl6 p-b-24">
+													@desc
+												</p>
+                    }
+
+									<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+										Read More
+										<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+									</a>
+								</div>
+							</div>
+						}
 						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
+						@* <div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
 							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
 								<img src="~/images/KT1.jpg" alt="IMG">
 							</a>
@@ -63,267 +92,7 @@
 									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
 								</a>
 							</div>
-						</div>
-
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/KT2.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Khai Tâm 2
-									</a>
-								</h5>
-
-							
-
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/RL1.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Rước Lễ 1
-									</a>
-								</h5>
-
-
-
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/RL2.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Rước Lễ 2
-									</a>
-								</h5>
-
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/TS1.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Thêm Sức 1
-									</a>
-								</h5>
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/TS2.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Thêm Sức 2
-									</a>
-								</h5>
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/BD1.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Bao Đồng 1
-									</a>
-								</h5>
-
-
-
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/BD2.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Bao Đồng 2
-									</a>
-								</h5>
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/BD3.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Bao Đồng 3
-									</a>
-								</h5>
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/BD4.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Bao Đồng 4
-									</a>
-								</h5>
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/VD1.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Vào Đời 1
-									</a>
-								</h5>
-
-
-
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Item post -->
-						<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-							<a href="blog-detail-02.html" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
-								<img src="~/images/VD2.jpg" alt="IMG">
-							</a>
-
-							<div class="size-w-9 w-full-sr575 m-b-25">
-								<h5 class="p-b-12">
-									<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-										Vào Đời 2
-									</a>
-								</h5>
-
-
-
-								<p class="f1-s-1 cl6 p-b-24">
-									Duis eu felis id tortor congue consequat. Sed vitae vestibulum enim, et pharetra magna
-								</p>
-
-								<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-									Read More
-									<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-								</a>
-							</div>
-						</div>
+						</div> *@
 					</div>
 				</div>
 			</div>
