@@ -1,13 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ThieuNhiTT.Web.Services;
 
 namespace ThieuNhiTT.Web.Controllers
 {
-	public class BooksController : Controller
-	{
-		public IActionResult Index()
+		public class BooksController : Controller
 		{
+				private readonly BookService _bookService;
+				public BooksController(BookService bookService)
+				{
+						_bookService = bookService;
+				}
 
-			return View();
+				public IActionResult Index()
+				{
+						var books = _bookService.GetAllBooks();
+						return View(books);
+				}
 		}
-	}
 }

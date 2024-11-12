@@ -1,8 +1,15 @@
+using ThieuNhiTT.Web.DataAccess;
+using ThieuNhiTT.Web.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+string jsonFilePath = builder.Configuration.GetSection("ThangTienJsonFilePath").Value;
 
+
+// Add services to the container.
+builder.Services.AddScoped<IBookRepository>(provider => new JsonBookRepository(jsonFilePath));
+builder.Services.AddScoped<BookService>();
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
