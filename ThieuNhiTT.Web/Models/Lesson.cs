@@ -4,7 +4,9 @@ namespace ThieuNhiTT.Web.Models
 {
 		public class Lesson
 		{
-				[JsonPropertyName("mainContent")]
+				public string BookId { get; set; }  // To link the lesson with the book
+				public string LessonId { get; set; } // Unique identifier for each lesson
+			  [JsonPropertyName("mainContent")]
 				public List<string> MainContent { get; set; }
 
 				[JsonPropertyName("questions")]
@@ -15,5 +17,5 @@ namespace ThieuNhiTT.Web.Models
 
 				[JsonPropertyName("actions")]
 				public List<string> Actions { get; set; }
-		}
+	}
 }

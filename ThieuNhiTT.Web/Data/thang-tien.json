@@ -11,53 +11,6 @@
 				"Nhằm thức tỉnh cảm quan, tâm tình tôn giáo hơn là trau dồi kiến  thức tôn giáo.",
 				"Đây là giai đoạn quan trọng trong việc hình thành tính cách của trẻ. Do vậy, phụ huynh cần tránh : hoặc quá khép kín (không cho trẻ có cơ hội giao tiếp với bên ngoài, trẻ sẽ cô đơn, vị kỷ, thiếu kinh nghiệm khi ra đời), hoặc độc đoán ( đặt ra quá nhiều khuôn phép gò bó, nghiêm khắc, bắt trẻ quá lệ thuộc người lớn; trẻ không thể phát triển thoải mái quân bình ), hoặc thả lỏng ( không hướng dẫn, để trẻ vượt ra ngoài tầm ảnh hưởng của gia đình, tự do phiêu lưu ).",
 				"Giáo dục đức tin là một nghệ thuật, cha mẹ cần theo dõi để hướng dẫn con cái nhưng hướng dẫn kín đáo và nhẹ nhàng. Tập cho trẻ biết sử dụng tự do theo ý Chúa. "
-			],
-			"lessons": [
-				{
-					"mainContent": [
-						"Bài Học 1",
-						"Main content 2"
-					],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [
-						"Chương 2",
-						"memo content 2",
-						"memo content 3"
-					],
-					"actions": [
-						"action 1",
-						"action 2",
-						"action 3"
-					]
-				},
-				{
-					"mainContent": [ "Bài Học 2" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [
-						"Chương 3"
-					],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -68,26 +21,7 @@
 				"Nhằm chủ đích khai tâm. Cần thức tỉnh lương tâm cho trẻ, đào tạo những thái độ tôn giáo căn bản cho các em, giúp trẻ có một cái nhìn toàn bộ nhưng đơn giản về Kitô giáo. Chương trình giáo lý khai tâm này giống như một cây non đã có đủ rễ, thân, cành, lá...Sau này cứ như vậy mà lớn lên. ",
 				"Các em được chuẩn bị xưng tội, rước lễ theo chương trình 2 năm ( lớp 3/8 tuổi và lớp 4/9 tuổi). Mỗi năm có 2 học kỳ, mỗi học kỳ là 15 bài. Chương trình được soạn theo hướng Quy Kitô ( Christocentrique ) giúp các em lần lượt từ gặp gỡ Đức Kitô đến gặp gỡ Thiên Chúa (năm 1) và từ đón nhận Đức Kitô đến sống như con Thiên Chúa ( năm 2 ). ",
 				"Mục đích chương trình này nhằm giúp các em có những tâm tình và kiến thức căn bản về đời sống và đức tin Kitô giáo. ",
-				"Khởi đầu đức tin là cuộc gặp gỡ Chúa Giêsu trong Tin Mừng, các môn đệ tiên khởi đã tin và theo Chúa. Hôm nay, chúng ta muốn giúp các em lập lại kinh nghiệm ấy. Rồi Chúa Giêsu sẽ mạc khải về Thiên Chúa là Cha của Ngài, mà cũng là Cha của chúng ta và của hết mọi người. "
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
+				"Khởi đầu đức tin là cuộc gặp gỡ Chúa Giêsu trong Tin Mừng, các môn đệ tiên khởi đã tin và theo Chúa. Hôm nay, chúng ta muốn giúp các em lập lại kinh nghiệm ấy. Rồi Chúa Giêsu sẽ mạc khải về Thiên Chúa là Cha của Ngài, mà cũng là Cha của chúng ta và của hết mọi người. ",
 			]
 		},
 		{
@@ -96,25 +30,6 @@
 			"imageUrl": "RL1.jpg",
 			"description": [
 				"Tập trung vào việc giúp các em học biết Chúa Giêsu ( CG là ai, Ngài sống như thế nào, Ngài nói gì, làm gì, dạy ta điều gì ) và nhờ Ngài mà nhận biết Thiên Chúa là Cha và chúng ta là con cái yêu dấu của Ngài. "
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -126,25 +41,6 @@
 				"Trẻ 9-12 tuổi - Lớp Thêm Sức - yêu thích cụ thể, hướng về hoạt động, có óc thực tiễn, cảm phục những anh hùng, ưa chuộng những cuộc phiêu lưu và những hành động phi thường. Những yếu tố tâm lý trên cho thấy dùng Lịch sử Cứu độ để trình bày giáo lý cho tuổi này là phù hợp, lớp Thêm Sức 1 ( 10 tuổi ) và lớp Thêm Sức 2 ( 11 tuổi ), mỗi năm 2 học kỳ, mỗi học kỳ 15 bài.",
 				"Khi chuẩn bị cho các em xưng tội, rước lễ lần đầu, chúng ta đã giúp các em gắn bó, kết hiệp với Đức Kitô và Thiên Chúa. Để chuẩn bị lãnh nhận Bí tích Thêm Sức, chúng ta cần giúp các em hiểu biết hoạt động của Chúa Thánh Thần trong Lịch sử Cứu Độ và ý thức mình là thành phần của cộng đoàn dân Thiên Chúa. Như các môn đệ ngày xưa, một khi được lãnh nhận Chúa Thánh Thần, chúng ta trở nên những con người mới như Chúa Giêsu. Đồng thời, góp phần loan báo Tin  Mừng Thiên Chúa yêu thương và cứu độ loài người. ",
 				"Bốn học kỳ lần lượt đưa các em từ Lịch sử Cứu Độ diễn ra giữa Thiên Chúa với dân Israel trong quá khứ, rồi với Đức Kitô và Giáo Hội tiên khởi, đến Lịch sử Cứu Độ đang diễn ra hôm nay với Giáo Hội dưới tác động của Chúa Thánh Thần."
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -153,25 +49,6 @@
 			"imageUrl": "TS1.jpg",
 			"description": [
 				"Chương trình học là Lịch sử Cứu Độ được Thánh Kinh trình bày : Thánh Kinh ghi lại cho chúng ta nhiều mạc khải của Chúa qua các biến cố, các nhân vật trong những giai đoạn khác nhau. Mỗi nhân vật đóng một vai trò thực hiện ý định cứu chuộc của Thiên Chúa, hoặc tượng trưng cho một thái độ tôn giáo.  "
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -183,25 +60,6 @@
 				"Chúa Giêsu ban cho ta chính Thánh Thần mà Ngài hứa và đã ban cho các Tông đồ. Chúa Thánh Thần đã hoàn toàn đổi mới các Tông đồ. Ngài có thể biến đổi mọi sự nếu ta biết nghe theo Ngài. ",
 				"Chúa Thánh Thần liên kết ta với Giáo Hội, làm cho ta trưởng thành và làm cho toàn thể Giáo Hội lớn lên.",
 				"Chúa Thánh Thần biến ta thành người đi làm chứng cho Thiên Chúa và mở rộng Nước Ngài."
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -212,25 +70,6 @@
 				"12 tuổi là tuổi giao thoa giữa thiếu nhi và thiếu niên, trẻ lớp Bao Đồng 1 còn mang nhiều đặc tính tâm lý, tập quán của lứa tuổi Đại Ấu : Thế giới bên ngoài dễ lôi cuốn, khiến trẻ thường nghĩ, nhìn, làm như mọi người. Các em sống theo quy ước xã hội với óc thực tiễn : chỉ nhằm kết quả, thường hành động theo thói quen. Chính việc trẻ thích hoạt động đúng luật, mà việc học hỏi về Phụng vụ thích hợp với tuổi này, vì trong Phụng vụ, ngoài phần suy niệm và cảm nghiệm, còn có sinh hoạt cộng đoàn với các cử chỉ, quy luật nhất định. Tuy nhiên ở đây cũng phải tránh hình thức, máy móc. Cần giúp trẻ hiểu ý nghĩa các cử chỉ để thực hiện với ý thức.",
 				"Cần giúp trẻ có một cái nhìn sâu, đúng và quân bình hơn về Thiên Chúa. Cách tốt nhất để thực hiện điều này là giúp trẻ làm quen với Thiên Chúa như được trình bày trong Thánh Kinh và Phụng Vụ. Qua Thánh Kinh và Phụng Vụ, ta thấy Thiên Chúa vừa là Đấng siêu việt, cao cả, Ngài hành động và dạy dỗ, vừa là Đấng đáp lại nguyện vọng riêng tư của từng người. Sứ điệp của Ngài rất phong phú, bao trùm mọi vấn đề và mọi sinh hoạt của con người",
 				"Phụng Vụ, với những cách diễn tả cụ thể và đa dạng, càng làm cho hình ảnh của Thiên Chúa và sứ điệp của Ngài thêm sống động. Dạy Phụng Vụ cho lớp BĐ 1 , HT/GLV cần giúp trẻ khám phá ra Thiên Chúa là Đấng đến để giúp trẻ thành toàn đời minh."
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -242,25 +81,6 @@
 				"Đây cũng là tuổi mà ý thức tự do chớm nở. Lòng khao khát tự do nhiều khi đưa tới chống đối  HT/GLV đừng tìm cách bẻ gẫy chống đối, nhưng hướng sức mạnh của trẻ vào mục tiêu tốt. Giáo lý cho tuổi này phải mạch lạc, chính xác, vững chắc. Phải tập cho trẻ có thái độ đức tin trước những sự việc xảy ra liên quan đến chúng. Việc học hỏi về các Bí tích và Giáo Hội phải được đào sâu trong viễn tượng này. ",
 				"Các Bí tích mà trẻ nhận được đều thông qua Giáo Hội  Tuổi này ngưỡng mộ những cuộc đời cao cả, gương sáng của các anh hùng và thánh nhân. Vì thế, trẻ quan niệm Giáo Hội phải gồm những người quảng đại, can đảm, thánh thiện. Do đó, hãy cho trẻ thấy tinh thần của Chúa Giêsu thực hiện trong đời sống các thánh như thế nào. Tuổi này ước mơ hơn là nhìn rõ thực tế, và ít khi thực hiện nổi điều đã dự định. Tuy nhiên trẻ biết quảng đại, cố gắng, dám hy sinh. Cần nâng đỡ trẻ đừng nản lòng, ngay cả khi thất bại. Tập cho chúng sống trong hy vọng. Cho trẻ thấy ngày nay ta có thể sống tinh thần của Chúa Giêsu ra sao, cuộc chiến chống tội lỗi cần tới mức nào, cuộc đời theo Chúa Giêsu tràn đầy niềm vui lớn lao. HT/GLV giúp trẻ hiểu thực tế về Giáo Hội qua các sinh hoạt cụ thể của giáo xứ và Giáo Phận. ",
 				"Đến tuổi dậy thì, trẻ chú ý đến những gì liên quan đến thân xác và sự sống. Đồng thời trở nên đa cảm, mơ mộng. Cần giúp chúng giữ quân bình. Cần tập cho trẻ phối hợp tự do với tự chủ. Vì thế, tránh trình bày giới luật của Thiên Chúa và của Giáo Hội như những gánh nặng áp đặt từ bên ngoài để hạn chế tự do. Nhưng cho thấy : giới luật là phương thế giúp ta tập sống tự do. Hơn nữa, luật của Chúa Giêsu là luật yêu thương. Ai giữ luật đó là yêu mến Ngài."
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -269,25 +89,6 @@
 			"imageUrl": "BD3.jpg",
 			"description": [
 				"được học hỏi đặc biệt chuyên sâu về LỊCH SỬ CỨU ĐỘ. "
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -301,25 +102,6 @@
 				"Từ 14-16 tuổi, trẻ chưa ưa hoạt động, nhất là hoạt động cho người khác. Chúng còn băn khoăn, suy nghĩ, tưởng tượng, ước mơ. HT/GLV cần thận trọng, chớ thúc đẩy quá mạnh. Đây là lúc thuận tiện để phát triển việc học tập bằng nghiên cứu. Đồng thời, qua những sự việc cụ thể, giúp trẻ chú trọng đến đời sống xã hội và sinh hoạt cụ thể của Giáo Hội; đề nghị chúng tham dự một số hoạt động xã hội, tông đồ, nhưng để chúng tự ý chọn lựa",
 				"Các nhóm nhỏ rất có ích cho thiếu niên. Nhóm nhỏ mang lại cho chúng một nơi nương tựa bình an và có tình người. Nhóm dạy cho trẻ sống theo kỷ luật, mực thước, hòa mình và cộng tác với các bạn. Như vậy là làm quen với đời sống xã hội và Giáo Hội. Chính vì thế nên phân chia cho các em thành đội,  nhóm nghiên cứu các đề tài và trình bày lại trước lớp dưới nhiều dạng thức khác nhau (thuyết trình, vẽ sơ đồ, power point, sưu tầm tranh ảnh, minh họa,...)"
 
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -333,25 +115,6 @@
 				"Thiếu niên đã hiểu chính xác hơn về tội. Đối với trẻ nhỏ, tội nằm trong hành động bên ngoài. Còn thiếu niên hiểu được rằng tội ăn rễ sâu trong lòng người. Như vậy là đã hiểu được trách nhiệm cá nhân trong lựa chọn luân lý. ",
 				"Luật lệ là cần thiết. Nhưng thường luật lệ chỉ uốn nắn được những hành vi bên ngoài, chứ không đủ cải tạo con người bên trong. Hơn nữa thiếu niên không ưa thích, có khi còn chống lại tất cả những gì áp đặt từ bên ngoài. Vì thế hiệu lực của đường lối này khá mong manh. Trái lại những gương mẫu cụ thể có thể cảm hóa được tâm hồn trẻ. Một cuộc đời gương mẫu là tiếng gọi, mời trẻ lên cao. Tiếng gọi đó gợi lên lòng quảng đại và rất có hy vọng được trẻ đáp ứng chân thành. Khuôn mẫu đầu tiên ta phải đặt trước mặt trẻ là Đức Giêsu. Ngài vừa là nội dung vừa là chủ đích của giáo lý",
 				"              Mỗi nhà giáo dục phải là một gương mẫu cho thiếu niên, là hiện thân của một lý tưởng cao siêu, nhưng đồng thời phải gần gũi, hiểu tâm tính, nguyện vọng của chúng. Tuy nhiên, người làm gương mẫu phải kín đáo, xóa mình, nhất là tránh gây ảnh hưởng cá nhân, hoặc biến mình thành thần tượng."
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		},
 		{
@@ -373,25 +136,6 @@
 				"Thần học và giáo lý ngày nay tái khám phá ra tầm quan trọng của cánh chung : Đời ta sẽ hoàn tất như thế nào ? Đức tin đưa ta đi tới đâu ? Ta hy vọng những gì ? Chính tận đích phải tới soi sáng con đường ta đi. ",
 				"Cần cho thấy ý nghĩa thiêng liêng đích thực của những thực tại cánh chung như phán xét, thưởng phạt, trời, địa ngục... Cũng cần giúp cho hiểu : tất cả những thực tại đó đã được chuẩn bị và bắt đầu hình thành ngay từ nay, trong mỗi hành vi của ta. Số phận cuối cùng của mỗi người được định đoạt từng bước qua những lựa chọn liên tiếp của mình trong cuộc đời hiện tại.- Chính Thiên Chúa và Lời Ngài sẽ xét xử và tôn vinh ta. Chính Thiên Chúa là nguồn ơn cứu rỗi, vinh quang và niềm vui của ta. Giêrusalem thiên quốc trước hết là hồng ân của Thiên Chúa, mặc dầu chính ta phải góp phần xây dựng.",
 				"Điều quan trọng hơn hết có lẽ không phải là giờ chết, nhưng là phẩm chất cuộc sống, nghĩa là cách ta sống mỗi ngày. “Sống sao thì chết vậy”. Ngược lại sự chết cũng ảnh hưởng đến đời sống ta. Muốn sống mỗi ngày thật đầy đủ và ý nghĩa, phải tỉnh thức và chờ đợi Đấng sẽ đến bất ngờ như kẻ trộm."
-			],
-			"lessons": [
-				{
-					"mainContent": [ "Bài Học 1" ],
-					"questions": [
-						{
-							"ask": "Câu hỏi 1 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 1"
-						},
-						{
-							"ask": "Câu hỏi 2 của Ý Chính",
-							"answer": "Gợi ý trả lời câu hỏi 2"
-						}
-					],
-					"memoContent": [ "Chương 2" ],
-					"actions": [
-						"Câu hỏi 1 của Chương 2"
-					]
-				}
 			]
 		}
 	]
