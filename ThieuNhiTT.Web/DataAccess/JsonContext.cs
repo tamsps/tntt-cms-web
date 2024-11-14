@@ -6,20 +6,25 @@
 
 		public class JsonContext
 		{
-				private readonly string _filePath;
-				private BookCollection _bookCollection;
+				private readonly string _bookFilePath;
+				private readonly string _lessonFilePath;
+		private BookCollection _bookCollection;
+		private LessonCollection _lessonCollection;
+		public List<Book> Books => _bookCollection.Books;
 
-				public JsonContext(string filePath)
+		public JsonContext(string bookFilePath, string lessonFilePath )
 				{
-						_filePath = filePath;
-						LoadData();
+			_bookFilePath = bookFilePath;
+			_lessonFilePath = lessonFilePath;
+			LoadBookData();
+			LoadLessonData();
 				}
 
-				private void LoadData()
+				private void LoadBookData()
 				{
-						if (File.Exists(_filePath))
+						if (File.Exists(_bookFilePath))
 						{
-								string json = File.ReadAllText(_filePath);
+								string json = File.ReadAllText(_bookFilePath);
 								_bookCollection = JsonSerializer.Deserialize<BookCollection>(json) ?? new BookCollection { Books = new List<Book>() };
 						}
 						else
@@ -27,13 +32,25 @@
 								_bookCollection = new BookCollection { Books = new List<Book>() };
 						}
 				}
+		private void LoadLessonData()
+		{
+			if (File.Exists(_lessonFilePath))
+			{
+				string json = File.ReadAllText(_lessonFilePath);
+				_lessonCollection = JsonSerializer.Deserialize<LessonCollection>(json) ?? new LessonCollection { Lessons = new List<Lesson>() };
+			}
+			else
+			{
+				_lessonCollection = new LessonCollection { Lessons = new List<Lesson>() };
+			}
+		}
 
-				public List<Book> Books => _bookCollection.Books;
+
 
 				public void SaveChanges()
 				{
 						string json = JsonSerializer.Serialize(_bookCollection, new JsonSerializerOptions { WriteIndented = true });
-						File.WriteAllText(_filePath, json);
+						File.WriteAllText(_bookFilePath, json);
 				}
 		}
 
