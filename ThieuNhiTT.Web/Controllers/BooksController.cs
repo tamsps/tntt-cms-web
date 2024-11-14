@@ -1,5 +1,4 @@
-﻿using AspNetCore;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ThieuNhiTT.Web.Services;
 
 namespace ThieuNhiTT.Web.Controllers
@@ -9,20 +8,21 @@ namespace ThieuNhiTT.Web.Controllers
 		private readonly BookService _bookService;
 		private readonly LessonService _lessonService;
 
-		public BooksController(BookService bookService)
+		public BooksController(BookService bookService, LessonService lessonService)
 		{
 			_bookService = bookService;
+			_lessonService = lessonService;
 		}
 		public IActionResult Index()
 		{
 			var books = _bookService.GetAllBooks();
 			return View(books);
 		}
-		public IActionResult Detail(string bookdId)
+		public IActionResult Detail(string bookId)
 		{
-			var lessons = _lessonService.GetAllLessonsByBookId(bookdId);
-			var bookDetail = _bookService.GetBookById(bookdId);
-			return View(bookDetail);
+			var lessons = _lessonService.GetAllLessonsByBookId(bookId);
+			
+			return View(lessons);
 		}
 	}
 }
