@@ -8,9 +8,9 @@
 		{
 				private readonly JsonContext _context;
 
-				public JsonBookRepository(string jsonFilePath)
+				public JsonBookRepository(string jsonFilePath, string lessonFilePath)
 				{
-						_context = new JsonContext(jsonFilePath);
+						_context = new JsonContext(jsonFilePath, lessonFilePath);
 				}
 
 				public List<Book> GetAllBooks() => _context.Books;

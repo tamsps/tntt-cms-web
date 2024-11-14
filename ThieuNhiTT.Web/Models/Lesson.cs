@@ -6,6 +6,8 @@ namespace ThieuNhiTT.Web.Models
 		{
 				public string BookId { get; set; }  // To link the lesson with the book
 				public string LessonId { get; set; } // Unique identifier for each lesson
+				public string LessonTitle { get; set; } // Title of the lesson
+
 			  [JsonPropertyName("mainContent")]
 				public List<string> MainContent { get; set; }
 
