@@ -3,7 +3,7 @@
 		{
 			"bookId": "01",
 			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessionId": "01",
+			"lessonId": "01",
 			"mainContent": [
 				"Bài Học 1",
 				"Main content 2"
@@ -32,7 +32,7 @@
 		{
 			"bookId": "01",
 			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessionId": "02",
+			"lessonId": "02",
 			"mainContent": [
 				"Bài Học 1",
 				"Main content 2"
@@ -61,7 +61,7 @@
 		{
 			"bookId": "01",
 			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessionId": "03",
+			"lessonId": "03",
 			"mainContent": [
 				"Bài Học 1",
 				"Main content 2"
@@ -90,7 +90,7 @@
 		{
 			"bookId": "02",
 			"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
-			"lessionId": "01",
+			"lessonId": "01",
 			"mainContent": [ "Bài Học 2" ],
 			"questions": [
 				{
