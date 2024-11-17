@@ -31,40 +31,75 @@
 			<div class="col-md-12 col-lg-12 p-b-30">
 				<div class="p-r-10 p-r-0-sr991">
 					<!-- Blog Detail -->
-					<div class="p-b-70">
+					<div class="p-b-70 how-bor2">
 						<a href="#" class="f1-s-10 cl2 hov-cl10 trans-03 text-uppercase">
 	
 						</a>
 
-						<h3 class="f1-l-3 cl2 p-b-16 p-t-33 respon2">
-							@Model.LessonTitle
+						<h3 class="f1-l-3 cl2 p-b-16 p-t-33 respon2" style="text-align:center">
+							Bài @Model.LessonId. @Model.LessonTitle
 						</h3>
-
-					
 		
 								<div class="wrap-pic-max-w p-b-30">
 									<img src="~/images/blog-list-01.jpg" alt="IMG">
 								</div>
+						<div class="p-t-16">
+							<h5 class="p-b-5" style="font-weight:bold">
+									A. Ý CHÍNH
+							</h5>
+						</div>
 						@foreach (var content in Model.MainContent)
 						{
 							{
 								<p class="f1-s-11 cl6 p-b-25">
-									Curabitur volutpat bibendum molestie. Vestibulum ornare gravida semper. Aliquam a dui suscipit, fringilla metus id, maximus leo. Vivamus sapien arcu, mollis eu pharetra vitae, condimentum in orci. Integer eu sodales dolor. Maecenas elementum arcu eu convallis rhoncus. Donec tortor sapien, euismod a faucibus eget, porttitor quis libero.
-								</p>
-
-								<p class="f1-s-11 cl6 p-b-25">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet est vel orci luctus sollicitudin. Duis eleifend vestibulum justo, varius semper lacus condimentum dictum. Donec pulvinar a magna ut malesuada. In posuere felis diam, vel sodales metus accumsan in. Duis viverra dui eu pharetra pellentesque. Donec a eros leo. Quisque sed ligula vitae lorem efficitur faucibus. Praesent sit amet imperdiet ante. Nulla id tellus auctor, dictum libero a, malesuada nisi. Nulla in porta nibh, id vestibulum ipsum. Praesent dapibus tempus erat quis aliquet. Donec ac purus id sapien condimentum feugiat.
-								</p>
-
-								<p class="f1-s-11 cl6 p-b-25">
-									Praesent vel mi bibendum, finibus leo ac, condimentum arcu. Pellentesque sem ex, tristique sit amet suscipit in, mattis imperdiet enim. Integer tempus justo nec velit fringilla, eget eleifend neque blandit. Sed tempor magna sed congue auctor. Mauris eu turpis eget tortor ultricies elementum. Phasellus vel placerat orci, a venenatis justo. Phasellus faucibus venenatis nisl vitae vestibulum. Praesent id nibh arcu. Vivamus sagittis accumsan felis, quis vulputate
+								 @content
 								</p>
 							}
-
-
 						}
-              								
+						<div class="p-t-16">
+							<h5 class="p-b-5" style="font-weight:bold">
+									B. HỆ THỐNG CÂU HỎI
+							</h5>
+						</div>
+						@foreach (var QandA in Model.Questions)
+						{
+							{
+								<p class="f1-s-11 cl6 p-b-25">
+									@QandA.Ask
+								</p>
+								<p class="f1-s-11 cl6 p-b-25">
+									@QandA.Answer
+								</p>
+							}
+						}
 
+						<div class="p-t-16">
+							<h5 class="p-b-5" style="font-weight:bold">
+									C. NỘI DUNG CẦN NHỚ
+							</h5>
+						</div>
+						@foreach (var content in Model.MemoContent)
+						{
+							{
+								<p class="f1-s-11 cl6 p-b-25">
+									@content
+								</p>
+							}
+						}
+
+						<div class="p-t-16">
+							<h5 class="p-b-5" style="font-weight:bold">
+									D. THỰC HÀNH
+							</h5>
+						</div>
+						@foreach (var action in Model.Actions)
+						{
+							{
+								<p class="f1-s-11 cl6 p-b-25">
+									@action
+								</p>
+							}
+						}
 								<!-- Tag -->
 								<div class="flex-s-s p-t-12 p-b-15">
 									<span class="f1-s-12 cl5 m-r-8">
@@ -72,13 +107,32 @@
 										</a>
 									</span>
 								</div>
-
-
 					</div>
+					@{
+						var nextLesson = Convert.ToInt16(Model.LessonId) + 1;
+						var previousLesson = Convert.ToInt16(Model.LessonId) - 1;
+						if(previousLesson == 0)
+            {
+              previousLesson = 1;
+            }
+					}
+
+					@{
+						if (previousLesson < Convert.ToInt16(Model.LessonId))
+            {
+							<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-lessonId="@previousLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:left">
+								<i class="m-l-2 fa fa-long-arrow-alt-left"></i>	BÀI @previousLesson
+							</a>
+            }
+					}
+
+					<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-lessonId="@nextLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:right">
+						BÀI @nextLesson
+						<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+					</a>
 
 				</div>
 			</div>
-
 		</div>
 	</div>
 </section>

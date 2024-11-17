@@ -48,10 +48,10 @@
 									<img src="~/images/@book.ImageUrl" alt="IMG">
 								</a>
 
-								<div class="size-w-9 w-full-sr575 m-b-25">
+								<div class="size-w-9 w-full-sr575 m-b-25" style="text-align:justify">
 									<h5 class="p-b-12">
-										<a href="blog-detail-02.html" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
-											@book.BookTitle
+										<a asp-controller="Books" asp-action="Detail" asp-route-bookId="@book.BookId" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										  @book.BookTitle
 										</a>
 									</h5>
 										@foreach (var desc in book.Description)
@@ -61,8 +61,8 @@
 												</p>
                     }
 
-									<a href="blog-detail-02.html" class="f1-s-1 cl9 hov-cl10 trans-03">
-										Read More
+									<a asp-controller="Books" asp-action="Detail" asp-route-bookId="@book.BookId" class="f1-s-1 cl9 hov-cl10 trans-03">
+										CHI TIẾT
 										<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
 									</a>
 								</div>

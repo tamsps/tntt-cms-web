@@ -36,7 +36,7 @@ namespace ThieuNhiTT.Web.DataAccess
 		
 		public Lesson GetLessonById(string bookId, string lessonId)
 		{
-			  return _context.Lessons.FirstOrDefault(lesson => lesson.LessonId == lessonId && lesson.BookId.Equals(bookId));
+			return _context.Lessons.FirstOrDefault(lesson => Convert.ToInt16(lesson.LessonId) == Convert.ToInt16(lessonId) && Convert.ToInt16(lesson.BookId) == Convert.ToInt16(bookId));
 		}
 
 		public List<Question> GetQuestionsByLessonId(string bookId, string lessonId, int lessonIndex)
