@@ -12,13 +12,15 @@ namespace ThieuNhiTT.Web.Controllers
 				private readonly IConfiguration _configuration;
 
         private readonly IWebHostEnvironment _webHostEnvironment;
-        
-        public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHost)
+
+		
+
+		public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHost)
         {
             _logger = logger;
             _configuration = configuration;
             _webHostEnvironment = webHost;
-        }
+		}
 
         public async Task<IActionResult> Index()
         {
@@ -36,8 +38,12 @@ namespace ThieuNhiTT.Web.Controllers
         {
             return View();
         }
+		public IActionResult CatholicCalendar()
+		{
+			return View();
+		}
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public async Task<IActionResult> ErrorAsync()
         {
 						return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
