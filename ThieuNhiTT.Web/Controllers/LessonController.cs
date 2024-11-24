@@ -6,17 +6,17 @@ namespace ThieuNhiTT.Web.Controllers
 	public class LessonController : Controller
 	{
 
-		private readonly BookService _bookService;
-		private readonly LessonService _lessonService;
+		private readonly IBookService _bookService;
+		private readonly ILessonService _lessonService;
 
-		public LessonController(BookService bookService, LessonService lessonService)
+		public LessonController(IBookService bookService, ILessonService lessonService)
 		{
 			_bookService = bookService;
 			_lessonService = lessonService;
 		}
-		public IActionResult Index(string bookId, string lessonId)
+		public IActionResult Index(string lessonId, string lessonFilePath)
 		{
-			var lesson = _lessonService.GetLessonById(bookId, lessonId);
+			var lesson = _lessonService.GetLessonById(lessonId, lessonFilePath);
 
 			return View(lesson);
 		}

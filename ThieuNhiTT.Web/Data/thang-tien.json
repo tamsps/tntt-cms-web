@@ -1,7 +1,6 @@
-{
-	"books": [
+ [
 		{
-			"bookId": "01",
+			"bookId": "KT1",
 			"bookTitle": "Khai Tâm 1",
 			"imageUrl": "KT1.jpg",
 			"description": [
@@ -14,7 +13,7 @@
 			]
 		},
 		{
-			"bookId": "02",
+			"bookId": "KT2",
 			"bookTitle": "Khai Tâm 2",
 			"imageUrl": "KT2.jpg",
 			"description": [
@@ -25,7 +24,7 @@
 			]
 		},
 		{
-			"bookId": "03",
+			"bookId": "RL1",
 			"bookTitle": "Rước Lễ 1",
 			"imageUrl": "RL1.jpg",
 			"description": [
@@ -33,7 +32,7 @@
 			]
 		},
 		{
-			"bookId": "04",
+			"bookId": "RL2",
 			"bookTitle": "Rước Lễ 2",
 			"imageUrl": "RL2.jpg",
 			"description": [
@@ -44,7 +43,7 @@
 			]
 		},
 		{
-			"bookId": "05",
+			"bookId": "TS1",
 			"bookTitle": "Thêm Sức 1",
 			"imageUrl": "TS1.jpg",
 			"description": [
@@ -52,7 +51,7 @@
 			]
 		},
 		{
-			"bookId": "06",
+			"bookId": "TS2",
 			"bookTitle": "Thêm Sức 2",
 			"imageUrl": "TS2.jpg",
 			"description": [
@@ -63,7 +62,7 @@
 			]
 		},
 		{
-			"bookId": "07",
+			"bookId": "BD1",
 			"bookTitle": "Bao Đồng 1 – PHỤNG VỤ ",
 			"imageUrl": "BD1.jpg",
 			"description": [
@@ -73,7 +72,7 @@
 			]
 		},
 		{
-			"bookId": "08",
+			"bookId": "BD2",
 			"bookTitle": "Bao Đồng 2 - BÍ TÍCH & GIÁO HỘI HỌC",
 			"imageUrl": "BD2.jpg",
 			"description": [
@@ -84,7 +83,7 @@
 			]
 		},
 		{
-			"bookId": "09",
+			"bookId": "BD3",
 			"bookTitle": "Bao Đồng 3",
 			"imageUrl": "BD3.jpg",
 			"description": [
@@ -92,7 +91,7 @@
 			]
 		},
 		{
-			"bookId": "10",
+			"bookId": "BD4",
 			"bookTitle": "Bao Đồng 4",
 			"imageUrl": "BD4.jpg",
 			"description": [
@@ -105,7 +104,7 @@
 			]
 		},
 		{
-			"bookId": "11",
+			"bookId": "VD1",
 			"bookTitle": "Vào Đời 1 - LUÂN LÝ",
 			"imageUrl": "VD1.jpg",
 			"description": [
@@ -118,7 +117,7 @@
 			]
 		},
 		{
-			"bookId": "12",
+			"bookId": "VD2",
 			"bookTitle": "Vào Đời 2 - LỊCH SỬ GIÁO HỘI",
 			"imageUrl": "VD2.jpg",
 			"description": [
@@ -139,4 +138,4 @@
 			]
 		}
 	]
-}
+

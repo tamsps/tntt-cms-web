@@ -21,7 +21,7 @@
 			LoadLessonData();
 		}
 
-		private void LoadBookData()
+		public void LoadBookData()
 		{
 			if (File.Exists(_bookFilePath))
 			{
@@ -33,7 +33,7 @@
 				_bookCollection = new BookCollection { Books = new List<Book>() };
 			}
 		}
-		private void LoadLessonData()
+		public void LoadLessonData()
 		{
 			if (File.Exists(_lessonFilePath))
 			{
@@ -45,9 +45,10 @@
 				_lessonCollection = new LessonCollection { Lessons = new List<Lesson>() };
 			}
 		}
-		public void SaveChanges()
+		public void SaveChanges<T(IEnumerable<T> items) : where T : class
+		
 		{
-			string json = JsonSerializer.Serialize(_bookCollection, new JsonSerializerOptions { WriteIndented = true });
+			string json = JsonSerializer.Serialize<T>(items, new JsonSerializerOptions { WriteIndented = true });
 			File.WriteAllText(_bookFilePath, json);
 		}
 	}

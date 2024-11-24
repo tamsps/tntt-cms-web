@@ -4,28 +4,33 @@
 		using ThieuNhiTT.Web.DataAccess;
 		using ThieuNhiTT.Web.Models;
 
-		public class BookService
-		{
-				private readonly IBookRepository _bookRepository;
+  public class BookService : IBookService
+  {
+    private readonly IRepository<Book> _bookRepository;
 
-				public BookService(IBookRepository bookRepository)
-				{
-						_bookRepository = bookRepository;
-				}
+    public BookService(IRepository<Book> bookRepository)
+    {
+      _bookRepository = bookRepository;
+    }
 
-				public List<Book> GetAllBooks() => _bookRepository.GetAllBooks();
+    public IEnumerable<Book> GetAllBooks(string filePath) => _bookRepository.GetAll(filePath);
 
-				public Book GetBookById(string bookId) => _bookRepository.GetBookById(bookId);
+    public Book GetBookById(string bookId, string filePath) => _bookRepository.GetById(bookId, filePath);
 
-				public List<Lesson> GetLessonsByBookId(string bookId) => _bookRepository.GetLessonsByBookId(bookId);
+    public void CreateBook(Book book, string filePath)
+    {
+      _bookRepository.Add(book, filePath);
+    }
 
-				public List<Question> GetQuestionsByLesson(string bookId, int lessonIndex) => _bookRepository.GetQuestionsByLesson(bookId, lessonIndex);
+    public void UpdateBook(Book book, string filePath)
+    {
+      _bookRepository.Update(book, filePath);
+    }
 
-				public void AddBook(Book newBook) => _bookRepository.AddBook(newBook);
-
-				public void UpdateBook(Book updatedBook) => _bookRepository.UpdateBook(updatedBook);
-
-				public void DeleteBook(string bookId) => _bookRepository.DeleteBook(bookId);
-		}
+    public void DeleteBook(string bookId, string filePath)
+    {
+      _bookRepository.Delete(bookId, filePath);
+    }
+  }
 
 }

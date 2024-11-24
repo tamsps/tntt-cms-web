@@ -3,27 +3,39 @@ using ThieuNhiTT.Web.Models;
 
 namespace ThieuNhiTT.Web.Services
 {
-	public class LessonService
-	{
-		private readonly ILessonRepository _lessonRepository;
+  public class LessonService : ILessonService
+  {
+    private readonly IRepository<Lesson> _lessonRepository;
 
-		public LessonService(ILessonRepository lessonRepository)
-		{
-			_lessonRepository = lessonRepository;
-		}
+    public LessonService(IRepository<Lesson> lessonRepository)
+    {
+      _lessonRepository = lessonRepository;
+    }
 
-		public List<Lesson> GetAllLessons() => _lessonRepository.GetAllLessons();
+    public IEnumerable<Lesson> GetAllLessonsByBookId(string bookId, string filePath)
+    {
+      var lessons = _lessonRepository.GetAll(filePath);
+      return lessons.Where(l => l.BookId == bookId);
+    }
 
-		public Lesson GetLessonById(string bookId, string lessonId) => _lessonRepository.GetLessonById(bookId,lessonId);
+    public Lesson GetLessonById(string lessonId, string filePath)
+    {
+      return _lessonRepository.GetById(lessonId, filePath);
+    }
 
-		public List<Lesson> GetAllLessonsByBookId(string bookId) => _lessonRepository.GetAllLessonByBookId(bookId);
+    public void CreateLesson(Lesson lesson, string filePath)
+    {
+      _lessonRepository.Add(lesson, filePath);
+    }
 
-		public List<Question> GetQuestionsByLesson(string bookId, string lessonId, int lessonIndex) => _lessonRepository.GetQuestionsByLessonId (bookId, lessonId, lessonIndex);
+    public void UpdateLesson(Lesson lesson, string filePath)
+    {
+      _lessonRepository.Update(lesson, filePath);
+    }
 
-		public void AddLesson(Lesson newLesson) => _lessonRepository.AddLesson(newLesson);
-
-		public void UpdateLesson(Lesson updatedLesson) => _lessonRepository.UpdateLesson(updatedLesson);
-
-		public void DeleteLesson(string bookId, string lessonId) => _lessonRepository.DeleteLesson(bookId, lessonId);
-	}
+    public void DeleteLesson(string lessonId, string filePath)
+    {
+      _lessonRepository.Delete(lessonId, filePath);
+    }
+  }
 }

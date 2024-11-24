@@ -24,14 +24,14 @@ namespace ThieuNhiTT.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-						string relativePath = _configuration["ThangTienJsonFilePath"];
-						string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
+						//string relativePath = _configuration["ThangTienJsonFilePath"];
+						//string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
 
-						var jsonData = await System.IO.File.ReadAllTextAsync(jsonFilePath);
+						//var jsonData = await System.IO.File.ReadAllTextAsync(jsonFilePath);
 
-						var bookCollection = JsonConvert.DeserializeObject<BookCollection>(jsonData);
+						//var bookCollection = JsonConvert.DeserializeObject<BookCollection>(jsonData);
 
-						return View(bookCollection.Books);
+						return View();
 				}
 
         public IActionResult Privacy()

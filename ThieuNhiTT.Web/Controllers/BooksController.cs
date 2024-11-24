@@ -1,26 +1,48 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using ThieuNhiTT.Web.Models;
 using ThieuNhiTT.Web.Services;
 
 namespace ThieuNhiTT.Web.Controllers
 {
 	public class BooksController : Controller
 	{
-		private readonly BookService _bookService;
-		private readonly LessonService _lessonService;
+		private readonly IBookService _bookService;
+    private readonly ILessonService _lessonService;
+    private readonly ILogger<BooksController> _logger;
+    private readonly IConfiguration _configuration;
+    private readonly IWebHostEnvironment _webHostEnvironment;
 
-		public BooksController(BookService bookService, LessonService lessonService)
+
+
+    public BooksController(IBookService bookService, ILessonService lessonService,IConfiguration configuration, ILogger<BooksController> logger, IWebHostEnvironment webHost)
 		{
 			_bookService = bookService;
 			_lessonService = lessonService;
+			_configuration = configuration;
+			_logger = logger;
+			_webHostEnvironment = webHost;
 		}
-		public IActionResult Index()
+		public IActionResult Index(string filePath)
 		{
-			var books = _bookService.GetAllBooks();
+			if(string.IsNullOrEmpty(filePath))
+			{
+        string relativePath = _configuration["ThangTienJsonFilePath"];
+        filePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
+
+    //    foreach (var bk in Enum.GetValues(typeof(BookListEnum)))
+				//{
+				//	  filePath = $"Data/{bk}.json";
+    //        var books = _bookService.GetAllBooks(filePath);
+    //    }
+      }
+			var books = _bookService.GetAllBooks(filePath);
 			return View(books);
 		}
-		public IActionResult Detail(string bookId)
+		public IActionResult Detail(string bookId, string lessonFilePath)
 		{
-			var lessons = _lessonService.GetAllLessonsByBookId(bookId);
+			lessonFilePath = $"Data\\{bookId}.json";
+			var lessons = _lessonService.GetAllLessonsByBookId(bookId,lessonFilePath).ToList(); ;
 			
 			return View(lessons);
 		}

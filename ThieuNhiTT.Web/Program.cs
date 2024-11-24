@@ -1,4 +1,5 @@
 using ThieuNhiTT.Web.DataAccess;
+using ThieuNhiTT.Web.Models;
 using ThieuNhiTT.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,12 +9,14 @@ string lessonFilePath = builder.Configuration.GetSection("LessonFilePath").Value
 
 
 // Add services to the container.
-builder.Services.AddScoped<IBookRepository>(provider => new JsonBookRepository(jsonFilePath, lessonFilePath));
-builder.Services.AddScoped<ILessonRepository>(provider => new LessonRepository(jsonFilePath, lessonFilePath));
-//builder.Services.AddScoped<ILessonRepository, LessonRepository>();
-//builder.Services.AddScoped<IBookRepository, JsonBookRepository>();
-builder.Services.AddScoped<BookService>();
-builder.Services.AddScoped<LessonService>();
+builder.Services.AddScoped<IRepository<Book>, JsonBookRepository<Book>>();
+builder.Services.AddScoped<IRepository<Lesson>, JsonBookRepository<Lesson>>();
+
+// Register services for Book and Lesson
+builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<ILessonService, LessonService>();
+
+
 builder.Services.AddControllersWithViews();
 var app = builder.Build();
 

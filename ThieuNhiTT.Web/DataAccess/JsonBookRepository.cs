@@ -2,62 +2,59 @@
 {
 		using System.Collections.Generic;
 		using System.Linq;
-		using ThieuNhiTT.Web.Models;
+  using System.Text.Json;
+  using ThieuNhiTT.Web.Models;
 
-		public class JsonBookRepository : IBookRepository
-		{
-				private readonly JsonContext _context;
+		public class JsonBookRepository<T> : IRepository<T>
+    {
+    public IEnumerable<T> GetAll(string filePath)
+    {
+      var json = File.ReadAllText(filePath);
 
-				public JsonBookRepository(string jsonFilePath, string lessonFilePath)
-				{
-						_context = new JsonContext(jsonFilePath, lessonFilePath);
-				}
+      return JsonSerializer.Deserialize<IEnumerable<T>>(json);
+    }
 
-				public List<Book> GetAllBooks() => _context.Books;
+    public T GetById(string id, string filePath)
+    {
+      var json = File.ReadAllText(filePath);
+      var items = JsonSerializer.Deserialize<IEnumerable<T>>(json);
+      return items.FirstOrDefault(item => item.GetType().GetProperty("BookId")?.GetValue(item)?.ToString() == id);
+    }
 
-				public Book GetBookById(string bookId) => _context.Books.FirstOrDefault(book => book.BookId == bookId);
+    public void Add(T item, string filePath)
+    {
+      var items = GetAll(filePath).ToList();
+      items.Add(item);
+      Save(items, filePath);
+    }
 
-				public List<Lesson> GetLessonsByBookId(string bookId)
-				{
-						var book = GetBookById(bookId);
-						return book?.Lessons ?? new List<Lesson>();
-				}
+    public void Update(T item, string filePath)
+    {
+      var items = GetAll(filePath).ToList();
+      var existingItemIndex = items.FindIndex(i => i.Equals(item));
+      if (existingItemIndex >= 0)
+      {
+        items[existingItemIndex] = item;
+        Save(items, filePath);
+      }
+    }
 
-				public List<Question> GetQuestionsByLesson(string bookId, int lessonIndex)
-				{
-						var book = GetBookById(bookId);
-						return book != null && lessonIndex >= 0 && lessonIndex < book.Lessons.Count
-								? book.Lessons[lessonIndex].Questions
-								: new List<Question>();
-				}
+    public void Delete(string id, string filePath)
+    {
+      var items = GetAll(filePath).ToList();
+      var itemToRemove = items.FirstOrDefault(i => i.GetType().GetProperty("BookId")?.GetValue(i)?.ToString() == id);
+      if (itemToRemove != null)
+      {
+        items.Remove(itemToRemove);
+        Save(items, filePath);
+      }
+    }
 
-				public void AddBook(Book newBook)
-				{
-						_context.Books.Add(newBook);
-						_context.SaveChanges();
-				}
-
-				public void UpdateBook(Book updatedBook)
-				{
-						var existingBook = GetBookById(updatedBook.BookId);
-						if (existingBook != null)
-						{
-								existingBook.BookTitle = updatedBook.BookTitle;
-								existingBook.ImageUrl = updatedBook.ImageUrl;
-								existingBook.Lessons = updatedBook.Lessons;
-								_context.SaveChanges();
-						}
-				}
-
-				public void DeleteBook(string bookId)
-				{
-						var bookToDelete = GetBookById(bookId);
-						if (bookToDelete != null)
-						{
-								_context.Books.Remove(bookToDelete);
-								_context.SaveChanges();
-						}
-				}
-		}
+    private void Save(IEnumerable<T> items, string filePath)
+    {
+      var json = JsonSerializer.Serialize(items, new JsonSerializerOptions { WriteIndented = true });
+      File.WriteAllText(filePath, json);
+    }
+  }
 
 }

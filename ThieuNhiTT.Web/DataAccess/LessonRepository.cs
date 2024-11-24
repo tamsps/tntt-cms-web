@@ -1,69 +1,59 @@
 ﻿using System.Net;
+using System.Text.Json;
+using System.Linq;
 using ThieuNhiTT.Web.Models;
 
 namespace ThieuNhiTT.Web.DataAccess
 {
-	public class LessonRepository : ILessonRepository
-	{
-		private readonly JsonContext _context;
+  public class JsonRepository<T> : IRepository<T>
+  {
+    public IEnumerable<T> GetAll(string filePath)
+    {
+      var json = File.ReadAllText(filePath);
+      return JsonSerializer.Deserialize<IEnumerable<T>>(json);
+    }
 
-		public LessonRepository(string jsonFilePath, string lessonFilePath)
-		{
-			_context = new JsonContext(jsonFilePath, lessonFilePath);
-		}
+    public T GetById(string id, string filePath)
+    {
+      var json = File.ReadAllText(filePath);
+      var items = JsonSerializer.Deserialize<IEnumerable<T>>(json);
+      return items.FirstOrDefault(item => item.GetType().GetProperty("BookId")?.GetValue(item)?.ToString() == id);
+    }
 
-		public void AddLesson(Lesson newLesson)
-		{
-			_context.Lessons.Add(newLesson);
-			_context.SaveChanges();
-		}
+    public void Add(T item, string filePath)
+    {
+      var items = GetAll(filePath).ToList();
+      items.Add(item);
+      Save(items, filePath);
+    }
 
-		public void DeleteLesson(string bookId, string lessonId)
-		{
-			var lessonToDelete = GetLessonById(bookId ,lessonId);
-			if (lessonToDelete != null)
-			{
-				_context.Lessons.Remove(lessonToDelete);
-				_context.SaveChanges();
-			}
-		}
+    public void Update(T item, string filePath)
+    {
+      var items = GetAll(filePath).ToList();
+      var existingItemIndex = items.FindIndex(i => i.Equals(item));
+      if (existingItemIndex >= 0)
+      {
+        items[existingItemIndex] = item;
+        Save(items, filePath);
+      }
+    }
 
-		public List<Lesson> GetAllLessons()
-		{
-			 return _context.Lessons;
-		}
+    public void Delete(string id, string filePath)
+    {
+      var items = GetAll(filePath).ToList();
+      var itemToRemove = items.FirstOrDefault(i => i.GetType().GetProperty("BookId")?.GetValue(i)?.ToString() == id);
+      if (itemToRemove != null)
+      {
+        items.Remove(itemToRemove);
+        Save(items, filePath);
+      }
+    }
 
-		
-		public Lesson GetLessonById(string bookId, string lessonId)
-		{
-			return _context.Lessons.FirstOrDefault(lesson => Convert.ToInt16(lesson.LessonId) == Convert.ToInt16(lessonId) && Convert.ToInt16(lesson.BookId) == Convert.ToInt16(bookId));
-		}
-
-		public List<Question> GetQuestionsByLessonId(string bookId, string lessonId, int lessonIndex)
-		{
-			var lesson = GetLessonById(bookId, lessonId);
-			return lesson != null && lesson.Questions.Count > 0
-					? lesson.Questions
-					: new List<Question>();
-		}
-
-		public void UpdateLesson(Lesson updatedLesson)
-		{
-			var existingLesson = GetLessonById(updatedLesson.BookId, updatedLesson.LessonId);
-			if (existingLesson != null)
-			{
-				existingLesson.LessonTitle = updatedLesson.LessonTitle;
-				existingLesson.MainContent = updatedLesson.MainContent;
-				existingLesson.Questions = updatedLesson.Questions;
-				existingLesson.MemoContent = updatedLesson.MemoContent;
-				existingLesson.Actions = updatedLesson.Actions;
-				_context.SaveChanges();
-			}
-		}
-		 public List<Lesson> GetAllLessonByBookId(string bookId)
-		{
-		   	return _context.Lessons.FindAll(lesson => lesson.BookId.Equals(bookId));
-		}
-	}
+    private void Save(IEnumerable<T> items, string filePath)
+    {
+      var json = JsonSerializer.Serialize(items, new JsonSerializerOptions { WriteIndented = true });
+      File.WriteAllText(filePath, json);
+    }
+  }
 }
 
