@@ -109,6 +109,7 @@
 								</div>
 					</div>
 					@{
+						var filePath = "Data\\" + Model.BookId + ".json";
 						var nextLesson = Convert.ToInt16(Model.LessonId) + 1;
 						var previousLesson = Convert.ToInt16(Model.LessonId) - 1;
 						if(previousLesson == 0)
@@ -120,13 +121,14 @@
 					@{
 						if (previousLesson < Convert.ToInt16(Model.LessonId))
             {
-							<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-lessonId="@previousLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:left">
+							
+							<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@previousLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:left">
 								<i class="m-l-2 fa fa-long-arrow-alt-left"></i>	BÀI @previousLesson
 							</a>
             }
 					}
 
-					<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-lessonId="@nextLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:right">
+					<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@nextLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:right">
 						BÀI @nextLesson
 						<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
 					</a>

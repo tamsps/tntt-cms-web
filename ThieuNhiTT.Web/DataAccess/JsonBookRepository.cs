@@ -14,11 +14,11 @@
       return JsonSerializer.Deserialize<IEnumerable<T>>(json);
     }
 
-    public T GetById(string id, string filePath)
+    public T GetById(string fielddName, string fieldValue,  string filePath)
     {
       var json = File.ReadAllText(filePath);
       var items = JsonSerializer.Deserialize<IEnumerable<T>>(json);
-      return items.FirstOrDefault(item => item.GetType().GetProperty("BookId")?.GetValue(item)?.ToString() == id);
+      return items.FirstOrDefault(item => Convert.ToInt16(item.GetType().GetProperty(fielddName)?.GetValue(item)?.ToString()) == Convert.ToInt32(fieldValue));
     }
 
     public void Add(T item, string filePath)
@@ -39,10 +39,10 @@
       }
     }
 
-    public void Delete(string id, string filePath)
+    public void Delete(string fielddName, string fieldValue, string filePath)
     {
       var items = GetAll(filePath).ToList();
-      var itemToRemove = items.FirstOrDefault(i => i.GetType().GetProperty("BookId")?.GetValue(i)?.ToString() == id);
+      var itemToRemove = items.FirstOrDefault(i => Convert.ToInt16(i.GetType().GetProperty(fielddName)?.GetValue(i)?.ToString()) == Convert.ToInt32(fieldValue));
       if (itemToRemove != null)
       {
         items.Remove(itemToRemove);

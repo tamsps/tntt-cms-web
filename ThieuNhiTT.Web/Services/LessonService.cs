@@ -20,7 +20,7 @@ namespace ThieuNhiTT.Web.Services
 
     public Lesson GetLessonById(string lessonId, string filePath)
     {
-      return _lessonRepository.GetById(lessonId, filePath);
+      return _lessonRepository.GetById("LessonId", lessonId, filePath);
     }
 
     public void CreateLesson(Lesson lesson, string filePath)
@@ -35,7 +35,7 @@ namespace ThieuNhiTT.Web.Services
 
     public void DeleteLesson(string lessonId, string filePath)
     {
-      _lessonRepository.Delete(lessonId, filePath);
+      _lessonRepository.Delete("LessonId", lessonId, filePath);
     }
   }
 }

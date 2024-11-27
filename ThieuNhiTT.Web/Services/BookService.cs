@@ -15,7 +15,7 @@
 
     public IEnumerable<Book> GetAllBooks(string filePath) => _bookRepository.GetAll(filePath);
 
-    public Book GetBookById(string bookId, string filePath) => _bookRepository.GetById(bookId, filePath);
+    public Book GetBookById(string bookId, string filePath) => _bookRepository.GetById("BookId",bookId, filePath);
 
     public void CreateBook(Book book, string filePath)
     {
@@ -29,7 +29,7 @@
 
     public void DeleteBook(string bookId, string filePath)
     {
-      _bookRepository.Delete(bookId, filePath);
+      _bookRepository.Delete("BookId", bookId, filePath);
     }
   }
 

@@ -37,16 +37,18 @@
 				<div class="row">
 					@foreach (var ls in Model)
 					{
+						var filePath = "Data\\" + ls.BookId + ".json";
+
 						<div class="col-sm-4 p-r-25 p-r-15-sr991">
 							<!-- Item latest -->
 							<div class="m-b-45">
-								<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@ls.BookId" asp-route-lessonId="@ls.LessonId" class="wrap-pic-w hov1 trans-03">
+								<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@ls.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@ls.LessonId" class="wrap-pic-w hov1 trans-03">
 									<img src="~/images/entertaiment-06.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
-										<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@ls.BookId" asp-route-lessonId="@ls.LessonId" class="f1-m-3 cl2 hov-cl10 trans-03">
+										<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@ls.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@ls.LessonId" class="f1-m-3 cl2 hov-cl10 trans-03">
 											@ls.LessonTitle
 										</a>
 									</h5>

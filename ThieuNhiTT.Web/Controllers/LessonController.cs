@@ -14,9 +14,9 @@ namespace ThieuNhiTT.Web.Controllers
 			_bookService = bookService;
 			_lessonService = lessonService;
 		}
-		public IActionResult Index(string lessonId, string lessonFilePath)
+		public IActionResult Index(string lessonId, string filePath)
 		{
-			var lesson = _lessonService.GetLessonById(lessonId, lessonFilePath);
+			var lesson = _lessonService.GetLessonById(lessonId, filePath);
 
 			return View(lesson);
 		}
