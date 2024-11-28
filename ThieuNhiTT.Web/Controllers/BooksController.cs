@@ -23,7 +23,7 @@ namespace ThieuNhiTT.Web.Controllers
 			_logger = logger;
 			_webHostEnvironment = webHost;
 		}
-		public IActionResult Index(string filePath)
+		public IActionResult Index(string bookId, string filePath)
 		{
 			if(string.IsNullOrEmpty(filePath))
 			{
@@ -39,11 +39,13 @@ namespace ThieuNhiTT.Web.Controllers
 			var books = _bookService.GetAllBooks(filePath);
 			return View(books);
 		}
-		public IActionResult Detail(string bookId, string lessonFilePath)
+		public IActionResult Detail(string bookId, string filePath)
 		{
-			lessonFilePath = $"Data\\{bookId}.json";
-			var lessons = _lessonService.GetAllLessonsByBookId(bookId,lessonFilePath).ToList(); ;
-			
+			if(string.IsNullOrEmpty(filePath))
+			{
+				filePath = $"Data\\{bookId}.json";
+			}
+			var lessons = _lessonService.GetAllLessonsByBookId(bookId, filePath).ToList();
 			return View(lessons);
 		}
 	}

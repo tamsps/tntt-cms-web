@@ -42,15 +42,16 @@
 					<div class="m-t--40 p-b-40">
 						@foreach (var book in Model )
 						{
+							var filePath = $"Data\\" + book.BookId + ".json";
 							<!-- Item post -->
 							<div class="flex-wr-sb-s p-t-40 p-b-15 how-bor2">
-								<a asp-controller="Books" asp-action="Detail" asp-route-filePath="Data\\@book.BookId+.json" asp-route-bookId="@book.BookId" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
+								<a asp-controller="Books" asp-action="Detail" asp-route-filePath="@filePath" asp-route-bookId="@book.BookId" class="size-w-8 wrap-pic-w hov1 trans-03 w-full-sr575 m-b-25">
 									<img src="~/images/@book.ImageUrl" alt="IMG">
 								</a>
 
 								<div class="size-w-9 w-full-sr575 m-b-25" style="text-align:justify">
 									<h5 class="p-b-12">
-										<a asp-controller="Books" asp-action="Detail" asp-route-filePath="Data\\@book.BookId+.json" asp-route-bookId="@book.BookId" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										<a asp-controller="Books" asp-action="Detail" asp-route-filePath="@filePath" asp-route-bookId="@book.BookId" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
 										  @book.BookTitle
 										</a>
 									</h5>
@@ -61,7 +62,7 @@
 												</p>
                     }
 
-									<a asp-controller="Books" asp-action="Detail" asp-route-bookId="@book.BookId" asp-route-filePath="Data\\@book.BookId+.json" class="f1-s-1 cl9 hov-cl10 trans-03">
+									<a asp-controller="Books" asp-action="Detail" asp-route-bookId="@book.BookId" asp-route-filePath="@filePath" class="f1-s-1 cl9 hov-cl10 trans-03">
 										CHI TIẾT
 										<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
 									</a>

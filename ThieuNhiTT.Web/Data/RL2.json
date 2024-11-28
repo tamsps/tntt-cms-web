@@ -1,7 +1,6 @@
-{
-	"lessons": [
+[
 		{
-			"bookId": "01",
+			"bookId": "RL2",
 			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
 			"lessonId": "01",
 			"mainContent": [
@@ -30,7 +29,7 @@
 			]
 		},
 		{
-			"bookId": "01",
+			"bookId": "RL2",
 			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
 			"lessonId": "02",
 			"mainContent": [
@@ -59,7 +58,7 @@
 			]
 		},
 		{
-			"bookId": "01",
+			"bookId": "RL2",
 			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
 			"lessonId": "03",
 			"mainContent": [
@@ -88,7 +87,7 @@
 			]
 		},
 		{
-			"bookId": "02",
+			"bookId": "RL2",
 			"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
 			"lessonId": "01",
 			"mainContent": [ "Bài Học 2" ],
@@ -109,5 +108,4 @@
 				"Câu hỏi 1 của Chương 2"
 			]
 		}
-	]
-}
+]
