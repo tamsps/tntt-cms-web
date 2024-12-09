@@ -14,6 +14,10 @@ namespace ThieuNhiTT.Web.Services
 
     public IEnumerable<Lesson> GetAllLessonsByBookId(string bookId, string filePath)
     {
+      if (string.IsNullOrEmpty(filePath))
+      {
+				filePath = $"Data\\{bookId}.json";
+			}
       var lessons = _lessonRepository.GetAll(filePath);
       return lessons.Where(l => l.BookId == bookId);
     }

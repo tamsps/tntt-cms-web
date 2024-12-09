@@ -1,113 +1,111 @@
-{
-	"lessons": [
-		{
-			"bookId": "01",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "01",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "01",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "02",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "01",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "03",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "02",
-			"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
-			"lessonId": "01",
-			"mainContent": [ "Bài Học 2" ],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 3"
-			],
-			"actions": [
-				"Câu hỏi 1 của Chương 2"
-			]
-		}
-	]
-}
+[
+	{
+		"bookId": "TS2",
+		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonId": "01",
+		"mainContent": [
+			"Bài Học 1",
+			"Main content 2"
+		],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"actions": [
+			"action 1",
+			"action 2",
+			"action 3"
+		]
+	},
+	{
+		"bookId": "TS2",
+		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonId": "02",
+		"mainContent": [
+			"Bài Học 1",
+			"Main content 2"
+		],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"actions": [
+			"action 1",
+			"action 2",
+			"action 3"
+		]
+	},
+	{
+		"bookId": "TS2",
+		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonId": "03",
+		"mainContent": [
+			"Bài Học 1",
+			"Main content 2"
+		],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"actions": [
+			"action 1",
+			"action 2",
+			"action 3"
+		]
+	},
+	{
+		"bookId": "TS2",
+		"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
+		"lessonId": "01",
+		"mainContent": [ "Bài Học 2" ],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 3"
+		],
+		"actions": [
+			"Câu hỏi 1 của Chương 2"
+		]
+	}
+]

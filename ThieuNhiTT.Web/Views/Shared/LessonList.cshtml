@@ -1,0 +1,53 @@
+﻿@model Book
+
+@{
+	var lesson = Model.Lessons[0];
+}
+<div class="col-sm-6 p-r-25 p-r-15-sr991">
+	<!-- Item post -->
+	<div class="m-b-30">
+		<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="KT1" asp-route-filePath="Data\\KT1.json" asp-route-lessonId="@lesson.LessonId" class="wrap-pic-w hov1 trans-03">
+			<img src="images/post-08.jpg" alt="IMG">
+		</a>
+
+		<div class="p-t-20">
+			<h5 class="p-b-5">
+				<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="KT1" asp-route-filePath="Data\\KT1.json" asp-route-lessonId="@lesson.LessonId" class="f1-m-3 cl2 hov-cl10 trans-03">
+					Bài @lesson.LessonId. @lesson.LessonTitle
+				</a>
+			</h5>
+
+			<span class="cl8">
+				<a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+					@lesson.BookId
+				</a>
+			</span>
+		</div>
+	</div>
+</div>
+<div class="col-sm-6 p-r-25 p-r-15-sr991">
+	<!-- Item post -->
+	 @for (int i = 1; i < 4; i++)
+	{
+    var currentLesson = Model.Lessons[i];
+		<div class="flex-wr-sb-s m-b-30">
+			<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="KT1" asp-route-filePath="Data\\KT1.json" asp-route-lessonId="@currentLesson.LessonId" class="size-w-1 wrap-pic-w hov1 trans-03">
+				<img src="images/post-07.jpg" alt="IMG">
+			</a>
+
+			<div class="size-w-2">
+				<h5 class="p-b-5">
+					<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="KT1" asp-route-filePath="Data\\KT1.json" asp-route-lessonId="@currentLesson.LessonId" class="f1-s-5 cl3 hov-cl10 trans-03">
+						Bài @currentLesson.LessonId. @currentLesson.LessonTitle
+					</a>
+				</h5>
+
+				<span class="cl8">
+					<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+						@currentLesson.BookId
+					</a>
+				</span>
+			</div>
+		</div>
+   } 
+</div>

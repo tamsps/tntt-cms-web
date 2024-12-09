@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using ThieuNhiTT.Web.Models;
+using ThieuNhiTT.Web.Services;
 
 namespace ThieuNhiTT.Web.Controllers
 {
@@ -10,34 +11,39 @@ namespace ThieuNhiTT.Web.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 				private readonly IConfiguration _configuration;
-
         private readonly IWebHostEnvironment _webHostEnvironment;
+				private readonly IBookService _bookService;
+				private readonly ILessonService _lessonService;
 
-		
 
-		public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHost)
+
+
+		public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHost, IBookService bookService, ILessonService lessonService)
         {
             _logger = logger;
             _configuration = configuration;
             _webHostEnvironment = webHost;
+						_bookService = bookService;
+						_lessonService = lessonService;
 		}
 
-        public async Task<IActionResult> Index()
-        {
-						//string relativePath = _configuration["ThangTienJsonFilePath"];
-						//string jsonFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
+    public async Task<IActionResult> Index()
+    {
+			string relativePath = _configuration["ThangTienJsonFilePath"];
+			var filePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
+			var books = _bookService.GetAllBooks(filePath);
+			foreach (var book in books)
+			{
+				var lessons = _lessonService.GetAllLessonsByBookId(book.BookId.ToString(), string.Empty).ToList();
+				book.Lessons = lessons;
+			}
+			return View(books);
+		}
 
-						//var jsonData = await System.IO.File.ReadAllTextAsync(jsonFilePath);
-
-						//var bookCollection = JsonConvert.DeserializeObject<BookCollection>(jsonData);
-
-						return View();
-				}
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+    public IActionResult Privacy()
+    {
+        return View();
+    }
 		public IActionResult CatholicCalendar()
 		{
 			return View();
