@@ -1,0 +1,104 @@
+[
+	{
+		"newsId": "01",
+		"newsTitle": "Bổn Mạng Ngành Thiếu",
+		"lessonId": "01",
+		"type": "Thánh lễ",
+		"shortDescription": "Mừng bổn mạng ngành Thiếu. Thánh quan thầy Phanxico",
+		"isShowMainHome": false,
+		"isShowSmallHome": true,
+		"mainContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"datePublish": "5/12/2024",
+		"author": "admin",
+		"newsImage": "images/entertaiment-02.jpg"
+	},
+	{
+		"newsId": "01",
+		"newsTitle": "Nuôi heo đất giúp đỡ người nghèo",
+		"lessonId": "01",
+		"type": "Phong trào",
+		"shortDescription": "Mừng bổn mạng ngành Thiếu. Thánh quan thầy Phanxico",
+		"isShowMainHome": false,
+		"isShowSmallHome": true,
+		"mainContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"datePublish": "3/12/2024",
+		"author": "Tam Vu",
+		"newsImage": "images/entertaiment-02.jpg"
+	},
+	{
+		"newsId": "01",
+		"newsTitle": "Đi lễ ngày thường",
+		"lessonId": "01",
+		"type": "Thánh lễ",
+		"shortDescription": "Mừng bổn mạng ngành Thiếu. Thánh quan thầy Phanxico",
+		"isShowMainHome": false,
+		"isShowSmallHome": true,
+		"mainContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"datePublish": "11/12/2024",
+		"author": "admin",
+		"newsImage": "images/entertaiment-02.jpg"
+	},
+	{
+		"newsId": "01",
+		"newsTitle": "Buổi học giáo lý",
+		"lessonId": "01",
+		"type": "Học Giáo Lý",
+		"shortDescription": "Mừng bổn mạng ngành Thiếu. Thánh quan thầy Phanxico",
+		"isShowMainHome": false,
+		"isShowSmallHome": true,
+		"mainContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"datePublish": "7/12/2024",
+		"author": "admin",
+		"newsImage": "images/entertaiment-02.jpg"
+	},
+	{
+		"newsId": "01",
+		"newsTitle": "Thăm nhà hưu dưỡng LM",
+		"lessonId": "01",
+		"type": "Phong Trào",
+		"shortDescription": "Mừng bổn mạng ngành Thiếu. Thánh quan thầy Phanxico",
+		"isShowMainHome":false,
+		"isShowSmallHome": true,
+		"mainContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"datePublish": "9/12/2024",
+		"author": "Tram Bui",
+		"newsImage": "images/entertaiment-02.jpg"
+	},
+	{
+		"newsId": "01",
+		"newsTitle": "Các em tô màu",
+		"lessonId": "01",
+		"type": "Học Giáo lý",
+		"shortDescription": "Mừng bổn mạng ngành Thiếu. Thánh quan thầy Phanxico",
+		"isShowMainHome": true,
+		"isShowSmallHome": false,
+		"mainContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"datePublish": "1/12/2024",
+		"author": "Tam Vu",
+		"newsImage": "images/entertaiment-02.jpg"
+	}
+]

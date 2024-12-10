@@ -14,17 +14,19 @@ namespace ThieuNhiTT.Web.Controllers
         private readonly IWebHostEnvironment _webHostEnvironment;
 				private readonly IBookService _bookService;
 				private readonly ILessonService _lessonService;
+				private readonly INewsService _newService;
 
 
 
 
-		public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHost, IBookService bookService, ILessonService lessonService)
+		public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment webHost, IBookService bookService, ILessonService lessonService, INewsService newsService)
         {
             _logger = logger;
             _configuration = configuration;
             _webHostEnvironment = webHost;
 						_bookService = bookService;
 						_lessonService = lessonService;
+					  _newService = newsService;
 		}
 
     public async Task<IActionResult> Index()
@@ -37,13 +39,28 @@ namespace ThieuNhiTT.Web.Controllers
 				var lessons = _lessonService.GetAllLessonsByBookId(book.BookId.ToString(), string.Empty).ToList();
 				book.Lessons = lessons;
 			}
+			relativePath = _configuration["NewsFilePath"];
+			var newsFilePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
+			var newss = _newService.GetNewsHome(newsFilePath);
+			if(newss != null)
+			{
+				var newsMain = newss.FirstOrDefault(d=>d.IsShowMainHome);
+				var newsOther = newss.Where(d=>d.IsShowSmallHome).Take(4).ToList();
+				ViewData["NewsMain"] = newsMain;
+				ViewData["NewsOther"] = newsOther;
+			}
+
 			return View(books);
 		}
 
-    public IActionResult Privacy()
+    public IActionResult AboutUs()
     {
         return View();
     }
+		public IActionResult ContactUs()
+		{
+			return View();
+		}
 		public IActionResult CatholicCalendar()
 		{
 			return View();

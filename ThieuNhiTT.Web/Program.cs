@@ -4,17 +4,15 @@ using ThieuNhiTT.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string jsonFilePath = builder.Configuration.GetSection("ThangTienJsonFilePath").Value;
-string lessonFilePath = builder.Configuration.GetSection("LessonFilePath").Value;
-
-
 // Add services to the container.
 builder.Services.AddScoped<IRepository<Book>, JsonBookRepository<Book>>();
 builder.Services.AddScoped<IRepository<Lesson>, JsonBookRepository<Lesson>>();
+builder.Services.AddScoped<IRepository<News>, JsonBookRepository<News>>();
 
 // Register services for Book and Lesson
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<ILessonService, LessonService>();
+builder.Services.AddScoped<INewsService, NewsService>();
 
 
 builder.Services.AddControllersWithViews();
