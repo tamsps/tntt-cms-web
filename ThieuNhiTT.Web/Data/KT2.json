@@ -4,6 +4,7 @@
 		"bookId": "KT2",
 		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
 		"lessonId": "01",
+		"imageUrl": "images/KT1/B18jpg",
 		"mainContent": [
 			"Bài Học 1",
 			"Main content 2"
@@ -33,6 +34,7 @@
 		"bookId": "KT2",
 		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
 		"lessonId": "02",
+		"imageUrl": "images/KT1/B18jpg",
 		"mainContent": [
 			"Bài Học 1",
 			"Main content 2"
@@ -62,6 +64,7 @@
 		"bookId": "KT2",
 		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
 		"lessonId": "03",
+		"imageUrl": "images/KT1/B18jpg",
 		"mainContent": [
 			"Bài Học 1",
 			"Main content 2"
@@ -91,6 +94,7 @@
 		"bookId": "KT2",
 		"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
 		"lessonId": "01",
+		"imageUrl": "images/KT1/B18jpg",
 		"mainContent": [ "Bài Học 2" ],
 		"questions": [
 			{

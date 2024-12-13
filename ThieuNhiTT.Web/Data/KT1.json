@@ -1,111 +1,133 @@
  [
-		{
-			"bookId": "KT1",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "01",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "KT1",
-			"lessonTitle": "CHÚA GIÊSU LÀ VUA CHÚNG TA",
-			"lessonId": "02",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "KT1",
-			"lessonTitle": "THỜI THƠ ẤU CỦA CHÚA GIÊSU",
-			"lessonId": "03",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "KT1",
-			"lessonTitle": "CHÚA GIÊSU VÂNG LỜI CHA MẸ",
-			"lessonId": "04",
-			"mainContent": [ "Bài Học 2" ],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 3"
-			],
-			"actions": [
-				"Câu hỏi 1 của Chương 2"
-			]
-		}
+	{
+		"bookId": "KT1",
+		"lessonTitle": "EM TẬP LÀM VIỆC",
+		"lessonId": "16",
+		"imageUrl": "images/KT1/B16jpg",
+		"mainContent": [
+			"Chúa Giêsu là mẫu gương làm việc cho chúng ta noi theo"
+		],
+		"questions": [
+			{
+				"ask": "Mỗi sáng thức dậy em sẽ làm gì ?",
+				"answer": "Em làm dấu, đọc kinh, cầu nguyện cùng Chúa, em vệ sinh cá nhân "
+			},
+			{
+				"ask": "Ở nhà em làm những công việc gì để phụ ba mẹ ",
+				"answer": "Quét nhà, trông em, gấp đồ,.."
+			},
+			{
+				"ask": "Em có tự làm việc phục vụ bản thân mình không ?",
+				"answer": "Em tự thay đồ, xếp chăn màn gọn gàng, đánh răng, rửa mặt, chải đầu. </br/>Chúa Giêsu cũng là mẫu gương làm việc cho chúng ta noi theo, lúc nhỏ Chúa Giê su phụ thánh Giuse trong nghề thợ mộc, ngoài ra Chúa Giêsu còn hoàn tất công việc Chúa Cha trao phó "
+			},
+			{
+				"ask": "Chúa đã ban cho các em đôi tay để làm gì các em biết không?",
+				"answer": "Để làm việc, để giúp đỡ cha mẹ, để làm dấu Thánh Giá...."
+			},
+			{
+				"ask": "Vậy muốn đôi tay luôn sạch đẹp em cần làm gì?",
+				"answer": "Thường xuyên rửa tay, cắt móng tay..."
+			}
+		],
+		"memoContent": [
+			"-\tChúa ban cho em đôi tay để làm việc",
+			"-\tĐừng bao giờ em dùng đôi tay để đánh bạn hay lấy cắp của người khác",
+			"-\tNoi gương Chúa Giêsu, em tập làm từ những việc nhỏ nhất"
+		],
+		"actions": [
+			"Noi theo gương Chúa em quyết tâm",
+			"Làm việc để giúp đỡ ba mẹ, bạn bè",
+			"Tập làm dấu Thánh giá đúng cách, kính cẩn và tử tế"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA CHO CON ĐÔI CHÂN LANH LẸ TỰA CHÂN NAI",
+		"lessonId": "17",
+		"imageUrl": "images/KT1/B17jpg",
+		"mainContent": [
+			"Chúa đã yêu thương ban cho em các chi thể, để em có thể sống và hoạt động"
+		],
+		"questions": [
+			{
+				"ask": "Khi xưa, các môn đệ đi rao giảng Tin mừng, để cho mọi người biết về Chúa, các em có biết các môn đệ đi bằng gì không?",
+				"answer": "Đi bằng đôi chân"
+			},
+			{
+				"ask": "Các môn đệ Chúa dùng đôi chân để đi rao giảng, còn các em dùng đôi chân Chúa ban cho để làm gì?",
+				"answer": "Đi lại, chạy, nhảy, múa..."
+			},
+			{
+				"ask": "Nhưng lại có người bất hạnh hơn, họ có chân mà không đi được, họ là những ai?",
+				"answer": "Những người khuyết tật, những người bị teo chân vì bệnh, người bị tai nạn ..."
+			},
+			{
+				"ask": "Vậy các em thấy chúng ta còn may mắn hơn rất nhiều người, vậy các em khi thấy Vậy các em thấy chúng ta còn may mắn hơn rất nhiều người, vậy các em khi thấy người tàn tật, què quặt các em cần làm gì?",
+				"answer": "Giúp đỡ họ qua đường, không cười nhạo, trêu chọc ..."
+			}
+		],
+		"memoContent": [
+			"-\tNhờ đôi chân, em có thể chạy nhảy, đi đến trường, đến nhà thờ, đi thăm bạn bè, thăm người đau yếu",
+			"-\tChúa đã ban cho em đôi chân để hoạt động, em thật may mắn hơn rất nhiều người ",
+			"-\tCó Chúa cùng đi với em"
+		],
+		"actions": [
+			"Tạ ơn Chúa đã ban cho em đôi chân, em quyết tâm",
+			"+ Nhanh chân đến nhà thờ với Chúa và đến lớp học giáo lý ",
+			"+ Nhanh nhẹn, vui vẻ làm điều ba mẹ sai bảo"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "THỜI THƠ ẤU CỦA CHÚA GIÊSU",
+		"lessonId": "03",
+		"imageUrl": "images/KT1/B18jpg",
+		"mainContent": [
+			"Bài Học 1",
+			"Main content 2"
+		],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"actions": [
+			"action 1",
+			"action 2",
+			"action 3"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA GIÊSU VÂNG LỜI CHA MẸ",
+		"lessonId": "04",
+		"imageUrl": "images/KT1/B18jpg",
+		"mainContent": [ "Bài Học 2" ],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 3"
+		],
+		"actions": [
+			"Câu hỏi 1 của Chương 2"
+		]
+	}
 	]
