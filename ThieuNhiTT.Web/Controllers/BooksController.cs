@@ -46,6 +46,7 @@ namespace ThieuNhiTT.Web.Controllers
 				filePath = $"Data\\{bookId}.json";
 			}
 			var lessons = _lessonService.GetAllLessonsByBookId(bookId, filePath).ToList();
+			
 			return View(lessons);
 		}
 	}

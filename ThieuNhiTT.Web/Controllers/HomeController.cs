@@ -2,12 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using ThieuNhiTT.Web.Fody;
 using ThieuNhiTT.Web.Models;
 using ThieuNhiTT.Web.Services;
 
 namespace ThieuNhiTT.Web.Controllers
 {
-    public class HomeController : Controller
+	[TypeFilter(typeof(CustomExceptionFilter))]
+	public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 				private readonly IConfiguration _configuration;

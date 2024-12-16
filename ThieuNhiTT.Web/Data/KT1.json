@@ -1,4 +1,4 @@
- [
+[
 	{
 		"bookId": "KT1",
 		"lessonTitle": "EM TẬP LÀM VIỆC",
@@ -79,55 +79,150 @@
 	},
 	{
 		"bookId": "KT1",
-		"lessonTitle": "THỜI THƠ ẤU CỦA CHÚA GIÊSU",
+		"lessonTitle": "XIN CHO CON CÀNG LỚN LÊN CÀNG GIỐNG CHÚA",
 		"lessonId": "18",
 		"imageUrl": "images/KT1/B18.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Chúa Giêsu càng lớn, thêm vững mạnh, đầy khôn ngaon và được Thiên Chúa cũng như mọi người thương mến (Lc 2,52)"
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Khi còn là em bé, ba mẹ đã chăm sóc các em như thế nào?",
+				"answer": "Được ba mẹ bế ẵm, đút cơm, tắm rửa, thay quần áo, chải đầu,..."
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Nay em đã lớn rồi, vậy các em tập làm những việc gì để ba mẹ đỡ vất vả?",
+				"answer": "Tự làm việc phục vụ bản thân, phụ giúp công việc nhà,...."
+			},
+			{
+				"ask": "Em có biết vì sao Chúa Giêsu được mọi người yêu thương khôn?",
+				"answer": "Vì Chúa sống hiền hòa với mọi người xung quanh, ngoan ngoãn, lễ phép, phụ giúp Thánh Giuse và Mẹ Maria"
+			},
+			{
+				"ask": "Để được mọi người yêu mến giống Chúa Giêsu em cần làm gì? ",
+				"answer": "Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ...."
+			},
+			{
+				"ask": "Đối với Thiên Chúa em cần có bổn phận gì?",
+				"answer": "Chăm đến nhà thờ, siêng năng thưa chuyện với Chúa, chuyên cần đi học giáo lý"
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"-\tChúa Giêsu càng lớn lên càng khôn ngoan",
+			"-\tLà Thiên Chúa nhưng Chúa Giesu hằng vâng phục cha mẹ, kính yêu đấng sinh thành",
+			"-\tEm biết giúp đỡ cha mẹ vì nay em đã lớn"
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Cảm ơn Chúa đã cho con lớn lên, để càng lớn càng nên giống Chúa, em quyết tâm",
+			"+ Siêng năng đi lễ, chăm học giáo lý để biết về Chúa nhiều hơn ",
+			"+ Yêu thương và giúp đỡ mọi người xung quanh."
 		]
 	},
 	{
 		"bookId": "KT1",
-		"lessonTitle": "CHÚA GIÊSU VÂNG LỜI CHA MẸ",
-		"lessonId": "04",
+		"lessonTitle": "EM LÀM CHO CẢ NHÀ CÙNG VUI",
+		"lessonId": "19",
 		"imageUrl": "images/KT1/B19.jpg",
-		"mainContent": [ "Bài Học 2" ],
+		"mainContent": [ "Dù ăn, dù uống, hay làm bất cứ việc gì, anh em hãy làm để tôn vinh Thiên Chúa (1Cr 0,31)" ],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Ba mẹ thương các em như thế nào các em biết không?",
+				"answer": "Ba mẹ săn sóc các em từng li từng tí, mua quần áo đẹp, cho đi chơi, mua đồ chơi... làm mọi chuyện cho em vui"
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Về phần em, em sẽ làm gì để ba mẹ vui lòng?",
+				"answer": "Chăm ngoan học giỏi, đạt nhiều điểm 10, được thầy cô khen..."
+			},
+			{
+				"ask": "Vì sao Chúa yêu trẻ thơ?",
+				"answer": "Vì các em đơn sơ, thật thà, ngoan ngoãn, chưa phạm tội"
+			},
+			{
+				"ask": "Để được Chúa yêu thương mãi các em cần sống thế nào?",
+				"answer": "Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ..."
+			},
+			{
+				"ask": "Đối với Thiên Chúa em cần có bổn phận gì?",
+				"answer": "Làm bạn với Chúa, thật thà ngay thẳng, đừng giận bạn, không chửi tục..."
 			}
 		],
 		"memoContent": [
-			"Chương 3"
+			"-\tKhi vui chơi, hay học hành em luôn nhớ có Chúa đang nhìn em",
+			"-\tChúa muốn em chơi vui, chơi thật thà",
+			"-\tKhi em vui, em làm cho cả nhà cùng vui"
 		],
 		"actions": [
-			"Câu hỏi 1 của Chương 2"
+			"Để em luôn là niềm vui của ông bà, ba mẹ, hết thảy mọi người xung quanh, em quyết tâm",
+			"+ Chăm ngoan học giỏi",
+			"+ Chơi vui, hòa đồng, không ăn gian với bạn bè"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CON MUỐN LÀM VUI LÒNG CHÚA",
+		"lessonId": "20",
+		"imageUrl": "images/KT1/B20.jpg",
+		"mainContent": [ "Cây lau bị giập, Ngài không đành bẻ gãy, tim đèn leo lét, chẳng nỡ tắt đi, cho đến khi Ngài đưa công lý đến toàn thắng và muôn dân đặt niềm hy vọng nơi Ngài. (Mt 12, 18-21)" ],
+		"questions": [
+			{
+				"ask": "Chúa Giêsu xuống trần gian, vì Chúa yêu thương con người và muốn giới thiệu cho con người biết về Thiên Chúa Cha là Đấng rất nhân từ. Các em có biết nhân từ là gì không?",
+				"answer": "Nhân từ là người rất hiền lành, giàu lòng vị tha"
+			},
+			{
+				"ask": "Qua đoạn lời Chúa (Mt 12, 18-21) các em nghe, cây cỏ lau bị giập, Ngài cột vào một cây tựa để cây lau được sống, tim đèn leo lét sắp tắt, Ngài đổ thêm dầu vào giúp đèn sáng dần lên... qua những việc đó chúng ta biết Chúa là người như thế nào?",
+				"answer": "Ngài nhân từ, nhẫn nại"
+			},
+			{
+				"ask": "Chúa nhân từ như thế nào, em có thể kể việc Chúa đã làm em cảm nhận được điều đó?",
+				"answer": "Chúa làm phép lạ chữa lành bệnh tật, Chúa yêu thương trẻ em, Chúa chịu chết trên Thánh giá chuộc tội cho loài người..."
+			},
+			{
+				"ask": "Vậy em muốn làm vui lòng Chúa em sẽ làm gì?",
+				"answer": "Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ..."
+			}
+		],
+		"memoContent": [
+			"-\tChúa rất dịu hiền: Người không phạt ai chỉ vì lỡ lầm",
+			"-\tChúa quảng đại: Tha thứ cho người tội lỗi",
+			"-\tChúa yêu thương: Hết mọi người nhất là người tội lỗi ",
+			"-\tChúa Giêsu là Thiên Chúa rất là quyền năng, Ngài tạo dựng mọi sự, vậy mà Ngài vẫn vâng phục Đức Mẹ và Thánh Giuse. "
+		],
+		"actions": [
+			"Để làm vui lòng Chúa, em quyết tâm:",
+			"+ Vâng lời cha mẹ dạy và vui vẻ vâng lời người lớn",
+			"+ Nhiệt tình giúp đỡ bạn bè"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA BIẾT CON YÊU MẾN CHÚA",
+		"lessonId": "21",
+		"imageUrl": "images/KT1/B21.jpg",
+		"mainContent": [ "Chúa biết rõ mọi sự, Chúa biết con yêu Chúa" ],
+		"questions": [
+			{
+				"ask": "Ai ban cho em có mẹ có cha?",
+				"answer": "Chính Chúa, nhờ có cha có mẹ em được nuôi dưỡng, được chăm sóc, được yêu thương..."
+			},
+			{
+				"ask": "Vì sao Chúa quan tâm chúng ta như vậy?",
+				"answer": "Vì Chúa yêu thương chúng ta"
+			},
+			{
+				"ask": "Vậy các em có yêu Chúa không, em yêu Ngài như thế nào?",
+				"answer": "Yêu Chúa, yêu Ngài hết lòng hết sức hết trí khôn, yêu Ngài trọn đời"
+			}
+		],
+		"memoContent": [
+			"-\tThiên Chúa đã lo liệu cho từng người",
+			"-\tYêu Chúa hết lòng, hết linh hồn, hết trí khôn",
+			"-\tChúa không chỉ dựng nên hoa huệ, hoa hồng, và các sinh vật cho em. Chúa còn dựng nên cho em có cha có mẹ để yêu thương săn sóc em vì Chúa rất yêu thương em"
+		],
+		"actions": [
+			"Tỏ lòng yêu mến Ngài, em quyết tâm:",
+			"+ Giành thời gian thinh lặng, cầu nguyện cùng Chúa",
+			"+ Học thuộc kinh Sáng Danh đọc mỗi ngày để tôn vinh danh Ngài",
+			"+ Siêng năng học giáo lý"
 		]
 	}
-	]
+]

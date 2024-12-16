@@ -1,4 +1,5 @@
 using ThieuNhiTT.Web.DataAccess;
+using ThieuNhiTT.Web.Fody;
 using ThieuNhiTT.Web.Models;
 using ThieuNhiTT.Web.Services;
 
@@ -15,7 +16,10 @@ builder.Services.AddScoped<ILessonService, LessonService>();
 builder.Services.AddScoped<INewsService, NewsService>();
 
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+	options.Filters.Add<CustomExceptionFilter>();
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,5 +40,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.UseExceptionHandler("/Home/Error"); // Redirect to a global error page
 app.Run();
