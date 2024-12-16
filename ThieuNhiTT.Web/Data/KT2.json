@@ -1,10 +1,9 @@
 [
-
 	{
 		"bookId": "KT2",
 		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "01",
-		"imageUrl": "images/KT1/B18jpg",
+		"lessonId": "16",
+		"imageUrl": "images/KT2/B16.jpg",
 		"mainContent": [
 			"Bài Học 1",
 			"Main content 2"
@@ -33,38 +32,8 @@
 	{
 		"bookId": "KT2",
 		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "02",
-		"imageUrl": "images/KT1/B18jpg",
-		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
-		],
-		"questions": [
-			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
-			},
-			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
-			}
-		],
-		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
-		],
-		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
-		]
-	},
-	{
-		"bookId": "KT2",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "03",
-		"imageUrl": "images/KT1/B18jpg",
+		"lessonId": "17",
+		"imageUrl": "images/KT2/B17.jpg",
 		"mainContent": [
 			"Bài Học 1",
 			"Main content 2"
@@ -93,8 +62,8 @@
 	{
 		"bookId": "KT2",
 		"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
-		"lessonId": "01",
-		"imageUrl": "images/KT1/B18jpg",
+		"lessonId": "18",
+		"imageUrl": "images/KT2/B18.jpg",
 		"mainContent": [ "Bài Học 2" ],
 		"questions": [
 			{
@@ -111,6 +80,36 @@
 		],
 		"actions": [
 			"Câu hỏi 1 của Chương 2"
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonId": "19",
+		"imageUrl": "images/KT2/B19.jpg",
+		"mainContent": [
+			"Bài Học 1",
+			"Main content 2"
+		],
+		"questions": [
+			{
+				"ask": "Câu hỏi 1 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 1"
+			},
+			{
+				"ask": "Câu hỏi 2 của Ý Chính",
+				"answer": "Gợi ý trả lời câu hỏi 2"
+			}
+		],
+		"memoContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"actions": [
+			"action 1",
+			"action 2",
+			"action 3"
 		]
 	}
 ]

@@ -3,7 +3,7 @@
 		"bookId": "KT1",
 		"lessonTitle": "EM TẬP LÀM VIỆC",
 		"lessonId": "16",
-		"imageUrl": "images/KT1/B16jpg",
+		"imageUrl": "images/KT1/B16.jpg",
 		"mainContent": [
 			"Chúa Giêsu là mẫu gương làm việc cho chúng ta noi theo"
 		],
@@ -44,7 +44,7 @@
 		"bookId": "KT1",
 		"lessonTitle": "CHÚA CHO CON ĐÔI CHÂN LANH LẸ TỰA CHÂN NAI",
 		"lessonId": "17",
-		"imageUrl": "images/KT1/B17jpg",
+		"imageUrl": "images/KT1/B17.jpg",
 		"mainContent": [
 			"Chúa đã yêu thương ban cho em các chi thể, để em có thể sống và hoạt động"
 		],
@@ -80,8 +80,8 @@
 	{
 		"bookId": "KT1",
 		"lessonTitle": "THỜI THƠ ẤU CỦA CHÚA GIÊSU",
-		"lessonId": "03",
-		"imageUrl": "images/KT1/B18jpg",
+		"lessonId": "18",
+		"imageUrl": "images/KT1/B18.jpg",
 		"mainContent": [
 			"Bài Học 1",
 			"Main content 2"
@@ -111,7 +111,7 @@
 		"bookId": "KT1",
 		"lessonTitle": "CHÚA GIÊSU VÂNG LỜI CHA MẸ",
 		"lessonId": "04",
-		"imageUrl": "images/KT1/B18jpg",
+		"imageUrl": "images/KT1/B19.jpg",
 		"mainContent": [ "Bài Học 2" ],
 		"questions": [
 			{
