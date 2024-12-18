@@ -68,7 +68,7 @@
 				@foreach(var n in newsOther)
 					{
 						<div class="col-sm-6 col-md-3 p-rl-1 p-b-2">
-							<div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(images/entertaiment-02.jpg);">
+							<div class="bg-img1 size-a-14 how1 pos-relative" style="background-image: url(@n.NewsImage);">
 								<a href="blog-detail-01.html" class="dis-block how1-child1 trans-03"></a>
 
 								<div class="flex-col-e-s s-full p-rl-25 p-tb-20">
@@ -223,7 +223,11 @@
 									@{
 										var kt1 = Model.FirstOrDefault(x => x.BookId == "KT1");
 									}
-									@Html.Partial("LessonList", kt1);
+									@if (kt1 != null)
+									{
+										@Html.Partial("LessonList", kt1)
+										;
+									}
 								</div>
 							</div>
 
@@ -233,7 +237,11 @@
 									@{
 										var kt2 = Model.FirstOrDefault(x => x.BookId == "KT2");
 									}
-									@Html.Partial("LessonList", kt2);
+									@if (kt2 != null)
+									{
+										@Html.Partial("LessonList", kt2)
+										;
+									}
 
 								</div>
 							</div>
@@ -244,8 +252,10 @@
 									@{
 										var rl1 = Model.FirstOrDefault(x => x.BookId == "RL1");
 									}
-									@Html.Partial("LessonList", rl1);
-
+									@if(rl1 != null)
+									{
+											@Html.Partial("LessonList", rl1);
+									}
 								</div>
 							</div>
 
@@ -256,7 +266,10 @@
 									@{
 										var rl2 = Model.FirstOrDefault(x => x.BookId == "RL2");
 									}
-									@Html.Partial("LessonList", rl2);
+									@if (rl2 != null)
+									{
+										@Html.Partial("LessonList", rl2);
+									}
 								</div>
 							</div>
 						</div>

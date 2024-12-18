@@ -1,115 +1,489 @@
 [
+{
+		"bookId": "KT2",
+		"lessonTitle": "HÔM NAY CHÚA CỨU THẾ ĐÃ SINH RA",
+		"lessonId": "12",
+		"imageUrl": "images/KT2/B12.jpg",
+		"mainContent": [
+			"Kể về bối cảnh Giáng Sinh của Chúa Giêsu tại Bêlem"
+		],
+		"questions": [
+			{
+				"ask": "Thiên Chúa có mấy ngôi?",
+				"answer": ["Thiên Chúa có 3 ngôi. Ngôi thứ nhất là Cha, ngôi thứ hai là Con, ngôi thứ ba là Thánh Thần."]
+			},
+			{
+				"ask": "Ngôi Hai Thiên Chúa là ai?",
+				"answer": ["Chỉ có một Thiên Chúa, nhưng có ba ngôi trong một Thiên Chúa, hôm nay ngôi Hai đã nhập thể làm người và đã hạ sinh ra như bao con người khác."]
+			},
+			{
+				"ask": "Chúa Giêsu đã sinh ra ở đâu?",
+				"answer": ["Chúa Giesu sinh ra trong hang đá, thành Belem."]
+			},
+			{
+				"ask": "Khung cảnh bên trong hang đá Bêlem có những gì?",
+				"answer": ["Chúa Giêsu được đặt nằm trong một cái máng cỏ, chung quanh có các con bò, lừa nằm bên cạnh. Bên ngoài có những trẻ em chăn chiên. Trên trời các Thiên thần cùng nhau ca hát mừng Ngôi Hai ra đời."]
+			},
+			{
+				"ask": "Ngoài những nhân vật trên, còn có ai đến thăm Chúa Gieessu nữa không?",
+				"answer": ["Còn có Ba Vua, họ đến và dâng tặng Chúa những lễ vật rất cao quý của xứ sở họ: Vàng, nhũ hương, mộc dược"]
+			}
+		],
+		"memoContent": [
+			"Khẳng định lại chỉ có một Thiên Chúa và có ba ngôi",
+			"Hôm nay ngôi Hai đã xuống thế làm người để cứu chuộc chúng ta, ở giữa chúng ta"
+		],
+		"actions": [
+			"Như Ba Vua đã dâng tặng cho Chúa những sản phẩm quý giá, thì chúng ta có gì để dâng lên cho Chúa?",
+			"Siêng năng tham dự Thánh lễ, học Giáo lý",
+			"Vâng lời ông bà, cha mẹ, thầy cô và những người dạy dỗ."
+		]
+	},
 	{
 		"bookId": "KT2",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonTitle": "CHÚA GIÊSU LÀ ÁNH SÁNG MUÔN DÂN",
+		"lessonId": "14",
+		"imageUrl": "images/KT2/B14.jpg",
+		"mainContent": [
+			"Chúa Giêsu xuống thế làm người, Ngài là Đấng Cứu Độ cho muôn dân."
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giê-su sinh ra ở đâu? Khi Ngài sinh ra có những ai đến thăm Chúa?",
+				"answer": ["Chúa Giêsu sinh ra trong hang đá, thành Belem. Khi Chúa Giê-su được sinh ra thì các mục đồng và Ba Vua đã nhận biết và đến thờ lạy Ngài."]
+			},
+			{
+				"ask": "Vì sao Ba Vua và các mục đồng lại đến thờ lạy Chúa?",
+				"answer": ["Vì họ tin Chúa Giê-su chính là Ngôi Hai Thiên Chúa xuống thế làm Người để cứu độ chúng ta, đem ánh sáng đến cho chúng ta, vì Ngài yêu thương chúng ta."]
+			},
+			{
+				"ask": "Khi Chúa giáng sinh thì trời đất, các thiên thần tung hô Chúa như thế nào?",
+				"answer": ["Bầu trời đầy sao, tinh tú lấp lánh và các thiên thần hát mừng: “Vinh danh Thiên Chúa trên trời, bình an dưới thế cho người Chúa thương”."]
+			},
+			{
+				"ask": "Chúa Giêsu xuống thế làm người, cứu chuộc chúng ta tức là làm sao?",
+				"answer": ["Chúa đến giúp chúng ta vượt qua những cám dỗ của tội lỗi, để chúng ta có thể sống trong ân sủng và tình yêu của Ngài mãi mãi. Ngài chính là ánh sáng sự sống và hy vọng của mọi người. Ngài là đường, là sự thật, và là sự sống."]
+			},
+			{
+				"ask": "Các em phải làm gì để đền đáp ân tình của Thiên Chúa dành cho em?",
+				"answer": ["Chúa mời gọi các em trở thành con người tốt, biết vâng lời cha mẹ, chăm chỉ học hỏi nhiều hơn để xứng đáng là người con của Thiên Chúa."]
+			}
+		],
+		"memoContent": [
+			"Khẳng định lại: Chúa Giêsu xuống thế làm người, để cứu độ chúng ta và ở giữa chúng ta.",
+			"Chúa là đường, là sự thật và là sự sống."
+		],
+		"actions": [
+			"Chúa đã xuống thế làm người và ở cùng các em, để đáp lại tình yêu thương Thiên Chúa dành cho em, các em hãy:",
+			"Siêng năng tham dự Thánh lễ, học Giáo lý",
+			"Vâng lời ông bà, cha mẹ, thầy cô và những người dạy dỗ",
+			"Từ bỏ một thói xấu: như nói chuyện trong thánh lễ, nói dối, chửi thề, không xả rác bừa bãi,……"
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA GIÊSU NGOAN NGOÃN VÂNG LỜI CHA MẸ",
+		"lessonId": "15",
+		"imageUrl": "images/KT2/B15.jpg",
+		"mainContent": [
+			"Khi còn bé, Chúa Giê-su ngoan ngoãn vâng lời cha mẹ, Em noi gương Chúa biết vâng lời và làm cho cha mẹ vui lòng."
+		],
+		"questions": [
+			{
+				"ask": "Khi còn bé, Chúa Giê-su lớn lên ở thành nào và Ngài ở cùng với ai?",
+				"answer": ["Chúa Giêsu lớn lên cùng với Mẹ Maria và Thánh Cả Giuse (cha nuôi của Ngài) ở thành Nadaret miền Galilê."]
+			},
+			{
+				"ask": "Trong 3 năm sống ở Nadaret, Ngài đã phụ giúp gì cho cha mẹ?",
+				"answer": ["Ngài đã giúp Thánh Giuse trong xưởng mộc. Và biết vâng lời cha mẹ."]
+			},
+			{
+				"ask": "Em đã làm việc gì để giúp đỡ cho cha cha mẹ?",
+				"answer": ["Cho các em tự kể những việc làm."]
+			},
+			{
+				"ask": "Có khi nào em làm cho cha mẹ buồn lòng không?",
+				"answer": ["Cho các em kể ra. Sau đó đúc kết: ba mẹ đã sinh thành nuôi dưỡng các em, các em từ bỏ những thói xấu, chăm chỉ học hành và vâng lời để cho ba mẹ vui nhé!"]
+			},
+			{
+				"ask": "Em có quyết tâm thay đổi những thói xấu để làm cho ba mẹ vui?",
+				"answer": ["Có, em noi gương Chúa Giê-su để ngày càng lớn lên thêm khôn ngoan và nhân đức."]
+			}
+		],
+		"memoContent": [
+			"Khi còn bé, Chúa Giê-su ngoan ngoãn vâng lời cha mẹ và làm cho cha mẹ vui lòng.",
+			"Em biết noi gương Chúa."
+		],
+		"actions": [
+			"Noi gương Chúa Giê-su em hãy siêng năng học tập và vâng lời để lớn lên giống như Chúa Giê-su.",
+			"Ở nhà: ",
+			"+ Cầu nguyện sau khi thức dậy.",
+			"+ Cầu nguyện trước khi đi ngủ.",
+			"+ Vâng lời cha mẹ.",
+			"Ở trường: ",
+			"+ Nghe thầy cô giảng bài.",
+			"+ Học và làm bài tập đẩy đủ.",
+			"+ Yêu thương và giúp đỡ bạn."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA GIÊSU GIÚP ĐỠ CHA MẸ",
 		"lessonId": "16",
 		"imageUrl": "images/KT2/B16.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Em vui vẻ làm việc theo gương Chúa Giêsu"
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Khi trở về Nadaret, Chúa Giêsu như thế nào?",
+				"answer": ["Chúa Giêsu ngày càng lớn , càng thêm khôn ngoan và nhân đức. Ngài ngoan ngoãn, siêng năng, hiếu thảo, biết giúp đỡ cha mẹ…"]
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Chúa Giêsu có giống chúng ta không?",
+				"answer": ["Chúa Giêsu thật sự giống chúng ta mọi đàng chỉ trừ tội lỗi. Ngài được sinh ra, được cha mẹ nuôi nấng dạy dỗ."]
+			},
+			{
+				"ask": "Ở nhà các em có biết giúp đỡ ông bà cha mẹ, kể những việc làm cụ thể của các em?",
+				"answer": ["Phụ mẹ quét nhà, gấp quần áo, trông em…"]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Chúa Giêsu ngày càng thêm khôn ngoan, thêm cao lớn và đầy ân nghĩa cùng Chúa.",
+			"Em biết cảm ơn Chúa đã cho em cơ hội làm việc để được góp phần với Thiên Chúa và anh em."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Các em hãy tập làm việc trước hết trong gia đình, nơi trường học, nơi nhà thờ.",
+			"Vâng lời ông bà cha mẹ,  quý thầy, quý sơ, các anh chị huynh trưởng.",
+			"Siêng năng cầu nguyện với Chúa, xin ơn khôn ngoan và nhân đức như Ngài."
 		]
-	},
-	{
+	},{
 		"bookId": "KT2",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonTitle": "CHÚA GIÊSU THƯƠNG CÁC EM NHỎ",
 		"lessonId": "17",
 		"imageUrl": "images/KT2/B17.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Chúa Giêsu thương, để ý đến các em nhỏ. Các em noi gương Chúa Giêsu"
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Chúa Giêsu nói “ cứ để” ai dến với Chúa?",
+				"answer": [ "Chúa nói với các Tông Đồ: &quot; Cứ để trẻ nhỏ đến với Ngài, đừng ngăn cấm chúng&quot;." ]
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Vì sao Chúa lại nói như vậy?",
+				"answer": ["Đó là vì Chúa yêu thương các em nhỏ nhiều lắm Chúa yêu thương để ý đến các trẻ nhỏ vì các em ấy đơn sơ, trong trắng và thật thà."]
+			},
+			{
+				"ask": "Khi đến với chúa. Các em sẽ nhận được gì?",
+				"answer": ["Các em được Chúa ôm vào lòng, được Ngài chúc lành và hứa ban Nước Trời cho các em nhỏ và những ai giống như các em nữa."]
+			},
+			{
+				"ask": "Noi gương Chúa Giêsu bằng những việc cụ thể nào?",
+				"answer": [
+						"Phải có tâm hồn trẻ thơ (đơn sơ, trong sáng, thật thà, hay khóc nhè nhưng không biết giận ghét ai hết).",
+						"Thích gần gũi ông bà cha mẹ, ôm bố mẹ, nói chuyện với các anh chị, quý thầy, quý sơ, các anh chị huynh trưởng.",
+						"Yêu thương mọi người, bạn bè trong lớp.",
+						"Siêng năng cầu nguyện với Ngài."]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Chúa Giêsu như người bạn thân luôn yêu thương và đồng hành với chúng ta. Em hãy siêng năng chạy đến với Ngài."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Noi gương Chúa Giêsu biết yêu thương anh chị em, mọi người xung quanh và làm một việc cụ thể để giúp mọi người."
 		]
 	},
 	{
 		"bookId": "KT2",
-		"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
-		"lessonId": "18",
-		"imageUrl": "images/KT2/B18.jpg",
-		"mainContent": [ "Bài Học 2" ],
-		"questions": [
-			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
-			},
-			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
-			}
-		],
-		"memoContent": [
-			"Chương 3"
-		],
-		"actions": [
-			"Câu hỏi 1 của Chương 2"
-		]
-	},
-	{
-		"bookId": "KT2",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "19",
-		"imageUrl": "images/KT2/B19.jpg",
+		"lessonTitle": "CHÚA GIÊSU DẠY CHO TA BIẾT THIÊN CHÚA LÀ CHA YÊU THƯƠNG",
+		"lessonId": "20",
+		"imageUrl": "images/KT2/B20.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Chúa Giêsu dạy cho ta biết Thiên Chúa là CHA luôn yêu thương, chăm sóc, lo lắng cho từng người chúng ta.",
+			"Ngài yêu thương chúng ta hơn tất cả mọi loài thụ tạo khác."
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Qua Lời Chúa, Chúa Giê-su cho các em thấy điều gì khi là một người cha?",
+				"answer": ["Chúa Giê-su nói về người cha luôn cho con cái mình những điều tốt đẹp nhất. Như cho con cá chứ không cho con rắn, cho trứng chứ không cho bọ cạp. Qua đó, Chúa muốn nói về Thiên Chúa, Ngài cũng giống như một người Cha sẵn sàng dành những điều tốt đẹp nhất cho chúng ta, là những người con của Chúa."]
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Nhớ lại bài, các em biết Ai dựng nên trời đất muôn vật? Ngài dựng lên những gì trước và ngày cuối cùng Ngài dựng nên ai?",
+				"answer": ["Thiên Chúa dựng nên trời đất muôn vật trong 6 ngày (kể trình tự các ngày tạo dựng), và ngày cuối cùng Thiên Chúa tạo dựng nên con người."]
+			},
+			{
+				"ask": "Các em biết tại sao Chúa lại dựng nên con người sau cùng không?",
+				"answer": ["Vì Thiên Chúa muốn chúng ta hưởng dùng và cai quản mọi loài. Qua đó các em thấy được Thiên Chúa rất yêu thương và luôn chăm sóc chúng ta."]
+			},
+			{
+				"ask": "Ngày nay, Thiên Chúa vẫn luôn yêu thương, quan tâm và lo lắng cho các em thông qua ông bà, cha mẹ, thầy cô, quý Cha, quý Thầy, Sơ, các anh cho huynh trưởng và mọi người. Em hãy kể những việc làm cho em thấy được tình yêu của Chúa qua mọi người?",
+				"answer": ["Cho các em kể ra. Đúc kết: Thiên Chúa không phải là Đấng xa vời, mà là một người Cha gần gũi, luôn hiện diện trong đời sống hàng ngày. => Chúng ta có một người Cha chung trên trời, và chúng ta là anh chị em với nhau."]
+			},
+			{
+				"ask": "Thiên Chúa là Cha luôn yêu thương chúng ta, để đáp lại tình yêu đó các em làm gì?",
+				"answer": ["Siêng năng cầu nguyện, nói chuyện với Chúa bằng việc đọc kinh Lạy Cha. Biết yêu thương giúp đỡ mọi người, giúp đỡ cha mẹ,…."]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Chúa Giêsu đã tỏ cho chúng ta biết Chúa Cha yêu thương ta vô cùng."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Đọc Kinh Lạy Cha mỗi ngày để cầu nguyện với Chúa Cha.",
+			"Yêu thương và giúp đỡ mọi người.",
+			"Không xả rác."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "YÊU NHAU NHƯ CHÚA YÊU",
+		"lessonId": "21",
+		"imageUrl": "images/KT2/B21.jpg",
+		"mainContent": [ "Chúa Giê-su dạy chúng ta phải yêu thương nhau như Chúa đã yêu thương chúng ta." ],
+		"questions": [
+			{
+				"ask": "Thiên Chúa là Cha yêu thương chúng ta vô cùng, Ngài ban chính con một của Ngài là Chúa Giêsu xuống thế làm Người để cứu độ chúng ta. Và tình yêu ấy được thể hiện rất rõ qua việc Ngài chịu chết trên cây Thánh Giá, đã hy sinh mạng sống của mình vì người khác. Vậy thì yêu thương nhau như chính Chúa yêu thương ta là như thế nào? ",
+				"answer": ["Chúa Giê-su dạy yêu thương tất cả mọi người, đặc biệt là những người nghèo khổ, bệnh tật. Và yêu thương cả những kẻ chống đối Ngài."]
+			},
+			{
+				"ask": "Các việc làm của em thể hiện tình yêu thương mọi người?",
+				"answer": ["Đối với Thiên Chúa: siêng năng đi lễ, đọc kinh, cầu nguyện…. Đối với ông bà, cha mẹ, bạn bè, mọi người: giúp đỡ, thăm hỏi,…"]
+			},
+			{
+				"ask": "Đã bao giờ em ganh ghét, thù hận, chơi xấu, nói xấu bạn bè chưa?",
+				"answer": ["Cho các em trả lời. Đúc kết: Yêu như Chúa là Chúa mời gọi các em vượt qua được sự ích kỷ, ghen ghét để sống hòa thuận, yêu thương nhau thật lòng. Noi gương Chúa tha thứ cho những ai làm em tổn thương. Vì chúng ta là anh em cùng một Cha chung trên trời."]
+			},
+			{
+				"ask": "Để học hỏi nơi tình yêu của Chúa em hãy siêng năng học hỏi giáo lý để hiểu Kinh Thánh, vì Kinh Thánh kể cho chúng ta bết rất nhiều điều về tình yêu Thiên Chúa. Các em có quyết tâm chăm chỉ đến lớp và học giáo lý không?",
+				"answer": ["Có. Để các em ngày càng trở nên người con ngoan của Chúa và là hình ảnh của Ngài nhé!"]
+			}
+		],
+		"memoContent": [
+			"Chúa Giê-su dạy cho chúng ta phải yêu thương nhau như chính Chúa yêu thương chúng ta."
+		],
+		"actions": [
+			"Thực hiện một việc yêu thương cụ thể mỗi ngày: ",
+			"+ Giúp đỡ bạn bè",
+			"+ Chia sẻ với người khó khăn",
+			"+ An ủi với người buồn phiền",
+			"+ Tha thứ cho những ai làm tổn thương em."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "GIÚP NGƯỜI KHÁC VUI LÀ LÀM VUI LÒNG CHÚA",
+		"lessonId": "22",
+		"imageUrl": "images/KT2/B22.jpg",
+		"mainContent": [
+			"Thiên Chúa đã sai con một của Ngài xuống trần gian mang thân phận con người để dạy chúng ta phải biết sống yêu thương nhau."
+		],
+		"questions": [
+			{
+				"ask": "Qua đoạn Tin mừng( Mt 25,35-40) Chúa Giêsu đã nói :“ Ta đói, các con cho ăn, Ta khát các con đã cho uống….” có nghĩa là gì?",
+				"answer": ["Khi các em làm như vậy cho người nghèo khổ đói khát, là các em đang làm cho chính Chúa."]
+			},
+			{
+				"ask": "Chúa dạy chúng ta phải yêu thương nhau.   Giúp người khác vui là làm vui lòng Chúa. Vậy các em có thể giúp họ bằng cách nào?",
+				"answer": ["Cầu nguyện cho họ. Chia sẻ cái bánh, quần áo, sách vở… Giúp đỡ ba mẹ( quét nhà, lau nhà, trông em…)"]
+			},
+			{
+				"ask": "Em làm thế nào để bắt chước Chúa Giêsu?",
+				"answer": ["Chúa Giêsu đã chịu nhiều khổ cực vất vả, sẵn sàng hy sinh vì chúng ta, vì vậy các em hãy noi gương Chúa Giêsu, luôn biết hy sinh giống như Chúa. Bắt chước Ngài, yêu thương quan tâm giúp dỡ những người nghèo khổ khi có cơ hội."]
+			},
+			{
+				"ask": "Em hãy kể ra 1 việc mà em đã giúp đỡ mọi người?",
+				"answer": ["Ba mẹ sai làm việc gì thì hãy làm giúp. Hoặc sau khi ăn cơm xong hãy lau bàn ăn, xếp ghế để đỡ đần ba mẹ."]
+			}
+			
+		],
+		"memoContent": [
+			"Thật lòng yêu thương giúp đỡ người khác.",
+			"Khi chúng ta yêu thương nhau, chúng ta phải có những hành động cụ thể."
+		],
+		"actions": [
+			"Các em cố gắng sống vui vẻ, tiếp đón những người hành khất giống như Chúa.",
+			"Tìm cơ hội làm vui lòng người khác, ông bà cha mẹ, thầy cô…chính là làm vui lòng Chúa."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚC TỤNG ĐẤNG NHÂN DANH CHÚA MÀ ĐẾN",
+		"lessonId": "23",
+		"imageUrl": "images/KT2/B23.jpg",
+		"mainContent": [
+			"Yêu mến và thường xuyên cầu nguyện với Chúa."
+		],
+		"questions": [
+			{
+				"ask": "Khi Chúa Giêsu vào Thành Giêrusalem, dân chúng đã làm gì?",
+				"answer": ["Một đám đông lấy áo choàng trải xuống mặt đường, một số khác thì chặt cành chặt lá mà trải trên lối đi của Ngài. Họ reo hò tung hô:\\” Hoan hô con Vua Đavit, chúc tụng Đấng ngự đến nhân danh Chúa. Hoan hô trên các tầng trời.\\”"]
+			},
+			{
+				"ask": "Các em có thấy hình ảnh dân chúng cầm lá tung hô Chúa Giêsu khi Ngài vào Thành Giêrusalem giống với ngày lễ nào?",
+				"answer": ["Lễ Lá. Ngày nay chúng ta cũng cầm lá tung hô Chúa như vậy."]
+			},
+			{
+				"ask": "Các em có biết ý nghĩa của ngày Lễ Lá không?",
+				"answer": ["Đó là ngày Chúa Giêsu vinh quang tiến vào Thành Giêrusalem , dân chúng đã trải áo, trải lá trên đường để chào đón Người. Họ tung hô vạn tuế con Vua Đavit. Người đi đến đâu dân chúng cũng hân hoan vui mừng đón Người.", " Ngày nay chúng ta cử hành Lễ lá để kỷ niệm sự kiện Chúa Giêsu vinh quang vào Thành Giêrusalem và chúng ta cùng nhau đọc lại tường thuật về cái chết đau thương của Chúa để cứu chuộc chúng ta."]
+			}
+			
+		],
+		"memoContent": [
+			"Lễ Lá là dịp kỷ niệm sự kiện Chúa vinh quang vào thành Giêrusalem",
+			"Lễ Lá là tường thuật về cái chết đau thương của Chúa vì cứu chuộc chúng ta vì Ngài yêu thương chúng ta."
+		],
+		"actions": [
+			"Để đáp lại tình yêu của Chúa,Các em hãy tin tưởng, phó thác vào Chúa trên mọi nẻo đường. nghĩa là khi gặp khó khăn, các em hãy luôn cầu nguyện với Chúa.Xin Chúa luôn ở lại với em và tất cả mọi người.",
+			"Các em phải sống ngoan, sống theo những gì Chúa dạy, vâng lời ba mẹ, yêu thương và giúp đỡ mọi người xung quanh."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "ANH EM HÃY ĐI KHẮP NƠI LOAN BÁO TIN MỪNG CHO MUÔN DÂN",
+		"lessonId": "26",
+		"imageUrl": "images/KT2/B26.jpg",
+		"mainContent": [
+			"Sau khi Chúa Giê-su sống lại, Ngài ở lại với các môn đệ 40 ngày để củng cố lòng tin và sai các ông đi loan báo Tin Mừng."
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giê-su chịu chết sau mấy ngày Ngài sống lại?",
+				"answer": ["Sau 3 ngày Ngài sống lại."]
+			},
+			{
+				"ask": "Chúa sống lại Ngài đã đi đâu và làm gì?",
+				"answer": ["Sau khi sống lại Chúa Chúa Giê-su đã hiện ra với nhiều người trước hết là bà Maria Madalena, rồi Ngài hiện ra với các tông đồ. Chúa ở lại với các tông đồ 40 ngày."]
+			},
+			{
+				"ask": "Khi Chúa hiện ra với các tông đồ câu đầu tiền Chúa nói với các ông là gì?",
+				"answer": ["Bình an cho anh em. Vì sau khi Chúa chết các môn đệ sợ hãi, và đã tan rã chở về quê của mình."]
+			},
+			{
+				"ask": "Vậy Chúa sống lại có ý nghĩa gì?",
+				"answer": ["Chúa sống lại để dạy dỗ, củng cố niềm tin cho các môn đệ. Và trước khi lên trời, Chúa trao cho các môn đệ nhiệm vụ: “Anh em hãy đi loan báo Tin Mừng cho muôn dân”, tức là Tin Mừng Chúa đã phục sinh như lời Ngài đã nói."]
+			},
+			{
+				"ask": "Chúa đã sống lại, đó là niềm tin của Người Công Giáo chúng ta, Ngài đã trao nhiệm vụ cho các môn đệ loan báo Tin Mừng này. Mệnh lệnh này cũng được trao cho chúng ta ngày chúng ta lãnh nhận Bí Tích Rửa Tội, vậy em làm gì để loan báo Tin Mừng của Chúa?",
+				"answer": ["Các em phải cố gắng ngoan ngoãn vâng lời Cha mẹ, thầy cô, các anh chị, khi đó các em đã loan báo Tin Mừng của Chúa cho mọi người rồi nhé."]
+			}  
+			
+		],
+		"memoContent": [
+			"Sau khi Chúa Giê-su sống lại, Ngài ở lại với các môn đệ 40 ngày để củng cố lòng tin và sai các ông đi loan báo Tin Mừng."
+		],
+		"actions": [
+			"Đời sống đạo:",
+			"+ Mỗi khi đi ngang qua nhà thờ, em bỏ nón, cúi đầu chào Chúa. Nếu có thể em vào nhà thờ viếng Chúa.",
+			"+ Chuẩn bị quần áo gọn gàng, sạch sẽ khi đến với Chúa. Mặc đúng đồng phục thiếu nhi Thánh Thể."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA GIÊ-SU LÊN TRỜI NGỰ BÊN HỮU CHÚA CHA",
+		"lessonId": "27",
+		"imageUrl": "images/KT2/B27.jpg",
+		"mainContent": [
+			"Chúa Giê-su sống lại sau 40 ngày Ngài lên trời ngự bên hữu Chúa Cha."
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giê-su sống lại Ngài ở thế gian bao nhiêu ngày? Rồi Ngài đi đâu?",
+				"answer": ["Ngài ở lại thế gian 40 ngày. Sau đó Ngài lên trời ngự bên hữu Chúa Cha."]
+			},
+			{
+				"ask": "Chúa Giê-su lên trời ngự bên hữu Chúa Cha nghĩa là gì?",
+				"answer": ["Chúa Giê-su từ Chúa Cha mà đến thế gian, nay Ngài trở về cùng Chúa Cha"]
+			},
+			{
+				"ask": "Chúa Giê-su đi trước để chuẩn bị chỗ cho chúng ta nghĩa là sao?",
+				"answer": ["Đó chính là Ngài chờ chúng ta ở trên nước Thiên Đàng,"]
+			},
+			{
+				"ask": "Em có muốn lên Thiên Đàng cùng Chúa không? Làm thế nào để lên thiên đàng?",
+				"answer": ["Có. Cho các em kể ra những việc làm tốt lành, tránh xa điều xấu… trở thành người con ngoan của Cha mẹ, con ngoan của Chúa thì mai này các em sẽ được ở trên Thiên Đàng với Ngài."]
+			}
+		],
+		"memoContent": [
+			"Chúa Giê-su lên trời, ngự bên hữu Chúa Cha là Ngài đi vào vinh quang với Chúa Cha, nhưng Ngài không xa cách chúng ta."
+		],
+		"actions": [
+			"Mỗi ngày em làm 1 việc bác ái như:",
+			"+ Giúp đỡ bạn, Không nói xấu bạn, Giúp đỡ cha mẹ làm việc…."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA THÁNH THẦN HIỆN XUỐNG",
+		"lessonId": "28",
+		"imageUrl": "images/KT2/B28.jpg",
+		"mainContent": [
+			"Yêu mến và cầu xin ơn Chúa Thánh Thần"
+		],
+		"questions": [
+			{
+				"ask": "Trong kinh Tin Kính mà chúng ta hay đọc vào ngày Chúa Nhật, ngoài việc chúng ta tuyên xưng Chúa Cha, Chúa Giêsu, và còn một ngôi Thiên Chúa nữa, các em có nhớ là ai không?",
+				"answer": ["Là Chúa Thánh Thần hay còn gọi là Ngôi Ba Thiên Chúa."]
+			},
+			{
+				"ask": "Ai dạy cho chúng ta biết về Chúa Thánh Thần?",
+				"answer": ["Chúng ta biết và kính nhớ Chúa Thánh Thần là nhờ Chúa Giêsu. Người đã dạy cho chúng ta không chỉ biết Chúa Cha, mà còn biết cả về Ngôi ba Thiên Chúa."]
+			},
+			{
+				"ask": "Chúa Giêsu đã về trời, vậy Ngài còn ở bên chúng ta không?",
+				"answer": ["Chúa Giêsu mặc dù đã về trời ngự bên hữu Chúa Cha, Nhưng Ngài vẫn luôn ở gần chúng ta là vì Chúa Giêsu đã hứa ban Chúa Thánh Thần cho chúng ta."]
+			},
+			{
+				"ask": "Chúa Thánh Thần có những Danh Xưng nào?",
+				"answer": ["Trong Kinh Thánh Chúa TT có rất nhiều danh xưng: THẦN KHÍ, ĐẤNG BẢO TRỢ, ĐẤNG AN ỦI, THẦN CHÂN LÝ"]
+			},
+			{
+				"ask": "Chúa Thánh Thần ngự xuống vào ngày lễ gì?",
+				"answer": ["LỄ NGŨ TUẦN"]
+			},
+			{
+				"ask": "Chúa Thánh Thần đã ban đầy tràn ân sủng cho các môn đệ, đó là những ơn gì?",
+				"answer": ["ƠN KHÔN NGOAN .ƠN HIỂU BIẾT, ƠN BIẾT LO LIỆU ,ƠN THÔNG MINH, ƠN SỨC MẠNH, ƠN ĐẠO ĐỨC, ƠN KÍNH SỢ CHÚA"]
+			} 
+		],
+		"memoContent": [
+			"Chúa Thánh Thần là Đấng nào? Ngài ban cho ta những Ơn gì? Ơn ấy giúp gì cho chúng ta."
+		],
+		"actions": [
+			"Các em nhớ hãy cầu nguyện thường xuyên với Chúa Thánh Thần để biết lắng nghe ý Chúa muốn, hiểu được Lời Chúa và sống được lời Chúa dạy nhé."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "HỘI THÁNH LÀ GIA ĐÌNH CỦA CHÚA",
+		"lessonId": "29",
+		"imageUrl": "images/KT2/B29.jpg",
+		"mainContent": [
+			"Hội Thánh là gia đình của Chúa, chúng ta phải yêu mến và gắn bó với Giáo xứ"
+		],
+		"questions": [
+			{
+				"ask": "Sau khi Chúa Giêsu về trời, ai tiếp tục công việc của Người ở trần gian?",
+				"answer": ["Sau khi Chúa Giêsu về trời thì Hội Thánh do Người sáng lập tiếp tục công việc cứu độ nhân loại cho đến ngày tận thế."]
+			},
+			{
+				"ask": "Gia đình các em gồm có những ai ?",
+				"answer": ["Chúng ta đươc sinh ra và lớn lên trong gia đình có ông bà cha mẹ… anh chị em. Khi chung sta được sinh ra, và được làm con cái Chúa qua Bí Tích rửa tội, thì chúng ta còn có thêm một gia đình nữa, đó là Gia đình Hội Thánh."]
+			},
+			{
+				"ask": "Hội Thánh là gia đình của ai?",
+				"answer": ["Hội Thánh là gia đình của Chúa, cũng như gia đình chúng ta có ông bà cha mẹ thì gia đình HT cũng vậy, có Đức Giáo Hoàng, Đức Giám Mục, Cha Xứ, cha Tuyên Uý.. và toàn thể chúng ta nữa.",
+				"Các em là con cái của Chúa, cũng là con cái trong gia đình Hội Thánh của Chúa. Vì vậy các em hãy cầu nguyện cho ĐGH, ĐGM, cho quý cha, đặc biệt là cha Tuyên Uý của mình nhé."]
+			},
+			{
+				"ask": "Để xứng đáng trở thành con ngoan của Hội Thánh thì các em phải làm gì?",
+				"answer": ["Chúng ta phải ngoan ngoãn, vâng lời, giúp đỡ và yêu thương ông bà cha mẹ, chăm chỉ học hành, siêng năng tham dự Thánh Lễ, đọc kinh cầu nguyện…"]
+			}
+		],
+		"memoContent": [
+			"Hội Thánh là gia đình của Chúa, vì Hội Thánh là do Chúa sáng lập, để tiếp tục công cuộc cứu chuộc nhân loại cho đến ngày hôm nay, vì thế, chúng ta là con cái của Chúa, cũng là con cái của Hội Thánh.vì vậy, để xứng đáng là con ngoan của Chúa, các em phải sống ngoan."
+		],
+		"actions": [
+			"Các em vui vẻ làm điều mẹ sai bảo. thăm 1 bạn có đạo để nhớ rằng mình cùng thuộc về Hội Thánh Chúa. Thăm 1 bạn chưa có đạo để nhớ mình có bổn phận phải truyền giáo."
 		]
 	}
 ]

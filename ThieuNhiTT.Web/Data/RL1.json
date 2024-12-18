@@ -1,111 +1,194 @@
 [
-		{
-			"bookId": "RL1",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "01",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "RL1",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "02",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "RL1",
-			"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-			"lessonId": "03",
-			"mainContent": [
-				"Bài Học 1",
-				"Main content 2"
-			],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 2",
-				"memo content 2",
-				"memo content 3"
-			],
-			"actions": [
-				"action 1",
-				"action 2",
-				"action 3"
-			]
-		},
-		{
-			"bookId": "RL1",
-			"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
-			"lessonId": "01",
-			"mainContent": [ "Bài Học 2" ],
-			"questions": [
-				{
-					"ask": "Câu hỏi 1 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 1"
-				},
-				{
-					"ask": "Câu hỏi 2 của Ý Chính",
-					"answer": "Gợi ý trả lời câu hỏi 2"
-				}
-			],
-			"memoContent": [
-				"Chương 3"
-			],
-			"actions": [
-				"Câu hỏi 1 của Chương 2"
-			]
-		}
+	{
+		"bookId": "RL1",
+		"lessonTitle": "CHÚA GIÊ-SU LÀ MỤC TỬ TỐT LÀNH",
+		"lessonId": "12",
+		"imageUrl": "images/RL1/B12.jpg",
+		"mainContent": [
+			"Nhận biết Chúa Giê-su là Thiên Chúa, Đấng vì yêu ta mà đến.",
+			"Nhận biết những việc Chúa Giê-su đã làm vì yêu ta.",
+			"Biết thực hành lòng mến Chúa"
+		],
+		"questions": [
+			{
+				"ask": "Ai tự nhận mình là Mục Tử nhân lành, hy sinh tính mạng vì đoàn chiên?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su đã làm gì để chứng minh Ngài là Mục Tử nhân lành?",
+				"answer": []
+			},
+			{
+				"ask": "Vì sao chúng ta gọi Chúa Giê-su là mục tử tốt lành?",
+				"answer": []
+			},
+			{
+				"ask": "Em phải làm gì để đáp lại tình thương của Chúa?",
+				"answer": []
+			},
+			{
+				"ask": "Là con chiên của Chúa, em thường làm gì để truyền rao tình thương của Chúa đến với mọi người?",
+				"answer": []
+			}
+		],
+		"memoContent": [
+			"Chúa Giê-su là mục tử tốt lành, hy sinh tất cả cho ta và yêu thương ta vô điều kiện.",
+			"Chúa Giê-su là người hiểu rỏ ta, ở với Ngài giúp ta hiểu chính mình hơn."
+		],
+		"actions": [
+			"Cảm nhận tình thương của vị Mục Tử Nhân Lành, em thực hành sống mến thương tha nhân bằng hành động cụ thể mỗi ngày."
+		]
+	},
+	{
+		"bookId": "RL1",
+		"lessonTitle": "CHÚA GIÊ-SU CHỊU CHẾT VÀ SỐNG LẠI",
+		"lessonId": "13",
+		"imageUrl": "images/RL1/B13.jpg",
+		"mainContent": [
+			"Nhận biết Chúa Giê-su là Đấng đã chết thật và sống lại thật.",
+			"Hiểu biết việc Chúa chết đi và sống lại có tầm quan trọng như thế nào."
+		],
+		"questions": [
+			{
+				"ask": "Ai là người đầu tiên đi ra mộ thăm Chúa Giê-su?",
+				"answer": []
+			},
+			{
+				"ask": "Các người phụ nữ đã gặp ai khi ra thăm mộ Chúa Giê-su?",
+				"answer": []
+			},
+			{
+				"ask": "Thiên Thần đã nói gì với các người phụ nữ?",
+				"answer": []
+			},
+			{
+				"ask": "Thiên Thần đã nhờ các người phụ nữ làm gì khi trở về nhà?",
+				"answer": []
+			},
+			{
+				"ask": "Ai nói rằng Chúa sẽ trỗi dậy sau khi Ngài chịu chết?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa chịu chết trên Cây Thập Giá đến ngày thứ mấy người sống lại?",
+				"answer": []
+			},
+			{
+				"ask": "Tại sao Chúa Giê-su lại phải chịu chết?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su sống lại có ý nghĩa gì?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su đã nói gì về cái chết của Ngài?",
+				"answer": []
+			}
+		],
+		"memoContent": [
+			"Chúa Giê-su là Đấng đã chết thật và sống lại thật",
+			"Chúa Giê-su biết trước cái chết của Ngài nhưng vẫn chấp nhận để thi hành kế hoạch yêu thương và cứu độ của Chúa Cha",
+			"Chúng ta sống trong niềm hy vọng vào Chúa Phục Sinh"
+		],
+		"actions": [
+			"Nhớ đến tình yêu của Chúa chịu chết vì ta, ta làm một việc hy sinh cho anh chị em của mình.",
+			"Nhớ đến việc Chúa Phục Sinh cho ta niềm hy vọng, ta cầu cho những người thân đã mất sớm ngày được hưỡng nhan Thánh Chúa."
+		]
+	},
+	{
+		"bookId": "RL1",
+		"lessonTitle": "CHÚA GIÊ-SU ĐƯỢC TÔN VINH",
+		"lessonId": "14",
+		"imageUrl": "images/RL1/B14.jpg",
+		"mainContent": [
+			"Biết được Chúa Giê-su được tôn vinh như thế nào sau khi Ngài chịu chết.",
+			"Hiểu và tin vào lời Kinh Tin Kính em đọc mỗi lễ CN."
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giê-su được tôn vinh như thế nào sau khi Ngài chịu chết?",
+				"answer": []
+			},
+			{
+				"ask": "Các môn đệ có cảm xúc như thế nào khi thấy Chúa Giê-su được đem lên trời?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su lên trời có nghĩa là mỗi lần em đi máy bay lên trời sẽ nhìn thấy Ngài đúng không?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su muốn các tông đồ làm gì giúp Ngài khi Ngài về trời?",
+				"answer": []
+			},
+			{
+				"ask": "Sau các Tông Đồ, Chúa muốn ai tiếp tục công việc của Ngài ở trần gian?",
+				"answer": []
+			},
+			{
+				"ask": "Em có muốn được tôn vinh như Chúa Giê-su không? Nếu muốn thì em phải làm gì để được tôn vinh như Ngài?",
+				"answer": []
+			}
+		],
+		"memoContent": [
+			"Chúa Giê-su đã được tôn vinh và đem lên trời sau khi Ngài chịu chết.",
+			"Chúa muốn em được tôn vinh giống như Ngài"
+		],
+		"actions": [
+			"Em sống yêu mến Chúa: đi lễ, đọc kinh sáng tối, cầu nguyện thường xuyên. Yêu mến mọi người: giúp đỡ, chia sẽ, mĩm cười và đón nhận họ."
+		]
+	},
+	{
+		"bookId": "RL1",
+		"lessonTitle": "CHÚA GIÊ-SU QUY TỤ CHÚNG TA",
+		"lessonId": "15",
+		"imageUrl": "images/RL1/B15.jpg",
+		"mainContent": [
+			"Tin rằng Chúa lại đến để phân xử thế gian.",
+			"Biết cách sống như đàn chiên của Chúa.",
+			"Hiểu về mầu nhiệm các Thánh thông công và Giáo Hội"
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giê-su sẽ lại đến thế gian vào ngày nào?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su lại đến thế gian để làm gì?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa nói em nhìn thấy hình ảnh của Chúa khi nhìn thấy ai?",
+				"answer": []
+			},
+			{
+				"ask": "Em đã làm gì cho những người mang hình ảnh Chúa?",
+				"answer": []
+			},
+			{
+				"ask": "Mầu nhiệm các Thánh thông công là sao?",
+				"answer": []
+			},
+			{
+				"ask": "Tại sao gọi Giáo Hội là gia đình của Chúa?",
+				"answer": []
+			},
+			{
+				"ask": "Chúa Giê-su quy tụ chúng ta trong Giáo Hội để làm gì?",
+				"answer": []
+			}
+		],
+		"memoContent": [
+			"Chúa Giê-su sẽ đến thế gian vào ngày tận thế phân xử người tốt và người xấu.",
+			"Mầu nhiệm các Thánh thông công là các tín hữu ở trần gian, linh hồn nơi luyện ngục và các Thánh trên Thiên Đàng cùng hiệp thông trong Chúa và chia sẽ mọi người ơn lành cho nhau.",
+			"Giáo Hội là gia đình của Chúa.",
+			"Chúa quy tụ chúng ta trong  Giáo Hội để yêu thương và rao giảng Tin Mừng để hợp nhất mọi người trong nhà Cha trên trời"
+		],
+		"actions": [
+			"Em quan tâm giúp đở những người mang hình ảnh Chúa.",
+			"Em cầu nguyện cho ngôi nhà chung Giáo Hội của em",
+			"Em tin vào mầu nhiệm các Thánh thông công và thường xuyên cầu nguyện cho các Đẳng Linh Hồn."
+		]
+	}
 ]

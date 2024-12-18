@@ -1,111 +1,124 @@
 [
 	{
 		"bookId": "TS1",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "01",
+		"lessonTitle": "NHỮNG HÌNH ẢNH VỀ ĐẤNG CỨU ĐỘ",
+		"lessonId": "12",
+		"imageUrl": "images/TS1/B12.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Tìm hiểu hình ảnh Đấng Cứu Độ qua các ngôn sứ."
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Đấng Cứu Thế mà dân Chúa mong đợi được các ngôn sứ giới thiệu dưới những tước hiệu nào?",
+				"answer": ["Dưới 3 tước hiệu chính:",
+				"Con vua Đavít (2 Sm 7, 12 – 14).",
+				"Con Người từ trời xuống (Đấng Thiên Sai) (Đn 7, 8.13).",
+				"Tôi Tớ khiêm tốn, chịu nhiều đau khổ (Is 53)."
+				]
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Trong ba tước hiệu ấy, dân Chúa để ý đến tước hiệu nào?",
+				"answer": ["Để ý đến tước hiệu:",
+				"Con vua Đavít",
+				"Con Người",
+				"Hai tước hiệu này có vẻ vinh quang. Người Tôi Tớ ít được để ý vì quá khiêm tốn."
+				]
+			},
+			{
+				"ask": "Khi Chúa Giêsu đến, Người sống theo hình ảnh nào?",
+				"answer": ["Khi Chúa Giêsu đến, Người sống và chết như Người Tôi Tớ của Thiên Chúa."]
+			},
+			{
+				"ask": "Vậy, kinh nào tuyên xưng việc Chúa Giêsu xuống thế làm người?",
+				"answer": [ "&quot;Kinh Tin Kính &quot;Vì loài người chúng ta, và để cứu độ chúng ta, Người đã từ trời xuống  thế." ]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Thiên Chúa luôn yêu thương dân Ngài. Ngài hứa sẽ có một Đấng đến cứu vớt mọi người. Đấng ấy chính là Đức Giêsu, được sai xuống từ Trời, sinh làm người thuộc dòng tộc vua Đavít, nhưng lại chấp nhận làm một người Tôi Tớ hiền lành khiêm nhường, gánh chịu hết mọi khổ đau của nhân loại và chết trên Thập giá."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Không cãi nhau.",
+			"Không chửi tục."
 		]
 	},
 	{
 		"bookId": "TS1",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "02",
+		"lessonTitle": "DÂN THIÊN CHÚA ĐẤU TRANH GIÀNH ĐỘC LẬP",
+		"lessonId": "13",
+		"imageUrl": "images/TS1/B13.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Các cuộc đấu tranh giành độc lập của dân Do Thái."
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Từ lưu đày Babylon trở về, người Do thái có được hưởng độc lập tự do không?",
+				"answer": ["Không được hưởng độc lập và tự do trọn vẹn:",
+				"Họ liên tiếp bị các đế quốc như Ba Tư, Hy Lạp, Rôma cai trị.",
+				"Thông thường, họ chỉ được tự do tôn giáo, nhưng cũng có lúc khó khăn."
+				]
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Cuộc đấu tranh nào là mãnh liệt nhất trong thời kỳ này?",
+				"answer": ["Là cuộc khởi nghĩa dưới quyền lãnh đạo của anh em nhà Macabê chống lại hoàng đế Antiôkhô IV",
+				"Ông này bắt người Do thái phải bỏ đạo để theo văn hóa và tôn giáo Hy lạp."
+				]
+			},
+			{
+				"ask": "Các cuộc đấu tranh thất bại giúp dân Chúa nhận ra điều gì?",
+				"answer": ["Giúp họ nhận ra rằng: Đấng Cứu Độ đích thực là Thiên Chúa."]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Dân Israel chờ mong Thiên Chúa gửi Đấng Cứu Tinh đến giải thoát họ khỏi ách đô hộ, tìm lại độc lập tự do. Nhiều cuộc khởi nghĩa với những vị thủ lãnh anh dũng đều thất bại. Và người ta tiếp tục chờ đợi.",
+			"Thật ra Thiên Chúa muốn gửi một Đấng cứu muôn dân khỏi ách nô lệ tội lỗi và sự chết. Đấng ấy chính là Đức Giêsu Kitô."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Siêng năng tham dự Thánh Lễ.",
+			"Tôn trọng mọi người."
 		]
 	},
 	{
 		"bookId": "TS1",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "03",
+		"lessonTitle": "XỨ PALESTINE THỜI  CHÚA GIÊSU",
+		"lessonId": "14",
+		"imageUrl": "images/TS1/B14.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Palestine là quê hương trần gian nơi Chúa Giêsu sinh ra làm người."
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
+				"ask": "Em hãy cho biết vị trí xứ Palestine thời Chúa Giêsu?",
+				"answer": ["Vị trí Palestine:",
+				"Bờ  Địa Trung Hải.",
+				"Bắc – Nam: 200km",
+				"Tây – Đông: 60km",
+				"Phía Đông: có sông Gio-đan chảy từ núi Hermon qua hồ Galilê đổ ra Biển Chết."
+				]
 			},
 			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
+				"ask": "Xứ Palestine thời Chúa Giêsu được phân chia như thế nào?",
+				"answer": ["Địa lý:",
+				"Miền Bắc: Ga-li-lê.",
+				"Miền Trung: Sa- ma-ri",
+				"Miền Nam: Giu-đê-a có thành thánh Giêrusalem."
+				]
+			},
+			{
+				"ask": "Vào thời Chúa Giêsu, tình trạng dân chúng ở Palestine thế nào?",
+				"answer": [
+				"Đa số dân chúng nghèo",
+				"Làm nghề trồng nho, trồng lúa mì, chăn nuôi bò, cừu.",
+				"Một số khác làm nghề chài lưới và buôn bán.",
+				"Phải nộp thuế và đi lính cho đế quốc Rôma."
+				]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Palestine ,quê hương của Chúa Giêsu, là miền đất nhỏ, nghèo, lại còn bị đô hộ bởi đế quốc Rôma. Đây chỉ là quê hương trần gian nơi Chúa Giêsu sinh ra làm người. Miên đất Thiên Chúa hứa chính là Nước Trời mai sau, quê hương vĩnh cửu của muôn dân."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
-		]
-	},
-	{
-		"bookId": "TS1",
-		"lessonTitle": "CHÚA GIÊSU LUÔN YÊU THƯƠNG TA",
-		"lessonId": "01",
-		"mainContent": [ "Bài Học 2" ],
-		"questions": [
-			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 1"
-			},
-			{
-				"ask": "Câu hỏi 2 của Ý Chính",
-				"answer": "Gợi ý trả lời câu hỏi 2"
-			}
-		],
-		"memoContent": [
-			"Chương 3"
-		],
-		"actions": [
-			"Câu hỏi 1 của Chương 2"
+			"Học thật giỏi để mai sau giúp ích cho đất nước.",
+			"Chăm học Giáo Lý để xứng đáng là công dân của Nước Trời."
 		]
 	}
 ]

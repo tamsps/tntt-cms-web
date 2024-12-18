@@ -1,5 +1,7 @@
 ﻿@model Lesson
-	
+@{
+	int questionId = 1;
+}
 
 
 <!-- Breadcrumb -->
@@ -52,8 +54,8 @@
 						@foreach (var content in Model.MainContent)
 						{
 							{
-								<p class="f1-s-11 cl6 p-b-25">
-								 @content
+								<p class="f1-s-11 p-b-25">
+								 @Html.Raw(content)
 								</p>
 							}
 						}
@@ -62,16 +64,21 @@
 									B. HỆ THỐNG CÂU HỎI
 							</h5>
 						</div>
+
 						@foreach (var QandA in Model.Questions)
 						{
-							{
-								<p class="f1-s-11 cl6 p-b-25">
-									@QandA.Ask
+								<p class="f1-s-11" style="font-style:italic">
+								<b>Câu @questionId. @Html.Raw(QandA.Ask)</b>
+									<ul style="padding-bottom:20px;">
+										@foreach (var answer in QandA.Answer)
+										{
+												<li>
+														@Html.Raw(answer)
+												</li>
+										}
+								</ul>
 								</p>
-								<p class="f1-s-11 cl6 p-b-25">
-									@QandA.Answer
-								</p>
-							}
+								questionId = @questionId + 1;
 						}
 
 						<div class="p-t-16">
@@ -82,8 +89,8 @@
 						@foreach (var content in Model.MemoContent)
 						{
 							{
-								<p class="f1-s-11 cl6 p-b-25">
-									@content
+								<p class="f1-s-11">
+									@Html.Raw(content)
 								</p>
 							}
 						}
@@ -96,8 +103,8 @@
 						@foreach (var action in Model.Actions)
 						{
 							{
-								<p class="f1-s-11 cl6 p-b-25">
-									@action
+								<p class="f1-s-11">
+									@Html.Raw(action)
 								</p>
 							}
 						}

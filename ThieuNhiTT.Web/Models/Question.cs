@@ -8,6 +8,6 @@ namespace ThieuNhiTT.Web.Models
 				public string Ask { get; set; }
 
 				[JsonPropertyName("answer")]
-				public string Answer { get; set; }
+				public List<string> Answer { get; set; }
 		}
 }

@@ -10,23 +10,23 @@
 		"questions": [
 			{
 				"ask": "Mỗi sáng thức dậy em sẽ làm gì ?",
-				"answer": "Em làm dấu, đọc kinh, cầu nguyện cùng Chúa, em vệ sinh cá nhân "
+				"answer": ["Em làm dấu, đọc kinh, cầu nguyện cùng Chúa, em vệ sinh cá nhân "]
 			},
 			{
 				"ask": "Ở nhà em làm những công việc gì để phụ ba mẹ ",
-				"answer": "Quét nhà, trông em, gấp đồ,.."
+				"answer": ["Quét nhà, trông em, gấp đồ,.."]
 			},
 			{
 				"ask": "Em có tự làm việc phục vụ bản thân mình không ?",
-				"answer": "Em tự thay đồ, xếp chăn màn gọn gàng, đánh răng, rửa mặt, chải đầu. </br/>Chúa Giêsu cũng là mẫu gương làm việc cho chúng ta noi theo, lúc nhỏ Chúa Giê su phụ thánh Giuse trong nghề thợ mộc, ngoài ra Chúa Giêsu còn hoàn tất công việc Chúa Cha trao phó "
+				"answer": ["Em tự thay đồ, xếp chăn màn gọn gàng, đánh răng, rửa mặt, chải đầu. </br/>Chúa Giêsu cũng là mẫu gương làm việc cho chúng ta noi theo, lúc nhỏ Chúa Giê su phụ thánh Giuse trong nghề thợ mộc, ngoài ra Chúa Giêsu còn hoàn tất công việc Chúa Cha trao phó "]
 			},
 			{
 				"ask": "Chúa đã ban cho các em đôi tay để làm gì các em biết không?",
-				"answer": "Để làm việc, để giúp đỡ cha mẹ, để làm dấu Thánh Giá...."
+				"answer": ["Để làm việc, để giúp đỡ cha mẹ, để làm dấu Thánh Giá...."]
 			},
 			{
 				"ask": "Vậy muốn đôi tay luôn sạch đẹp em cần làm gì?",
-				"answer": "Thường xuyên rửa tay, cắt móng tay..."
+				"answer": ["Thường xuyên rửa tay, cắt móng tay..."]
 			}
 		],
 		"memoContent": [
@@ -51,19 +51,19 @@
 		"questions": [
 			{
 				"ask": "Khi xưa, các môn đệ đi rao giảng Tin mừng, để cho mọi người biết về Chúa, các em có biết các môn đệ đi bằng gì không?",
-				"answer": "Đi bằng đôi chân"
+				"answer": ["Đi bằng đôi chân"]
 			},
 			{
 				"ask": "Các môn đệ Chúa dùng đôi chân để đi rao giảng, còn các em dùng đôi chân Chúa ban cho để làm gì?",
-				"answer": "Đi lại, chạy, nhảy, múa..."
+				"answer": ["Đi lại, chạy, nhảy, múa..."]
 			},
 			{
 				"ask": "Nhưng lại có người bất hạnh hơn, họ có chân mà không đi được, họ là những ai?",
-				"answer": "Những người khuyết tật, những người bị teo chân vì bệnh, người bị tai nạn ..."
+				"answer": ["Những người khuyết tật, những người bị teo chân vì bệnh, người bị tai nạn ..."]
 			},
 			{
 				"ask": "Vậy các em thấy chúng ta còn may mắn hơn rất nhiều người, vậy các em khi thấy Vậy các em thấy chúng ta còn may mắn hơn rất nhiều người, vậy các em khi thấy người tàn tật, què quặt các em cần làm gì?",
-				"answer": "Giúp đỡ họ qua đường, không cười nhạo, trêu chọc ..."
+				"answer": ["Giúp đỡ họ qua đường, không cười nhạo, trêu chọc ..."]
 			}
 		],
 		"memoContent": [
@@ -88,23 +88,23 @@
 		"questions": [
 			{
 				"ask": "Khi còn là em bé, ba mẹ đã chăm sóc các em như thế nào?",
-				"answer": "Được ba mẹ bế ẵm, đút cơm, tắm rửa, thay quần áo, chải đầu,..."
+				"answer": ["Được ba mẹ bế ẵm, đút cơm, tắm rửa, thay quần áo, chải đầu,..."]
 			},
 			{
 				"ask": "Nay em đã lớn rồi, vậy các em tập làm những việc gì để ba mẹ đỡ vất vả?",
-				"answer": "Tự làm việc phục vụ bản thân, phụ giúp công việc nhà,...."
+				"answer": ["Tự làm việc phục vụ bản thân, phụ giúp công việc nhà,...."]
 			},
 			{
 				"ask": "Em có biết vì sao Chúa Giêsu được mọi người yêu thương khôn?",
-				"answer": "Vì Chúa sống hiền hòa với mọi người xung quanh, ngoan ngoãn, lễ phép, phụ giúp Thánh Giuse và Mẹ Maria"
+				"answer": ["Vì Chúa sống hiền hòa với mọi người xung quanh, ngoan ngoãn, lễ phép, phụ giúp Thánh Giuse và Mẹ Maria"]
 			},
 			{
 				"ask": "Để được mọi người yêu mến giống Chúa Giêsu em cần làm gì? ",
-				"answer": "Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ...."
+				"answer": ["Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ...."]
 			},
 			{
 				"ask": "Đối với Thiên Chúa em cần có bổn phận gì?",
-				"answer": "Chăm đến nhà thờ, siêng năng thưa chuyện với Chúa, chuyên cần đi học giáo lý"
+				"answer": ["Chăm đến nhà thờ, siêng năng thưa chuyện với Chúa, chuyên cần đi học giáo lý"]
 			}
 		],
 		"memoContent": [
@@ -127,23 +127,23 @@
 		"questions": [
 			{
 				"ask": "Ba mẹ thương các em như thế nào các em biết không?",
-				"answer": "Ba mẹ săn sóc các em từng li từng tí, mua quần áo đẹp, cho đi chơi, mua đồ chơi... làm mọi chuyện cho em vui"
+				"answer": ["Ba mẹ săn sóc các em từng li từng tí, mua quần áo đẹp, cho đi chơi, mua đồ chơi... làm mọi chuyện cho em vui"]
 			},
 			{
 				"ask": "Về phần em, em sẽ làm gì để ba mẹ vui lòng?",
-				"answer": "Chăm ngoan học giỏi, đạt nhiều điểm 10, được thầy cô khen..."
+				"answer": ["Chăm ngoan học giỏi, đạt nhiều điểm 10, được thầy cô khen..."]
 			},
 			{
 				"ask": "Vì sao Chúa yêu trẻ thơ?",
-				"answer": "Vì các em đơn sơ, thật thà, ngoan ngoãn, chưa phạm tội"
+				"answer": ["Vì các em đơn sơ, thật thà, ngoan ngoãn, chưa phạm tội"]
 			},
 			{
 				"ask": "Để được Chúa yêu thương mãi các em cần sống thế nào?",
-				"answer": "Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ..."
+				"answer": ["Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ..."]
 			},
 			{
 				"ask": "Đối với Thiên Chúa em cần có bổn phận gì?",
-				"answer": "Làm bạn với Chúa, thật thà ngay thẳng, đừng giận bạn, không chửi tục..."
+				"answer": ["Làm bạn với Chúa, thật thà ngay thẳng, đừng giận bạn, không chửi tục..."]
 			}
 		],
 		"memoContent": [
@@ -166,19 +166,19 @@
 		"questions": [
 			{
 				"ask": "Chúa Giêsu xuống trần gian, vì Chúa yêu thương con người và muốn giới thiệu cho con người biết về Thiên Chúa Cha là Đấng rất nhân từ. Các em có biết nhân từ là gì không?",
-				"answer": "Nhân từ là người rất hiền lành, giàu lòng vị tha"
+				"answer": ["Nhân từ là người rất hiền lành, giàu lòng vị tha"]
 			},
 			{
 				"ask": "Qua đoạn lời Chúa (Mt 12, 18-21) các em nghe, cây cỏ lau bị giập, Ngài cột vào một cây tựa để cây lau được sống, tim đèn leo lét sắp tắt, Ngài đổ thêm dầu vào giúp đèn sáng dần lên... qua những việc đó chúng ta biết Chúa là người như thế nào?",
-				"answer": "Ngài nhân từ, nhẫn nại"
+				"answer": ["Ngài nhân từ, nhẫn nại"]
 			},
 			{
 				"ask": "Chúa nhân từ như thế nào, em có thể kể việc Chúa đã làm em cảm nhận được điều đó?",
-				"answer": "Chúa làm phép lạ chữa lành bệnh tật, Chúa yêu thương trẻ em, Chúa chịu chết trên Thánh giá chuộc tội cho loài người..."
+				"answer": ["Chúa làm phép lạ chữa lành bệnh tật, Chúa yêu thương trẻ em, Chúa chịu chết trên Thánh giá chuộc tội cho loài người..."]
 			},
 			{
 				"ask": "Vậy em muốn làm vui lòng Chúa em sẽ làm gì?",
-				"answer": "Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ..."
+				"answer": ["Vâng lời, chăm ngoan, làm các việc giúp đỡ ba mẹ..."]
 			}
 		],
 		"memoContent": [
@@ -202,15 +202,15 @@
 		"questions": [
 			{
 				"ask": "Ai ban cho em có mẹ có cha?",
-				"answer": "Chính Chúa, nhờ có cha có mẹ em được nuôi dưỡng, được chăm sóc, được yêu thương..."
+				"answer": ["Chính Chúa, nhờ có cha có mẹ em được nuôi dưỡng, được chăm sóc, được yêu thương..."]
 			},
 			{
 				"ask": "Vì sao Chúa quan tâm chúng ta như vậy?",
-				"answer": "Vì Chúa yêu thương chúng ta"
+				"answer": ["Vì Chúa yêu thương chúng ta"]
 			},
 			{
 				"ask": "Vậy các em có yêu Chúa không, em yêu Ngài như thế nào?",
-				"answer": "Yêu Chúa, yêu Ngài hết lòng hết sức hết trí khôn, yêu Ngài trọn đời"
+				"answer": ["Yêu Chúa, yêu Ngài hết lòng hết sức hết trí khôn, yêu Ngài trọn đời"]
 			}
 		],
 		"memoContent": [
