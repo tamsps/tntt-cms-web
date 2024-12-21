@@ -3,9 +3,14 @@
 	ViewData["RenderBody"] = false;
 	var newsMain = ViewData["NewsMain"] as News;
 	var newsOther = ViewData["NewsList"] as List<News>;
+	var fullUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}{Context.Request.QueryString}";
 }
 @model News
-
+<style>
+	.indented {
+		text-indent: 30px;
+	}
+</style>
 <!-- Breadcrumb -->
 <div class="container">
 	<div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
@@ -46,7 +51,7 @@
 						<div class="flex-wr-s-s p-b-40">
 							<span class="f1-s-3 cl8 m-r-15">
 								<a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
-									 @Html.Raw(@Model.Author)
+									 @Html.Raw(@Model.Type)
 								</a>
 
 								<span class="m-rl-3">-</span>
@@ -56,9 +61,9 @@
 								</span>
 							</span>
 
-							<span class="f1-s-3 cl8 m-r-15">
+						@* 	<span class="f1-s-3 cl8 m-r-15">
 								5239 Views
-							</span>
+							</span> *@
 
 						@* 	<a href="#" class="f1-s-3 cl8 hov-cl10 trans-03 m-r-15">
 								0 Comment
@@ -70,7 +75,7 @@
 						</div>
 						@foreach (var content in Model.MainContent)
             {
-							<p class="f1-s-11 cl6 p-b-25">
+							<p class="f1-s-11 cl6 p-b-25 indented">
                  @Html.Raw(content)
               </p>
             }
@@ -88,7 +93,11 @@
 						</p> *@
 
 						<!-- Tag -->
-						
+						<div class="flex-s-s p-t-12 p-b-15">
+							<div class="flex-wr-s-s size-w-0" style="display:flow;text-align:right">
+								<b>	@Model.Author</b>
+							</div>
+						</div>
 
 						<!-- Share -->
 						<div class="flex-s-s">
@@ -97,7 +106,7 @@
 							</span>
 
 							<div class="flex-wr-s-s size-w-0">
-								<a href="#" class="dis-block f1-s-13 cl0 bg-facebook borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+								<a href="https://www.facebook.com/sharer/sharer.php?u=@Uri.EscapeDataString(fullUrl)" class="dis-block f1-s-13 cl0 bg-facebook borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
 									<i class="fab fa-facebook-f m-r-7"></i>
 									Facebook
 								</a>
@@ -107,7 +116,7 @@
 									Twitter
 								</a>
 
-								<a href="#" class="dis-block f1-s-13 cl0 bg-google borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+								<a href="https://www.google.com/search?q=@Uri.EscapeDataString(fullUrl)" class="dis-block f1-s-13 cl0 bg-google borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
 									<i class="fab fa-google-plus-g m-r-7"></i>
 									Google+
 								</a>
