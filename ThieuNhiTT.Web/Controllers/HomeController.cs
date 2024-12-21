@@ -59,6 +59,19 @@ namespace ThieuNhiTT.Web.Controllers
     {
         return View();
     }
+
+		public IActionResult NewsDetail(string newsId)
+		{
+			string relativePath = _configuration["NewsFilePath"];
+			var filePath = Path.Combine(_webHostEnvironment.ContentRootPath, relativePath);
+			var newsList = _newService.GetAllNews(filePath);
+
+			var news = _newService.GetNewsById(newsId, filePath);
+			ViewData["NewsList"] = newsList;
+
+			return View(news);
+		}
+
 		public IActionResult ContactUs()
 		{
 			return View();
