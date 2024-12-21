@@ -73,7 +73,7 @@
 		"lessonId": "01",
 		"type": "Hoạt động",
 		"shortDescription": "Ngành hiệp sĩ thăm nhà hưu dưỡng các Linh mục (Chí Hòa)",
-		"isShowMainHome":false,
+		"isShowMainHome": false,
 		"isShowSmallHome": true,
 		"mainContent": [
 			" &quot;Bạn đừng ngại ngùng cứu giúp những người đã ra đi và dâng lời cầu nguyện cho họ.&quot; – Thánh Gioan Kim Khẩu",
@@ -82,7 +82,7 @@
 		],
 		"datePublish": "19/11/2024",
 		"author": "Tam Vu",
-		"newsImage": "images/news4/huuduonng.jpg"
+		"newsImage": "images/news4/huuduong.jpg"
 	},
 	{
 		"newsId": "06",
@@ -99,6 +99,6 @@
 		],
 		"datePublish": "1/12/2024",
 		"author": "Tam Vu",
-		"newsImage": "images/entertaiment-02.jpg"
+		"newsImage": "home/main-big.jpg"
 	}
 ]

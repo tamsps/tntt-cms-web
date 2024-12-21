@@ -143,20 +143,20 @@
 							@foreach (var news in newsOther)
               {
 								<li class="flex-wr-sb-s p-b-30">
-									<a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
+									<a asp-controller="Home" asp-action="NewsDetail" asp-route-newsId="@news.NewsId" class="size-w-10 wrap-pic-w hov1 trans-03">
 										<img src="~/@news.NewsImage" alt="IMG">
 									</a>
 
 									<div class="size-w-11">
 										<h6 class="p-b-4">
-											<a href="blog-detail-02.html" class="f1-s-5 cl3 hov-cl10 trans-03">
-												@news.NewsTitle
+											<a asp-controller="Home" asp-action="NewsDetail" asp-route-newsId="@news.NewsId" class="f1-s-5 cl3 hov-cl10 trans-03">
+												@Html.Raw(@news.NewsTitle)
 											</a>
 										</h6>
 
 										<span class="cl8 txt-center p-b-24">
 											<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
-												@news.Type
+												@Html.Raw(@news.Type)
 											</a>
 
 											<span class="f1-s-3 m-rl-3">
@@ -164,7 +164,7 @@
 											</span>
 
 											<span class="f1-s-3">
-												@news.DatePublish
+												@Html.Raw(@news.DatePublish)
 											</span>
 										</span>
 									</div>

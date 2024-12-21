@@ -13,7 +13,7 @@
     <Compile Remove="DataAccess\ILessonRepository.cs" />
     <Compile Remove="DataAccess\JsonContext.cs" />
     <Compile Remove="DataAccess\LessonRepository.cs" />
-  </ItemGroup>
+  </ItemGroup>    
 
   <ItemGroup>
     <Content Remove="Data\lesson.json" />
