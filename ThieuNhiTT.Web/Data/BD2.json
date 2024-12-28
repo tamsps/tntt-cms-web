@@ -1,28 +1,56 @@
 [
 	{
 		"bookId": "BD2",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "01",
+		"lessonTitle": "HỘI THÁNH VỚI SỨ VỤ VƯƠNG ĐẾ",
+		"lessonId": "15",
+		"imageUrl": "images/BD2/B15.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Đức Ki tô đã tự hiến mạng sống vì chúng ta, để cứu chuộc chúng ta mọi điều bất chính và để thanh luyện chúng ta trở thành dân riêng của Ngài (Tt 2,14)",
+			"1.\t&quot;Ngài là đường là sự thật và là sự sống” Ngài thi hành vương quyền của Ngài là “Ai đứng về sự thật là nghe tiếng tôi&quot;.",
+			"2.\tCả cuộc đời Chúa Giêsu đã sống với những người ngheo khó, người bị áp bức, bệnh tật, đau yếu",
+			"3.\tNgài luôn thông cảm sâu sắc và yêu mến họ, Ngài luôn tìm cách bênh vực họ"
 		],
 		"questions": [
 			{
-				"ask": "Khi nhắc đến Chúa Thánh Thần chúng ta thường nghĩ tới biểu tượng nào?",
-				"answer": ["Trong Thánh Kinh, Chúa Thánh Thần được nói đến với biểu tượng: Nước, dầu, lửa, mây, ánh sáng, bàn tay, ngón tay, chim bồ câu,…"
+				"ask": "Gia đình em có ai tham gia vào đoàn thể sinh hoạt với giáo xứ không?",
+				"answer": []
+			},
+			{
+				"ask": "Em thích sinh hoạt gì của Giáo xứ?",
+				"answer": []
+			},
+			{
+				"ask": "Ý nghĩa của lễ ngũ tuần đối với người Ki-tô hữu là gì?",
+				"answer": [ "Ngũ Tuần là quãng thời gian năm mươi ngày của mùa Phục Sinh, Giáo Hội long trọng mừng kính mầu nhiệm Phục Sinh." ]
+			},
+			{
+				"ask": "Lễ Chúa Thánh Thần Hiện Xuống được kỷ niệm vào ngày nào? Tại sao Giáo Hội lại cử hành vào ngày đó?",
+				"answer": [
+					"Chúa Nhật thứ tám Phục sinh là Chúa Nhật kết thúc năm mươi ngày mùa Phục Sinh, Giáo Hội mừng lễ Chúa Thánh Thần Hiện Xuống trên các Tông Đồ vì:",
+					"+ Lễ Chúa Thánh Thần Hiện Xuống được cử hành vào thời điểm 50 ngày sau khi Đức Giê-su Ki-tô phục sinh tương tự như lễ Ngũ Tuần được cử hành sau ngày sa-bát thứ bảy của lễ Vượt Qua trong Cựu Ước.",
+					"+ Nếu cuộc phục sinh của Đức Giê-su mang ý nghĩa như một “cuộc vượt qua mới” thì “cuộc vượt qua” đó trùng với ngày mừng Lễ Vượt Qua của dân Ít-ra-en"
+				]
+			},
+			{
+				"ask": "Ý nghĩa của Lễ Chúa Thánh Thần hiện xuống là gì?",
+				"answer": [
+					"Nếu lễ Ngũ Tuần là ngày khai sinh dân Chúa qua giao ước Xi-nai thì lễ Chúa Thánh Thần Hiện Xuống có thể xem là lễ khai sinh Hội Thánh (Ít-ra-en mới) Chúa Thánh Thần khởi sự hoạt động công khai và đặc biệt trong Giáo Hội, ơn cứu độ do cuộc vượt qua của Đức Kitô bắt đầu được loan truyền.",
+					"Lễ Chúa Thánh Thần Hiện Xuống là sự tiếp nối của lễ Ngũ Tuần trong truyền thống Do-thái (lễ tạ ơn mừng mùa thu hoạch, sau đó là lễ tưởng nhớ sự kiện lịch sử của Giao Ước Xi-nai, và cuối cùng trở thành lễ của ơn ban Thần Khí, mở ra một Giao Ước Mới cho nhân loại.)"
+				]
+			},
+			{
+				"ask": "Lễ Chúa Thánh Thần ban ơn gì cho ta?",
+				"answer": [
+					"Là ngày Chúa Thánh Thần được ban dồi dào cho Giáo Hội, để Giáo Hội công khai và khởi sự hoạt động nơi trần gian .( Ngay sau khi phục sinh, Chúa Kitô đã ban Thánh Thần cho các Tông Đồ (Ga 20,22).)"
 				]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Chúa Nhật là ngày của Chúa , là ngày thứ nhất của mọi ngày, ngày lễ quan trọng nhất. Nên các Ki-tô hữu phải đến nhà thờ, tham dự Thánh lễ để thờ phượng Chúa."
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"-\tEm cố gắng tham dự thánh lễ đúng giờ",
+			"-\tTrong thánh lễ em ca hát cầu nguyện với cả tâm hồn dâng lên Chúa."
 		]
 	}
 ]

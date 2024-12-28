@@ -1,27 +1,123 @@
 [
 	{
 		"bookId": "BD3",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "01",
+		"lessonTitle": "LẬP NỀN QUÂN CHỦ - SAMUEL VÀ SAOLÊ",
+		"lessonId": "12",
+		"imageUrl": "images/BD3/B12.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"Thời buổi sơ khai lập nền dân chủ của Israel"
 		],
 		"questions": [
 			{
-				"ask": "Câu hỏi 1 của Ý Chính",
-				"answer": ["Gợi ý trả lời câu hỏi 1"]
+				"ask": "Nền quân chủ là gì?",
+				"answer": [
+				"Là một thể chế chính quyền mà chức vụ nguyên thủ quốc gia (người đứng đầu quốc gia) là 1 vị vua cho tới khi qua đời hoặc thoái vị.",
+				"Mọi quyền lực, mọi chi phối các hoạt động trong xã hội nằm trong tay nhà vua."
+				]
+			},
+			{
+				"ask": "Tại sao dân Chúa Israel muốn có vị vua.?",
+				"answer": [
+				"Vào cuối thời các Thủ lãnh, Isael cần thống nhất về mặt chính trị mới đương đầu nổi với ngọai bang như quân Philitinh , Môáp, Ammon,…",
+				"Người Israel nói với ông Samuel : “Ông coi, ông già rồi, và các con ông lại không đi theo đường lối của ông. Vậy bây giờ, xin ông lập cho chúng tôi một vua để vua xét xử chúng tôi, như trong tất cả các dân tộc…Vua chúng tôi sẽ xét xử chúng tôi, sẽ dẫn đầu chúng tôi và sẽ lãnh đạo các cuộc chiến của chúng tôi.” (1Sm 8,5.20-21)"
+				]
+			},
+			{
+				"ask": "Ông Samuel là ai và ông phản ứng thế nào trước đòi hỏi của dân Chúa",
+				"answer": [
+				"Ông Samuel là vị thủ lãnh cuối cùng thời các Thủ lãnh, người Israel coi Samuel như vị anh hùng.",
+				"Ông Samuel tuyệt đối trung thành với Giavê.",
+				"Samuel còn là người dọn đường cho cuộc phục hưng chính trị và tôn giáo của Israel thời Saole-Davit, thời kỳ đầu của nền quân chủ.",
+				"Samuel không hài lòng khi dân xin ông dặt cho họ 1 vị vua, tức là dân không muốn Giavê dẫn dắt mình, vì như thế, họ sẽ phản bội lại lời thề chỉ có một mình Thiên Chúa là Chúa và là Vua của họ mà thôi. Samuel đã nghĩ đến chuyện đó và dường như ông không muốn một tý nào đối với lời đề nghị của dân."
+				]
+			},
+			{
+				"ask": "Thiên chúa đã chấp nhận nguyện vọng của dân Ngài như thế nào?",
+				"answer": [
+						"Đức chúa phán với ông Samuel : “Hãy nghe theo tiếng chúng, và hãy đặt một vị vua cai trị chúng” (1Sm 8,22)",
+						"Cách Samuel tuyển chọn 1 vị vua hoàn toàn theo ý dịnh của Thiên Chúa. Chi tộc Benjamin được chọn trong mọi chi tộc Israel khi trúng thăm. Thị tộc Mátri trúng thăm trong các thị tộc thuộc Benjamin. Và ông Saolê con ông Kít trúng thăm.",
+						"Thiên Chúa truyền cho Samuel xức dầu cho Saolê, tấn phong ông này làm vua Israel, bắt đầu khai mở một nền quân chủ và kéo dài 450 cho đến khi dân bị đem đi lưu đày tại Babilon."
+						]
+			},
+			{
+				"ask": "Tại sao khi dân chúa muốn có một vị vua cai trị đất nước thì Samuel không hài lòng?",
+				"answer": [
+						"Vì Samuel hiểu rằng chỉ có thiên chúa mới là thủ lĩnh, là vua và là người dẫn dắt dân. Khi dân Israel yêu cầu như thế là họ không muốn Thiên Chúa làm thủ lãnh của họ nữa. nhưng Thiên Chúa đã chấp nhận và dạy Samuel thực hiện cho dân điều họ yêu cầu."
+						]
+			},
+			{
+				"ask": "Vua của Israel khác vua các nước ở điểm nào?",
+				"answer": [
+						"Vua Israel là người được Chúa chọn thay mặt Chúa để chăm lo cho dân, hướng dẫn họ sống theo đường lối của Thiên Chúa như đã tuyên thệ với Ngài qua giao ước."
+						]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Chúng ta phải vâng phục đấng bản quyền của chúng ta ở nơi trần thế: ĐGH, ĐGM, Linh mục,....",
+			"Trên hết phải trung thành và tuân giữ mọi luật Chúa"
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Khi quyết dịnh một việc gì, luôn:",
+			"+ Cầu nguyện để biết ý Chúa",
+			"+ Hỏi ý kiến người khôn ngoan",
+			"+ Tránh thực hiện theo ý riêng"
+		]
+	},
+	{
+		"bookId": "BD3",
+		"lessonTitle": "VUA ĐAVÍT, TÔI TRUNG CỦA THIÊN CHÚA",
+		"lessonId": "13",
+		"imageUrl": "images/BD3/B13.jpg",
+		"mainContent": [
+			"Đavit, vị vua có trách nhiệm và đặt trọn niềm tin tưởng vào Chúa",
+			"Là vị vua tài năng, can đảm và hết mực trung thành với Chúa"
+		],
+		"questions": [
+			{
+				"ask": "Mô tả hình dáng con người Đavít",
+				"answer": [
+				"Đavít (ָּ970 - 1035 tr.CN) tiếng Do Thái có nghĩa là “người được yêu mến”.",
+				"Đavít là con út trong tám người con của Giêsê, thuộc chi tộc Giuđa.",
+				"Đavít có vẻ điển trai, tuấn tú nhưng tướng mạo cậu lại nhỏ bé và không cao lớn, vạm vỡ như các anh của mình."
+				]
+			},
+			{
+				"ask": "Tại sao Thiên Chúa không chọn những người anh của Davit?",
+				"answer": [
+				"Đức Chúa phán với ông Samuel : “Đứng dậy, tấn phong nó đi ! chính nó đó !”",
+				"Thiên Chúa tuyển chọn Đavít không theo sắc vóc bên ngoài: “Thiên Chúa không nhìn theo kiểu người phàm: người phàm chỉ thấy điều mắt thấy, ĐỨCCHÚA thì thấy tận đáy lòng.” Chúa chọn Đavít, đơn giản chỉ vì nhìn thấy nơi ông có những phẩm chất tốt lành như lòng Ngài muốn."
+				]
+			},
+			{
+				"ask": "Vua Đavít trị vì Giuda thời nào? Khi chọn Đavít Thiên Chúa hứa gì?",
+				"answer": [
+				"Samuel xức dầu tấn phong Đavít làm vua chăn dắt Israel – khoảng năm 1000-970 trước CN.",
+				"Ngài hứa ban cho Đavít một triều đại bền vững."
+				]
+			},
+			{
+				"ask": "Đavit có những đặc tính nào làm hài lòng Thiên Chúa?",
+				"answer": [
+						"Đavít hằng vâng phục thánh ý Thiên Chúa",
+						"Đavít luôn đặt trọn niềm tin tưởng, phó thác nơi Chúa",
+						"Đavít sống có trách nhiệm, dám lãnh trách nhiệm về việc mình làm",
+						"Khiêm nhường và sẵn sàng cúi đầu sám hối trước những lỗi lầm của mình."
+						]
+			},
+			{
+				"ask": "Đavít là hình ảnh tiên báo về ai?",
+				"answer": [
+						"hình ảnh tiên trưng của Đấng Messiah"
+						]
+			}
+		],
+		"memoContent": [
+			"Luôn chăm chỉ học hành để hoàn thiện bản thân và kiến thức, giúp mình khôn ngoan và hành động đúng đắn hơn",
+			"Luôn trung thành và tin tưởng vào Chúa"
+		],
+		"actions": [
+			"Sống khiêm tốn, tin tưởng và luôn lắng nghe Lời Chúa",
+			"Khi phạm lỗi, biết nhận lỗi và ăn năn sám hối."
 		]
 	}
 ]

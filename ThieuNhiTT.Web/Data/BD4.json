@@ -1,28 +1,255 @@
 [
 	{
 		"bookId": "BD4",
-		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
-		"lessonId": "01",
+		"lessonTitle": "CÁC SÁCH NGÔN SỨ NHỎ",
+		"lessonId": "11",
+		"imageUrl": "images/BD4/B11.jpg",
 		"mainContent": [
-			"Bài Học 1",
-			"Main content 2"
+			"CÁC NGÔN SỨ NHỎ",
+			"SỨ ĐIỆP QUA CÁC SÁCH NGÔN SỨ NHỎ"
 		],
 		"questions": [
 			{
-				"ask": "Khi nhắc đến Chúa Thánh Thần chúng ta thường nghĩ tới biểu tượng nào?",
-				"answer": ["Trong Thánh Kinh, Chúa Thánh Thần được nói đến với biểu tượng: Nước, dầu, lửa, mây, ánh sáng, bàn tay, ngón tay, chim bồ câu,…"
+				"ask": "Tại sao lại gọi là các ngôn sứ nhỏ ? Kể tên các sách ngôn sứ nhỏ ?",
+				"answer": [
+				"Gọi là sách ngôn sứ nhỏ ám chỉ các sách mang tên các ngôn sứ này ngắn hơn ngôn sứ nhỏ bao gồm: Hôsê; Giôel;Amos; Ôvađia; Giôna; Mikha; Nakhum; Habacúc; Xôphônia;  Khácgai; Dacaria;  Malakhi"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Hôsê:",
+				"answer": [
+				"Sách Hôsê: ",
+				"Ông là tiên tri ở vương quốc Israel ( Miền Bắc ). Là người đầu tiên diễn giả tương quan giữa Thiên Chúa và Dân Israel trong ngôn ngữ tình yêu hôn nhân  Thuật lại: kinh nghiệm đau thương trong đời sống hôn nhân của ông là hình ảnh diễn tả tình thương yêu của TC đối với dân Israel bất trung. TC sẽ sửa trị để đưa dân Israel về với người"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Giôel:",
+				"answer": [
+				"Sách Giôel: ",
+				"Giôel là tiên tri sau thời lưu đầy ( Ga 1,14; 2,17 ) thời trùng tu Giêrusalem => Loan báo về ngày Chúa sắp đến và kêu gọi mọi người ăn chay sám hối"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Amos:",
+				"answer": [
+				"Sách Amos lên án: ",
+				"+ Đời sống xa hoa, bất công trong xã hội (Am 2, 6-8, 3,10)..",
+				"+ Lối phụng tự hình thức vô hồn (Am 5, 21-24)",
+				"+ Và Ông tiên báo ngày Đức Chúa sẽ trừng phạt dân Israel bất trung."
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Ôvadia:",
+				"answer": [
+				"Chỉ có 21 câu tiên báo dân Edom sẽ bị trừng phạt vì đã can thiệp để chống Gierusalem"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Giona:",
+				"answer": [
+				"+ Truyện kể về 1 ngôn sứ bất tuân lệnh và hay càm ràm với TC, luôn tìm cách trốn tránh sứ vụ nhưng cuối cùng vẫn phải vâng lời TC",
+				"+ Loan báo tai họa xảy đến là biểu hiện lòng thương xót của TC là Chúa muôn dân",
+				"+ Ngài chỉ chờ một dấu hiệu hối cải để ban ơn tha thứ."
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Mikha:",
+				"answer": [
+				"Mikha là ngôn sứ Giuda thời Vua Akha và Êzekia: ",
+				"+ Tố cáo bất công xã hội và loan báo sự xét xử của Thiên Chúa",
+				"+ Khơi lên niềm hy vọng Đấng Thiên sai sẽ xuất hiện từ dòng dõi Đavit."
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Nakhum:",
+				"answer": [
+				"Nakhum được xem là thi sĩ lớn của Israel. Ông loan báo và diễn tả về sự sụp đổ của Ninive ( Thủ đô của Assua ) và Giuda được giải thoát."
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Habacuc:",
+				"answer": [
+				"+ Đối thoại giữa vị ngôn sứ và TC ( 1-2,4); về việc Ngài cai quản thế giới: tại sao dùng kẻ dữ phạt kẻ dữ ?",
+				"+ Nguyền rủa bạo quyền ( 2,5-20)",
+				"+ Kêu gọi Giave can thiệp ( TC luôn giúp đỡ người công chính chiến thắng kẻ dữ )"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Sôphônia:",
+				"answer": [
+				"+ Ngôn sứ Sôphônia rao giảng trước Giêremia ít lâu, dưới triều đại Vua Giosia",
+				"+ Ông loan báo ngày của Đức Chúa phạt các dân tộc, phạt Giuda vì sự kiêu ngạo, bất phục tùng TC và sống vô luôn của dân.",
+				"+ Nêu cao ý niệm sâu xa về tội",
+				"+ Hình phạt là sự cảnh cáo nhắm đưa tội nhân trở về con đường vâng phục, khiêm tốn."
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Khácgai:",
+				"answer": [
+				"Xuất hiện lúc dân Israel hồi hương và tái thiết đền thờ  ( năm 520 TCN ), họ phải đối diện với bi đát và thất vọng.",
+				"+ Ngôn sứ đã cổ vũ, khích lệ dân xây dựng lại đến thờ để TC ngự giữa dân",
+				"+ Ngôn sứ nói về vinh quang của đền thờ là lời hứa ban sự thịnh vượng của TC"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Dacaria:",
+				"answer": [
+				"Ngôn sứ cùng thời với Khác gai ( 520 TCN ). Sách ghi lại tám thị kiến cổ vũ việc tái thiết Đền thờ và khôi phục Israel. XD đế quốc với những đòi hỏi: ",
+				"+ Tinh sạch luôn lý",
+				"+ Tỉnh thức về tôn giáo",
+				"+ Loan báo đấng cứu thế sẽ đến để lập vương Quốc của TC",
+				"+ Cắt đặt phẩm trật tư tế vì TC tha phạt và thương xót Gierusalem"
+				]
+			},
+			{
+				"ask": "Sứ điệp qua các sách Malakhi:",
+				"answer": [
+				"Đây chỉ là tên của tập sách chứ ko phải của vị tiên tri ( tác giả vô danh ) sau khi Đền thờ xd xong, dân rơi vào chán nản, thờ ơ, nhắc nhở về một lòng đạo đức sâu xa, tránh dâng lễ tế cách tầm thường, lên án hình thức hôn nhân dị giáo và ly dị, phải tôn trọng lề luật và lời hứa ban thưởng cho người công chính."
 				]
 			}
 		],
 		"memoContent": [
-			"Chương 2",
-			"memo content 2",
-			"memo content 3"
+			"Ghi nhớ các tên của sách Ngôn sứ nhỏ, và thông điệp của mỗi sách"
 		],
 		"actions": [
-			"action 1",
-			"action 2",
-			"action 3"
+			"Mỗi ngày siêng năng đọc Lời Chúa suy niệm và cầu nguyện cho công cuộc truyền giáo.",
+			"Dám nói sự thật cùng nhau đi thăm viếng người già neo đơn."
+		]
+	},
+	{
+		"bookId": "BD4",
+		"lessonTitle": "SÁCH GIÁO HUẤN",
+		"lessonId": "12",
+		"imageUrl": "images/BD4/B12.jpg",
+		"mainContent": [
+			"PHÂN NHÓM SÁCH GIÁO HUẤN",
+			"NỘI DUNG CÁC SÁCH GIÁO HUẤN"
+		],
+		"questions": [
+			{
+				"ask": "Sách giáo huấn có mấy quyển, chia thành mấy loại",
+				"answer": [
+				"Sách giáo huấn gồm 7 quyển, chia làm 2 loại ( Sách khôn ngoan 5 cuốn và Thi ca 2 cuốn )"
+				]
+			},
+			{
+				"ask": "Em hãy kể tên các sách khôn ngoan?",
+				"answer": [
+				"Sách Gióp ",
+				"Sách Châm Ngôn ",
+				"Sách Giảng Viên ",
+				"Sách Khôn Ngoan ",
+				"Sách Huấn ca "
+				]
+			},
+			{
+				"ask": "Em hãy kể tên các sách thi ca?",
+				"answer": [
+				"Sách Diễm tình ca ",
+				"Sách Thánh vịnh "
+				]
+			},
+			{
+				"ask": "Em hãy kể tóm tắt về chuyện ông GIÓP và Thái độ của ông thế nào trước những đau khổ?",
+				"answer": [
+				"Ông Giop là người tốt lành, đạo đức, giàu có và đông con. Ông đã gặp tai họa đến tán gia, bại sản, bệnh tật ghê tởm => Nhưng ông vẫn tin tưởng vào TC và được Chúa đền đáp ban lại cho ông gấp bội => Sách cũng trình bày hiện tượng đau khổ của con người nhưng ko tìm dc giải pháp nếu chỉ có cuộc sống ở trần gian này."
+				]
+			},
+			{
+				"ask": "Sách châm ngôn dạy điều gì ? Nguồn gốc sự khôn ngoan ? Thế nào là người khôn ngoan?",
+				"answer": [
+				"Là tuyển tập những lời dạy khôn khoan, nghệ thuật ăn ở cho phù hợp với thánh ý TC trong mọi hoàn cảnh. TC chính là nguồn gốc của sự khôn ngoan= >Người khôn ngoan là người sống theo thánh ý Chúa trong mọi hoàn cảnh."
+				]
+			},
+			{
+				"ask": "Sách giảng viên, được viết khi nào? và cho chúng ta thấy về điều gì?",
+				"answer": [
+				"Sách GV được viết vào khoảng năm 970-225 TCN ( Đây là lời ông Cô-he-lét, làm vua ngự tại Giê-ru-sa-lem. Ông là con vua Đa-vít) ,  cho chúng ta thấy hạnh phúc đời này thì mong manh, cái chết sẽ quật ngã tất cả ( chương 1 ) => Con người phải đón nhận đau khổ, vui buồn và phải tuân giữ luật Chúa."
+				]
+			},
+			{
+				"ask": "Em hãy cho biết trong cựu ước vị Vua nào được coi là khôn ngoan?",
+				"answer": [
+				"Sách KN được ra đời muộn nhất trong bộ Cựu ước vào TK thứ 1 TCN => KN đích thực chỉ đến từ TC => Sách Khôn Ngoan là một người Do Thái khuyết danh sống ở Alexandria nhưng lại đặt sách này dưới danh nghĩa và sự bảo trợ của vua Solomon, mượn thế giá của vua này để nói và sách cũng cho biết có sự thưởng phạt đời sau: Phải trải qua đời này mới có hạnh phúc đời sau.",
+				"Cần lưu ý 3 phần chính của sách KN:",
+				"+ Khôn ngoan, phần thuởng của công chính (1,1 – 6,21)",
+				"+ Salomon ca tụng sự khôn ngoan (6,22 – 11,1)",
+				"+ Sự quan phòng của Chúa trong cuộc Xuất hành (11,2 – 19,22)"
+				]
+			},
+			{
+				"ask": "Sách Huấn ca trình bày về điều gì:",
+				"answer": [
+				"Tác giả là ông Giê-su, con ông Xi-ra, cháu ông E-la-da, một người Do-thái sống tại Giê-ru-sa-lem vào đầu thế kỷ III TCN- sách được viết vào khoảng năm 200-175 TCN. ",
+				"+ Lòng yêu mến sự KN với sự tôn sùng lề luật",
+				"+ Kính sợ TC là đầu mối khôn ngoan",
+				"Sự không ngoan phát xuất từ TC, được ghi trog sách luật giao ước."
+				]
+			},
+			{
+				"ask": "Sách DIỄM TÌNH CA trình bày về điều gì?",
+				"answer": [
+				"Sách DIỄM TÌNH CA hay còn gọi là DIỆU CA, NHÃ CA, NHÃ CA SALOMON được viết khoảng năm 970-723 TCN là tuyển tập những bản tình ca NAM NỮ ( CHÀNG-NÀNG ) qua T/Y nam nữ thì diễn tả TY giữa TC với con người và loan báo TY giữa CHÚA Kito và HỘI THÁNH"
+				]
+			},
+			{
+				"ask": "Có bao nhiêu Thánh Vịnh và nói về điều gì?",
+				"answer": [
+				"Gồm 150 TV được viết vào khoảng năm 1400-450 TCN , chia làm 3 loại: tán tụng, ca ngợi; cầu xin và giáo huấn",
+				"+ Thánh Vịnh là lời Chúa dạy dân của Người cầu nguyện",
+				"+ Thánh Vịnh diễn tả tâm tình của con cái phải có đối với TC trong những hoàn cảnh khác nhau."
+				]
+			}
+		],
+		"memoContent": [
+			"Danh sách các sách không ngoan và thi ca"
+		],
+		"actions": [
+			"Suy nghĩ cân nhắc trước khi nói điều gì",
+			"Đọc Kinh Thánh mỗi ngày một đoạn, và lại một câu tâm đắc,đánh động đến chính bản thân."
+		]
+	},
+	{
+		"bookId": "BD4",
+		"lessonTitle": "TIN MỪNG",
+		"lessonId": "13",
+		"imageUrl": "images/BD4/B13.jpg",
+		"mainContent": [
+			"CÁC SÁCH TIN MỪNG VÀ NỘI DUNG CHÍNH YẾU CỦA TIN MỪNG",
+			"NỘI DUNG CHÍNH YẾU CỦA TIN MỪNG"
+		],
+		"questions": [
+			{
+				"ask": "Như thế nào gọi là TIN MỪNG",
+				"answer": [
+				"Tin vui loan báo về một niềm vui, biến cố quan trọng",
+				"Trong Tân ước, Tin Mừng chỉ:",
+				"+ Lời loan báo ơn cứu độ",
+				"+ Các tập sách chép lại lời loan báo đó. Gọi là các sách Tin Mừng."
+				]
+			},
+			{
+				"ask": "Em hãy cho biết nội dung các sách Tin Mừng?",
+				"answer": [
+				"Tin mừng dùng để chỉ lời nói và việc làm của Đức Giêsu để loan báo về Nước Trời",
+				"Và lời rao giảng của các Tông Đồ về cái chết và sự Phục sinh của Chúa KT"
+				]
+			},
+			{
+				"ask": "Có mấy sách Tin mừng?",
+				"answer": [
+				"Có 4 sách Tin mừng: Mattheu; Macco; Luca và Gioan",
+				"Trong đó gọi là Tin mừng Nhất Lãm vì 3 Tin mừng này có nhiều diễn từ giống nhau: Mattheu, Macco,Luca"
+				]
+			}
+		],
+		"memoContent": [
+			"Chính Thiên Chúa là tác giả của Kinh Thánh",
+			"Có 4 sách Tin mừng: Matheu, Macco, Luca, Gioan"
+		],
+		"actions": [
+			"Hãy kể 1 câu chuyện về CGS đã nói hoặc đã làm cho bạn ở trường nghe ",
+			"Đọc Kinh Thánh mỗi ngày một đoạn, và lại một câu tâm đắc, đánh động đến chính bản thân."
 		]
 	}
 ]
