@@ -21,9 +21,15 @@ namespace ThieuNhiTT.Web.Controllers
 		public IActionResult Index(string lessonId, string filePath)
 		{
 			var lesson = _lessonService.GetLessonById(lessonId, filePath);
+			
 			if (lesson == null)
 			{
 				return RedirectToAction("Error", "Home");
+			}
+			var bookList = _lessonService.GetAllLessonsByBookId(lesson.BookId, filePath);
+			if (bookList != null)
+			{
+				ViewData["bookList"] = bookList;
 			}
 			return View(lesson);
 		}

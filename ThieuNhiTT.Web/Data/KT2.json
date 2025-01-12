@@ -1,5 +1,74 @@
 [
-{
+	{
+		"bookId": "KT2",
+		"lessonTitle": "THIÊN CHÚA DỰNG NÊN MỌI SỰ CHO TA",
+		"lessonId": "03",
+		"imageUrl": "images/KT2/B03.jpg",
+		"mainContent": [
+			"Thiên Chúa làm thế nào để dựng nên trời đất muôn vật.",
+			"Nhìn cảnh vật tươi đẹp, em dâng lời ca ngợi và cám ơn Chúa"
+		],
+		"questions": [
+			{
+				"ask": "Ai là người yêu thương các em nhất?",
+				"answer": [
+				"Ba mẹ là người sinh ra các em, nuôi nấng và chăm sóc cho các em từng ngày, mỗi khi các em ốm, ba mẹ luôn lo lắng và chăm sóc các em….",
+				"Nhưng các em có biết, còn có người yêu thương các em nhiều hơn thế nữa. Người đó tạo nên mọi sự cho các em, và cho các em quyền làm chủ trên mọi sự.",
+				"Người còn sẵn sàng hy sinh để con người chúng ta được hạnh phúc ấm no. Và đó chính là Thiên Chúa của chúng ta."
+				]
+			},
+			{
+				"ask": "Các em có nhớ ngày thứ 3 Chúa tạo nên gì không?",
+				"answer": ["Cây cối"]
+			},
+			{
+				"ask": "Tại sao Chúa dựng nên cây cối?",
+				"answer": ["Vì cây cối quan trọng, mang đến nhiều lợi ích cho chúng ta.( cây cho bóng mát, cho gỗ,cung cấp oxi, che bóng mát, cây cho hoa đẹp trang trí cho cuộc sống thêm xinh…..)"]
+			},
+			{
+				"ask": "Vì yêu thương chúng ta, Thiên Chúa đã ban cho chúng ta mọi sự tốt đẹp nhất và cho ta làm chủ. Vậy đáp lại tình yêu của Ngài, chúng ta cần làm gì?",
+				"answer": ["Cảm tạ và ngợi khen Chúa, chăm sóc cây cối, không hái hoa bẻ cành…..)"]
+			}
+		],
+		"memoContent": [
+			"Thiên Chúa dựng nên mọi sự cho ta, vì  Ngài là Cha yêu thương chúng ta."
+		],
+		"actions": [
+			"Mỗi tối khi đi ngủ, em cầu nguyện: lạy Chúa, Chúa là Cha yêu thương của con, Chúa đã ban cho con mọi sự tốt lành. Con Cảm ơn Chúa. làm dấu trước khi ăn. Chăm sóc cây cối, tưới cây, đừng hái hoa bẻ cành…."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA DỰNG NÊN CON NGƯỜI GIỐNG HÌNH ẢNH CHÚA",
+		"lessonId": "04",
+		"imageUrl": "images/KT2/B04.jpg",
+		"mainContent": [
+			"Thiên Chúa dựng nên mọi sự cho ta vì Ngài là Cha yêu thương chúng ta, vì vậy Ngài đã dựng nên con người giống hình ảnh Ngài."
+		],
+		"questions": [
+			{
+				"ask": "Thiên Chúa dựng nên con người vào ngày thứ mấy? Người đầu tiên Chúa dựng nên là ai?",
+				"answer": [
+				"Sau khi dựng nên vạn vật cỏ cây, thấy mọi sự đều tốt đẹp, ngày thứ 6, Thiên Chúa đã dùng bùn đất nặn hình người, Ngài thổi sinh khí vào mũi, tạo nên con người có xã và có hồn giống hình ảnh Ngài. Người đầu tiên Chúa dựng nên là Adam. Muốn có nam có nữ nên Chúa đã dùng xương sườn Adam để tạo nên người nữ đầu tiên là bà Eva."
+				]
+			},
+			{
+				"ask": "Khi gặp bất cứ một người nào dù giàu hay nghèo, các em phải làm gì?",
+				"answer": ["Tất cả mọi người chúng ta đều được Thiên Chúa tạo nên , dù mỗi người một vẻ, một hoàn cảnh, một cuộc sống khác nhau….nhưng tất cả đều là hình ảnh của Thiên Chúa. Các em phải kính trọng, lễ phép vui vẻ với mọi người xung quanh,giúp đỡ những ai chúng ta có thể làm được( nhặt giúp vật rơi, dẫn người già qua đường….)"]
+			},
+			{
+				"ask": "Trong gia đình, ông bà cha mẹ anh chị là những người thay mặt Chúa dạy dỗ chúng ta, chúng ta phải làm gì?",
+				"answer": ["Phải hiếu thảo, kính yêu vâng lời và làm những việc giúp đỡ ông bà cha mẹ…"]
+			}
+		],
+		"memoContent": [
+			"Chúa đã dựng nên con người tốt đẹp, có phần hồn và phần xác, cùng làm chủ muôn vật. chúng ta phải ca ngợi và cảm tạ Thiên Chúa."
+		],
+		"actions": [
+			"Em biết quý trọng con người và cảm tạ Thiên Chúa. Vâng lời ông bà cha mẹ, làm vui lòng ông bà cha mẹ bằng những bông hoa điểm 10. "
+		]
+	},
+	{
 		"bookId": "KT2",
 		"lessonTitle": "HÔM NAY CHÚA CỨU THẾ ĐÃ SINH RA",
 		"lessonId": "12",
@@ -94,8 +163,8 @@
 				"answer": ["Chúa Giêsu lớn lên cùng với Mẹ Maria và Thánh Cả Giuse (cha nuôi của Ngài) ở thành Nadaret miền Galilê."]
 			},
 			{
-				"ask": "Trong 30 năm sống ở Nadaret, Ngài đã phụ giúp gì cho cha mẹ?",
-				"answer": ["Ngài đã giúp Thánh Giuse trong nghề thợ mộc. Và biết vâng lời cha mẹ."]
+				"ask": "Trong 3 năm sống ở Nadaret, Ngài đã phụ giúp gì cho cha mẹ?",
+				"answer": ["Ngài đã giúp Thánh Giuse trong xưởng mộc. Và biết vâng lời cha mẹ."]
 			},
 			{
 				"ask": "Em đã làm việc gì để giúp đỡ cho cha cha mẹ?",
@@ -157,7 +226,8 @@
 			"Vâng lời ông bà cha mẹ,  quý thầy, quý sơ, các anh chị huynh trưởng.",
 			"Siêng năng cầu nguyện với Chúa, xin ơn khôn ngoan và nhân đức như Ngài."
 		]
-	},{
+	},
+	{
 		"bookId": "KT2",
 		"lessonTitle": "CHÚA GIÊSU THƯƠNG CÁC EM NHỎ",
 		"lessonId": "17",
@@ -192,6 +262,73 @@
 		],
 		"actions": [
 			"Noi gương Chúa Giêsu biết yêu thương anh chị em, mọi người xung quanh và làm một việc cụ thể để giúp mọi người."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA GIÊSU QUYỀN PHÉP NHƯ CHÚA CHA",
+		"lessonId": "18",
+		"imageUrl": "images/KT2/B18.jpg",
+		"mainContent": [
+			"Tin tưởng vào quyền năng của Thiên Chúa"
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giêsu và các môn đệ đã gặp chuyện gì khi lên thuyền để sang bên kia hồ?",
+				"answer": [ "Một trận cuồng phong ập xuống hồ, trời âm u, sóng gió vỗ mạnh nước tràn vào mạn thuyền của Chúa Giêsu và các môn đệ. Thế là các môn đệ rất sợ hãi liền đi đánh thức gọi Chúa Giêsu dậy và nói: Thầy ơi Thầy, chúng ta chết mất." ]
+			},
+			{
+				"ask": "Sau Khi thức dậy Chúa Giêsu làm gì?",
+				"answer": ["Người thức dậy và răn đe sóng gió, sóng gió liền ngừng và biển lặng ngay.Các ông hoảng sợ và kinh ngạc nói với nhau: vậy Người này là ai? Mà ra lệnh cho sóng gió phải tuân lệnh.?( Thiên Chúa)"]
+			},
+			{
+				"ask": "Chúa Giêsu có phải là Thiên Chúa không?",
+				"answer": ["Chúa Giêsu là Thiên Chúa thật, vì Ngài có quyền năng và phép tắc như Chúa Cha, ngoài ra Chúa Giêsu cũng làm rất nhiều phép lạ( Chúa hoá bánh ra nhiều, Chúa Giêsu chữa lành mọi bệnh tật, Chúa Giêsu hoá nước thành rượu tại tiệc cưới Cana.)"]
+			}
+		],
+		"memoContent": [
+			"Các em phải đặt niềm tin vào Chúa, thực hành Lời Chúa dạy, thực hiện các điều răn nhất là mến Chúa, yêu người.",
+			"Khi tin vào Chúa chúng ta sẽ được Người cứu độ."
+		],
+		"actions": [
+			"Muốn trở thành bé ngoan của Chúa các em phải  siêng năng học giáo lý, tham dự Thánh lễ, đọc kinh cầu nguyện.",
+			"Làm việc bác ái, yêu thương và giúp đỡ bố mẹ,mọi người xung quanh.."
+		]
+	},
+	{
+		"bookId": "KT2",
+		"lessonTitle": "CHÚA GIÊSU THƯƠNG NGƯỜI SẦU KHỔ",
+		"lessonId": "18",
+		"imageUrl": "images/KT2/B19.jpg",
+		"mainContent": [
+			"Học với Chúa biết chạnh lòng thương. Biết yêu thương và giúp đỡ những người bệnh tật, đau yếu, cầu nguyện cho họ."
+		],
+		"questions": [
+			{
+				"ask": "Trong đoạn Tin Mừng theo Thánh Luca thuật lại. khi Chúa Giêsu làm cho con trai duy nhất của bà goá sống lại. vậy các em có biết tại sao Chúa lại làm cho con bà goá sống lại không?",
+				"answer": [ "Vì Chúa nhìn thấy bà goá đang đau khổ vì vừa mất đi người con duy nhất của mình, nên Chúa đã động lòng thương." ]
+			},
+			{
+				"ask": "Theo các em, Chúa Giêsu có thương người sầu khổ không?",
+				"answer": [
+				"Chúa rất thương họ, Ngài đã làm nhiều phép lạ để chữa họ, người què đi được, người mù được sáng, người điéc được nghe, người câm nói được và người chết sống lại.",
+				"Người đã động lòng thương khi nhìn thấy những con người phải đau khổ, Chúa Giêsu rất yêu thương con người chúng ta,và đặc biệt là những người càng đau khổ, càng yếu đuối  thì Chúa lại gần gũi, nâng đỡ họ nhiều hơn.",
+				"Những người sầu khổ trong tâm trí thì Chúa giải thoát, ban ơn nâng đỡ, ủi an.",
+				"Sầu khổ về thể xác đau bệnh thì Chúa ban oen cứu chữa bằng các phép lạ.",
+				"Và những người tội lỗi thì Chúa ban ơn và tha thứ tội lỗi cho họ."
+				]
+			},
+			{
+				"ask": "Chúng ta phải làm gì để bớt sầu khổ trong cuộc sống này?",
+				"answer": ["Nương tựa vào Chúa. Chúa Giêsu từng nói: Tất cả những ai đang vất vả mang ách nặng nề hãy đến cùng ta, ta sẽ cho nghỉ ngơi bồi dưỡng."]
+			}
+		],
+		"memoContent": [
+			"Tuần này các em bắt chước Chúa Giêsu yêu thương và giúp đỡ những người tàn tật, đau khổ, và cầu nguyện cho họ."
+		],
+		"actions": [
+			"Siêng năng cầu nguyện, chạy đến với Chúa, siêng năng đi lễ,rước mình Thánh Chúa.",
+			"Các em được may mắn ngồi đây nghe Lời Chúa là các em may mắn hơn nhiều bạn. các em phải biết chia sẻ noi gương Chúa yêu thương những người bạn đó nhé."
 		]
 	},
 	{

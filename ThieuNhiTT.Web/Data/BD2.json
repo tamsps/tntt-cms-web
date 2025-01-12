@@ -1,6 +1,189 @@
 [
 	{
 		"bookId": "BD2",
+		"lessonTitle": "CÁC BÍ TÍCH TRONG HỘI THÁNH",
+		"lessonId": "01",
+		"imageUrl": "images/BD2/B01.jpg",
+		"mainContent": [
+			"Cử hành Bí tích trong Hội Thánh Công Giáo"
+		],
+		"questions": [
+			{
+				"ask": "Định nghĩa bí tích là gì?",
+				"answer": [
+					"Bí tích là một dấu chỉ bên ngoài. Chúa Giêsu đã lập, cho ta thấy việc Chúa làm cách mầu nhiệm trong tâm hồn ta."
+
+				]
+			},
+			{
+				"ask": "Có bao nhiêu Bí tích?",
+				"answer": [
+					"Trong giao ước mới, có 7 bí tích do Đức Ki-tô thiết lập: Thanh tẩy, thêm sức, Thánh Thể, giải tội, hôn phối, sức dầu bệnh nhân, truyền trức Thánh",
+					"Bảy bí tích liên quan đến các giai đoạn và thời điểm quan trọng trong đời sống người Ki-tô hữu "
+				]
+			},
+			{
+				"ask": "Các Bí tích có ý nghĩa gì?",
+				"answer": [
+					"Bảy bí tích liên quan đến các giai đoạn và thời điểm quan trọng trong đời sống người Ki-tô hữu "
+				]
+			},
+			{
+				"ask": "Điều kiện thành sự - thừa tác viên – người lãnh nhận và mục đích của cử hành Bí tích?",
+				"answer": [
+					"Người tín hữu được sinh ra và lớn lên, được lãnh nhận bí tích, những giai đoạn của đời sống tự nhiên và đời sống thiêng liêng",
+					"Các bí tích có mục đích thánh hóa con người, xây dựng thân thể Chúa Ki-tô và cuối cùng là thờ phượng Thiên Chúa.",
+					"Vì thế các thừa tác viên hay cộng đoàn không được tùy tiện sửa đổi hay thêm bớt nghi thức bí tích nào. Ngay cả quyền tối thượng trong Hội thánh cũng không thể tùy tiện thay đổi phụng vụ, mà chỉ có thể thay đổi dựa theo đức tin và tôn trọng mầu nhiệm phụng vụ."
+				]
+			}
+		],
+		"memoContent": [
+			"Các bí tích em đã được lãnh nhận hãy gìn giữ và sống xứng đáng là con cái Chúa",
+			"Ghi nhớ 7 Bí tích Công Giáo"
+		],
+		"actions": [
+			"Siêng năng tham dự Thánh Lễ để có thể lãnh Bí tích Thánh Thể"
+		]
+	},
+	{
+		"bookId": "BD2",
+		"lessonTitle": "BÍ TÍCH RỬA TỘI",
+		"lessonId": "02",
+		"imageUrl": "images/BD2/B02.jpg",
+		"mainContent": [
+			"Tìm hiểu Bí tích Rửa tội trong Hội Thánh Công Giáo"
+		],
+		"questions": [
+			{
+				"ask": "Bí tích Rửa tội là gì?",
+				"answer": [
+					"Bí tích rửa tội là nền tảng của toàn bộ đời sống Ki-tô hữu, là cửa ngỏ đời sống thần linh và mọi bí tích khác."
+				]
+			},
+			{
+				"ask": "Ân sủng của Bí tích Rửa tội là gì?",
+				"answer": [
+					"Nhờ bí tích thanh tẩy, chúng ta được giải thoát tội lỗi và tái sinh làm con cái Thiên Chúa",
+					"Bí tích thanh tẩy là bí tích tái sinh, chúng ta nhờ nước và trong lời Chúa"
+				]
+			},
+			{
+				"ask": "Ai có thể lãnh nhận Bí tích Rửa Tội?",
+				"answer": [
+					"Tất cả và chỉ những người chưa được rửa tội mới có khả năng lãnh bí tích thánh tẩy"
+				]
+			},
+			{
+				"ask": "Dấu Thánh giá trong nghi thức Rửa tội có ý nghĩa gì?",
+				"answer": [
+					"Dấu thánh giá ở đầu nghi thức là dấu ấn cho thấy quyền sở hữu của Chúa Ki-tô tên người sắp chịu phép rửa và biểu thị ơn Chúa cứu chuộc chúng ta nhờ thánh giá"
+				]
+			},
+			{
+				"ask": "Áo trắng trong nghi thức Rửa tội có ý nghĩa gì?",
+				"answer": [
+					"Áo trắng tượng trưng người tân tòng “Mặc lấy Chúa Kt-tô, nghĩa là được phục sinh với Người.” Cây nến được thắp sáng bằng lửa mến phục sinh biểu thị Đức Ki-tô soi sáng người tân tòng. Trong Đức Ki-tô, họ là “ánh sáng thế gian” (Mt 14; x.PL 2,15)"
+				]
+			}
+		],
+		"memoContent": [
+			"Chúa đã sống lại và về trời. Chúng ta không còn gặp lại Ngài như một người thường nhưng chúng ta vẫn sống với Ngài luôn mãi nhờ những bí tích."
+		],
+		"actions": [
+			"Luôn cảm tạ Chúa vì được làm con Chúa."
+		]
+	},
+	{
+		"bookId": "BD2",
+		"lessonTitle": "CẦU NGUYỆN",
+		"lessonId": "12",
+		"imageUrl": "images/BD2/B12.jpg",
+		"mainContent": [
+			"Tìm hiểu Bí tích Rửa tội trong Hội Thánh Công Giáo"
+		],
+		"questions": [
+			{
+				"ask": "Cầu nguyện là gì?",
+				"answer": [
+					"Cầu nguyện không chỉ đáp ứng nhu cầu hằng ngày của chúng ta, cầu nguyện là để chuyện trò tâm sự thân thưa cùng Chúa khi vui cũng như tuyệt vọng của mỗi người chúng ta.",
+					"Cầu nguyện để chúng ta gặp gỡ Ngài liên kết trong tình yêu mến giữa ta với Ngài",
+					"Cầu nguyện là để củng cố niềm tin của người Kitô hữu trong mỗi biến cố cuộc đời Cầu nguyện là điều kiện thiết yếu, giúp ta tuân giữ giới răng của Thiên Chúa “phải cầu nguyện luôn không được nản chí” (Lc 18-1)",
+					"Chúa Giêsu luôn cầu nguyện để biết Thánh ý của Chúa Cha và Chúa Thánh Thần. Chúa Giêsu đã cầu nguyện để bước vào cuộc khổ nạn, từ thập giá Người đã chiến thắng sự chết và đem lại ơn cứu độ cho nhân loại."
+				]
+			},
+			{
+				"ask": "Cầu nguyện như thế nào?",
+				"answer": [
+					"“ Với tư cách là Hội Thánh và kiên trì cầu nguyện”. Đặc biệt là các trẻ nhỏ, kinh nguyện hằng ngày của gia đình là chứng từ đầu tiên và sống động cho gia đình Kitô hữu luôn được Thánh Thần nhắc nhở.",
+					"Các kinh căn bản rất cần cho đời sống hằng ngày cầu nguyện.",
+					"Nhà thờ là nhà Chúa, nơi phụng vụ dành riêng cho kinh nguyện đặc biệt để tôn thờ Đức Kitô đang hiện diện trong Thánh Thể",
+					"Để cầu nguyện riêng, có thể chọn trong nhà có ảnh tượng, sách Thánh cũng là nơi cầu nguyện chung cho gia đình Kitô hữu",
+					"Gia đình là nơi đầu tiên giáo dục con người cầu nguyện",
+					"Cầu nguyện là dâng chính cuộc sống cho Chúa."
+				]
+			}
+		],
+		"memoContent": [
+			"Gia đình là “Hội Thánh thu nhỏ” là nơi con cái Thiên Chúa học cách cầu nguyện"
+		],
+		"actions": [
+			"-\tMột lời nguyên buối sáng khi đến trường",
+			"-\tVà một lời nguyện buổi tối tạ ơn Chúa đã cho con kết thúc một ngày tốt đẹp"
+		]
+	},
+	{
+		"bookId": "BD2",
+		"lessonTitle": "HỘI THÁNH VỚI SỨ VỤ TIÊN TRI",
+		"lessonId": "14",
+		"imageUrl": "images/BD2/B14.jpg",
+		"mainContent": [
+			"Tìm hiểu sứ vụ Tiên tri trong Bí tích Rửa tội"
+		],
+		"questions": [
+			{
+				"ask": "Sứ vụ Tiên tri là gì?",
+				"answer": [
+					"Sứ vụ loan báo Tin mừng của Giáo hội"
+				]
+			},
+			{
+				"ask": "Vì sao Chúa Giesu là vị ngôn sứ cao cả?",
+				"answer": [
+					"Từ nguyên thủy đến tận thế, khi Thiên Chúa cử Chúa Con đến với loài người, bao giờ Người cũng cử Thánh Thần đi cùng. Sứ mạng của hai ngôi liên kết với nhau và không thể tách rời (GLCG 743)",
+					"Khi bắt đầu rao giảng, Chúa Giêsu xác nhận: “Thánh Thần Chúa đang ở bên tôi, vì Chúa sức dầu tấn phong cho tôi đi loan báo Tin Mừng cho người nghèo khổ” (Lc 4,18)"
+				]
+			},
+			{
+				"ask": "Sứ mạng loan báo Tin Mừng của Hội thánh là như thế nào?",
+				"answer": [
+					"Khi Chúa Giêsu vừa sống lại đã đến thăm môn đệ. Người thổi hơi vào họ (hơi thở là dây chừng sự sống đã thắng cả sự chết). Người nói: “Anh em hãy nhận lấy Thánh Thần: Anh em tha cho ai thì người ấy sẽ được tha...” (Ga 20,22-23)",
+					"Chúa Giêsu cũng đã nói: “ Khi Đấng Bảo Trợ đến... Người cũng làm chứng về Thầy... rồi đến lượt các con, các con cũng sẽ làm chứng về Thầy”."
+				]
+			},
+			{
+				"ask": "Vì sao nói: Hội Thánh rao giảng đức tin trọn vẹn, tiếp nhận và quản lý đầy đủ các phương tiện cứu độ:",
+				"answer": [
+					"Hội Thánh được sai đến với mọi dân tộc: Hội Thánh ngỏ lời với tất cả mọi người. Hội Thánh bền vững qua mọi thời đại “từ bản chất Hội Thánh phải truyền giáo” (GLCG 868)"
+				]
+			},
+			{
+				"ask": "Vì sao Giáo hội được gọi là Hội Thánh",
+				"answer": [
+					"Vì Đấng sáng lập là Chúa Giêsu",
+					"Trong giáo hội có phẩm trật:",
+					"Trong Giáo hội mỗi người phải có sứ mạng chăm lo mọi người, yêu thương và cầu nguyện nâng đỡ nhau, cùng giúp nhau loan báo Tin Mừng Chúa Giêsu cho cả nhân loại."
+				]
+			}
+		],
+		"memoContent": [
+			"Là tấm gương sáng trong môi trường học tập, làm việc để người khác nhìn thấy Chúa trong con người mình"
+		],
+		"actions": [
+			"-\tTrong khả năng em giúp đỡ những người cần đến em"
+		]
+	},
+	{
+		"bookId": "BD2",
 		"lessonTitle": "HỘI THÁNH VỚI SỨ VỤ VƯƠNG ĐẾ",
 		"lessonId": "15",
 		"imageUrl": "images/BD2/B15.jpg",

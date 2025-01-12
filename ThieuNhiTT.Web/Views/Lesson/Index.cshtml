@@ -1,6 +1,10 @@
 ﻿@model Lesson
+
 @{
 	int questionId = 1;
+	var bookList = ViewData["bookList"] as IEnumerable<Lesson>;
+	var maxLessionId = 0;
+	var minLessionId = 0;
 }
 
 
@@ -120,6 +124,15 @@
 						var filePath = "Data\\" + Model.BookId + ".json";
 						var nextLesson = Convert.ToInt16(Model.LessonId) + 1;
 						var previousLesson = Convert.ToInt16(Model.LessonId) - 1;
+						if (bookList!=null)
+						{
+							var maxLesson = bookList.OrderByDescending(item => Convert.ToInt16(item.LessonId)).FirstOrDefault();
+							if (maxLesson != null)
+								maxLessionId = Convert.ToInt16(maxLesson.LessonId);
+							var minLesson = bookList.OrderBy(item => Convert.ToInt16(item.LessonId)).FirstOrDefault();
+							if (minLesson != null)
+								minLessionId = Convert.ToInt16(minLesson.LessonId);
+						}
 						if(previousLesson == 0)
             {
               previousLesson = 1;
@@ -127,19 +140,23 @@
 					}
 
 					@{
-						if (previousLesson < Convert.ToInt16(Model.LessonId))
+						if (previousLesson < Convert.ToInt16(Model.LessonId) && previousLesson >= minLessionId)
             {
-							
 							<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@previousLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:left">
 								<i class="m-l-2 fa fa-long-arrow-alt-left"></i>	BÀI @previousLesson
 							</a>
             }
 					}
-
-					<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@nextLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:right">
-						BÀI @nextLesson
-						<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
-					</a>
+					@{
+						if (nextLesson <= maxLessionId)
+						{
+							<a asp-controller="Lesson" asp-action="Index" asp-route-bookId="@Model.BookId" asp-route-filePath="@filePath" asp-route-lessonId="@nextLesson" class="f1-s-1 cl9 hov-cl10 trans-03" style="float:right">
+								BÀI @nextLesson
+								<i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+							</a>
+						}
+					}
+					
 
 				</div>
 			</div>

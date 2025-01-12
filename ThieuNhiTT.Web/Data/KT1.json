@@ -108,9 +108,9 @@
 			}
 		],
 		"memoContent": [
-			"-\tChúa Giêsu càng lớn lên càng khôn ngoan",
-			"-\tLà Thiên Chúa nhưng Chúa Giesu hằng vâng phục cha mẹ, kính yêu đấng sinh thành",
-			"-\tEm biết giúp đỡ cha mẹ vì nay em đã lớn"
+			"Chúa Giêsu càng lớn lên càng khôn ngoan",
+			"Là Thiên Chúa nhưng Chúa Giesu hằng vâng phục cha mẹ, kính yêu đấng sinh thành",
+			"Em biết giúp đỡ cha mẹ vì nay em đã lớn"
 		],
 		"actions": [
 			"Cảm ơn Chúa đã cho con lớn lên, để càng lớn càng nên giống Chúa, em quyết tâm",
@@ -223,6 +223,214 @@
 			"+ Giành thời gian thinh lặng, cầu nguyện cùng Chúa",
 			"+ Học thuộc kinh Sáng Danh đọc mỗi ngày để tôn vinh danh Ngài",
 			"+ Siêng năng học giáo lý"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA CHO CON CÓ MẸ CÓ CHA",
+		"lessonId": "22",
+		"imageUrl": "images/KT1/B22.jpg",
+		"mainContent": [ "Thiên Chúa dạy ta: lời cha mẹ chớ bỏ ngoài tai, nghe theo lời cha mẹ dạy dỗ, ghi nhớ không quên" ],
+		"questions": [
+			{
+				"ask": "Ở nhà gia đình các em có hay ăn cơm cùng nhau không, có coi tivi hay đọc kinh cùng nhau?",
+				"answer": ["Để bé kể ra những việc làm cùng gia đình mình."]
+			},
+			{
+				"ask": "Khi gia đình quây quần bên nhau em thấy thế nào?",
+				"answer": ["Vui vẻ và hạnh phúc"]
+			},
+			{
+				"ask": "Có những bạn không có gia đình, cha me, các em biết những bạn đó là ai không?",
+				"answer": ["Trẻ mồ côi"]
+			},
+			{
+				"ask": "Em có biết kinh 10 điều răn không, điều thứ 4 Chúa đã dạy ta điều gì?",
+				"answer": ["Đó là thảo kính cha mẹ"]
+			} ,
+			{
+				"ask": "Thiên Chúa cho ta có mẹ có cha, ngoài ra ta còn có một người Cha trên trời yêu thương ta và một người mẹ nữa các em có biết là ai không?",
+				"answer": ["Đó là Thiên Chúa Cha và mẹ Maria"]
+			} 
+		],
+		"memoContent": [
+			"-\tThiên Chúa yêu thương ta hơn cả ba mẹ ta",
+			"-\tPhải biết thảo kính cha mẹ như lời Chúa đã dạy",
+			"-\tChúng ta vừa có Cha trên trời, lại vừa có cha mẹ chăm sóc ta nữa. Tất cả đều do tình thương quan phòng của Chúa."
+		],
+		"actions": [
+			"+ Em vâng lời mẹ cha, không cãi lời người lớn",
+			"+ Em ủng hộ quyên góp tiền tiêu vặt của mình cho các trẻ em mồ côi."
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "MẸ MARIA LÀ MẸ CHÚA VÀ LÀ MẸ CỦA CON",
+		"lessonId": "23",
+		"imageUrl": "images/KT1/B23.jpg",
+		"mainContent": ["Chúa đã nói với Mẹ Maria “ Thưa Bà, đây là con Bà”, với môn đệ Ngài nói “Đây là Mẹ của con”" ],
+		"questions": [
+			{
+				"ask": "Em có biết người đi theo Chúa, cùng Chúa đi giảng dạy muôn dân được là ai không?",
+				"answer": ["Đó là môn đệ."]
+			},
+			{
+				"ask": "Chúa đã nói với môn đệ “Đây là Mẹ con”, môn đệ đi theo Chúa được Mẹ Maria nhận làm con, vậy các em cũng đến với Chúa, học hỏi về Chúa, các em có được Mẹ Maria nhận làm con không?",
+				"answer": ["Có, và Mẹ cũng yêu thương các em."]
+			},
+			{
+				"ask": "Đố các em biết tháng mấy là tháng hoa dâng lên Đức Mẹ?",
+				"answer": ["Tháng hoa là tháng 5, Dâng hoa lên Mẹ là nói lên lòng yêu mến Mẹ"]
+			},
+			{
+				"ask": "Em biết kinh nào thường đọc để cầu nguyện, nói chuyện với Đức Mẹ không?",
+				"answer": ["Kinh Kính Mừng"]
+			} 
+		],
+		"memoContent": [
+			"-\tMẹ Maria là mẹ Chúa Giêsu và cũng là mẹ của chúng ta",
+			"-\tKinh Kính Mừng chính là lời kinh thay lời cầu nguyện hoàn hảo dâng lên Đức Mẹ",
+			"-\tEm sung sướng vì được làm con của Mẹ"
+		],
+		"actions": [
+			"+ Em đọc kinh Kính Mừng mỗi ngày dâng lên Đức Mẹ",
+			"+ Siêng năng cầu nguyện, nói chuyện cùng Mẹ như em đi viếng đài Đức Mẹ, đi ngang qua đài Đức Mẹ em nhớ cúi đầu chào. "
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA GIÊSU, CON THIÊN CHÚA LÀM NGƯỜI",
+		"lessonId": "24",
+		"imageUrl": "images/KT1/B24.jpg",
+		"mainContent": ["“...Ta báo cho anh em một tin rất mừng: Chúa Cứu Thế đã sinh ra...”(Lc 1,14)" ],
+		"questions": [
+			{
+				"ask": "Em có biết Chúa Giêsu được sinh ra ở đâu không?",
+				"answer": ["Hang đá Belem"]
+			},
+			{
+				"ask": "Ba mẹ của Chúa Giêsu là ai?",
+				"answer": ["Mẹ Maria và cha nuôi là Thánh Giuse"]
+			},
+			{
+				"ask": "Ai là người đến viếng thăm Chúa Giêsu Hài Đồng đầu tiên?",
+				"answer": ["Là các mục đồng, đã được Thiên Thần xuất hiện và báo tin, đến và bái lạy Người."]
+			},
+			{
+				"ask": "Em biết “Emmanuel” có nghĩa là gì?",
+				"answer": ["Là Thiên Chúa ở cùng chúng ta"]
+			} 
+		],
+		"memoContent": [
+			"-\tChúa Giêsu là con Thiên Chúa và cũng là người như chúng ta.",
+			"-\tChúa Giêsu có người cha trên trời là Thiên Chúa Cha, ở trần gian, Ngài cũng có cha mẹ như chúng ta là mẹ Maria và cha nuôi là Thánh Giuse",
+			"-\tCung kính thờ lạy Con Thiên Chúa làm người",
+			"-\tThiên Chúa yêu thương chúng ta và ban Người Con duy nhất của mình xuống thế làm người để cứu chuộc muôn người và đem tình yêu thương đến với con người."
+		],
+		"actions": [
+			"Vui mừng Con Thiên Chúa giáng sinh e quyết tâm:",
+			"+ Mang lại niềm vui cho mọi người xung quanh",
+			"+ Em vui chơi tử tế với bạn bè, biết vâng lời ông bà cha mẹ",
+			"+ Siêng năng đi học giáo lý và tham dự thánh lễ"
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA GIÊSU NGƯỜI LÀNG NADARÉT",
+		"lessonId": "25",
+		"imageUrl": "images/KT1/B25.jpg",
+		"mainContent": ["“Trẻ Giêsu theo cha mẹ về Nadarét và hằng vâng phục các ngài...” (Lc 2,51-52)" ],
+		"questions": [
+			{
+				"ask": "Các em được sinh ra ở đâu, còn Chúa Giêsu thì sinh ra ở đâu, các em biết không?",
+				"answer": ["Em được sinh ra ở bệnh viện, còn Chúa sinh ra ở một hang đá làng Belem"]
+			},
+			{
+				"ask": "Chúa Giêsu sinh sống là lớn lên ở đâu?",
+				"answer": ["Ở làng Nadarét "]
+			},
+			{
+				"ask": "Gia đình Chúa Giêsu làm nghề gì?",
+				"answer": ["Nghề thợ mộc"]
+			},
+			{
+				"ask": "Noi gương Chúa Giêsu các em cần làm gì để được Chúa và mọi người yêu mến?",
+				"answer": ["Em ngoan ngoãn vâng lời và sống dễ thương với mọi người."]
+			} 
+		],
+		"memoContent": [
+			"-\tChúa Giêsu lớn lên trong tình yêu thương của cha mẹ. Chúa cũng rất yêu mến Đức Mẹ và Thánh Giuse.",
+			"-\tChúa ngoan ngoãn vâng lời và sống dễ thương với mọi người. Người ta gọi Chúa là bác thợ mộc con bà Maria",
+			"-\tChúa thường đi đến hội đường để nghe Lời Chúa vào các ngày Sabat"
+		],
+		"actions": [
+			"Chúa Giêsu vừa làm việc, vừa chăm học giáo lý, nên được Thiên Chúa quí mến và mọi người thương mến.",
+			"+ Noi gương Chúa em cũng chăm chỉ học giáo lý, sống hòa đồng với mọi người xung quanh.",
+			"+ Em tập làm việc, phụ giúp gia đình."
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA GIÊSU CHĂM CHỈ LÀM VIỆC",
+		"lessonId": "26",
+		"imageUrl": "images/KT1/B26.jpg",
+		"mainContent": ["“Cha mẹ không biết là Con có bổn phận ở nhà của Cha Con sao?” (Lc 2,49)" ],
+		"questions": [
+			{
+				"ask": "Các em có biết năm bao nhiêu tuổi Chúa Giêsu rời gia đình, đi rao giảng Tin Mừng không?",
+				"answer": ["Khi Ngài 30 tuổi"]
+			},
+			{
+				"ask": "Khi còn thơ ấu, Chúa Giêsu đã siêng năng giúp đỡ Đức Mẹ và Thánh Giuse, vậy lớn lên Ngài đi rao giảng Chúa Giêsu làm gì?",
+				"answer": ["Chúa dạy cho mọi người biết về Thiên Chúa Cha, Ngài làm phép lạ, chữa lành những người đau khổ ... "]
+			},
+			{
+				"ask": "Chúa Giêsu nói Ngài có bổn phận với ai?",
+				"answer": ["Với Thiên Chúa Cha."]
+			},
+			{
+				"ask": "Bổn phận đó là gì?",
+				"answer": ["Rao giảng Tin Mừng"]
+			},
+			{
+				"ask": "Tin Mừng là Chúa Giêsu loan báo tin vui cho mọi người. Các em có biết tin vui Chúa Giêsu nói là tin gì không?",
+				"answer": ["Chúa loan báo ơn Cứu Độ, Chúa nói cho ta biết ta có một người Cha hằng yêu thương ta trên trời"]
+			} 
+		],
+		"memoContent": [
+			"-\tChúa Giêsu làm mọi việc, Người làm rất tốt vì lòng mến Chúa Cha và yêu thương chúng ta.",
+			"-\tVui vẻ chu toàn bổn phận và làm việc vì lòng yêu mến Chúa. "
+		],
+		"actions": [
+			"Chúa Giêsu làm việc rất tốt vì lòng mến Chúa Cha và yêu thương chúng con. Xin cho chúng con biết noi gương Chúa, chăm chỉ làm việc vì lòng mến Chúa, em sẽ tập làm việc tốt mỗi ngày: giúp đỡ bạn bè, người già yếu, thương xót người tàn tật..."
+		]
+	},
+	{
+		"bookId": "KT1",
+		"lessonTitle": "CHÚA GIÊSU YÊU THƯƠNG TRẺ NHỎ",
+		"lessonId": "27",
+		"imageUrl": "images/KT1/B27.jpg",
+		"mainContent": ["“Hãy để các trẻ nhỏ đến cùng Ta, vì Nước Trời là của những ai giống như chúng” (Mc 10,14)" ],
+		"questions": [
+			{
+				"ask": "Vì sao Chúa Giêsu lại ôm các bạn nhỏ vào lòng?",
+				"answer": ["Vì Chúa yêu trẻ thơ"]
+			},
+			{
+				"ask": "Chúa Giêsu hứa ban Nước Trời cho những ai giống như trẻ thơ, vậy giống như trẻ thơ là như thế nào?",
+				"answer": ["Trẻ thơ đơn sơ, thật thà, không gian dối lừa lọc, ngoan hiền"]
+			},
+			{
+				"ask": "Tuổi thơ là tuổi của các em, các em được Chúa yêu rất nhiều, em có cảm thấy Chúa yêu em không?",
+				"answer": ["Ngài yêu em, ban ơn lành cho em, ban cho em có cha mẹ, có trí khôn, có sức khỏe..."]
+			}
+		],
+		"memoContent": [
+			"-\tChúa Giêsu yêu thương trẻ nhỏ. Ngài ôm chúng vào lòng và đặt tay chúc lành cho chúng",
+			"-\tEm luôn sống ngoan hiền, yêu thương nhau để được Chúa yêu thương."
+		],
+		"actions": [
+			"Em thật vui khi được làm trẻ thơ, em hãy luôn sống ngoan hiền để được Chúa yêu thương."
 		]
 	}
 ]
