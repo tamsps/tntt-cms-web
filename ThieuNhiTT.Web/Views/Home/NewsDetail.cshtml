@@ -1,0 +1,248 @@
+﻿@{
+	ViewData["Title"] = "Trang Chủ";
+	ViewData["RenderBody"] = false;
+	var newsMain = ViewData["NewsMain"] as News;
+	var newsOther = ViewData["NewsList"] as List<News>;
+	var fullUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}{Context.Request.QueryString}";
+}
+@model News
+<style>
+	.indented {
+		text-indent: 30px;
+	}
+</style>
+<!-- Breadcrumb -->
+<div class="container">
+	<div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+		<div class="f2-s-1 p-r-30 m-tb-6">
+			<a href="index.html" class="breadcrumb-item f1-s-3 cl9">
+				Hoạt động
+			</a>
+@* 
+			<a href="blog-list-01.html" class="breadcrumb-item f1-s-3 cl9">
+				Tin tức
+			</a> *@
+
+			<span class="breadcrumb-item f1-s-3 cl9">
+				@Model.Type
+			</span>
+		</div>
+
+
+	</div>
+</div>
+
+<!-- Content -->
+<section class="bg0 p-b-140 p-t-10">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-10 col-lg-8 p-b-30">
+				<div class="p-r-10 p-r-0-sr991">
+					<!-- Blog Detail -->
+					<div class="p-b-70">
+						@* <a href="#" class="f1-s-10 cl2 hov-cl10 trans-03 text-uppercase">
+							Technology
+						</a> *@
+
+						<h3 class="f1-l-3 cl2 p-b-16 p-t-33 respon2">
+							  @Html.Raw(@Model.NewsTitle)
+						</h3>
+
+						<div class="flex-wr-s-s p-b-40">
+							<span class="f1-s-3 cl8 m-r-15">
+								<a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+									 @Html.Raw(@Model.Type)
+								</a>
+
+								<span class="m-rl-3">-</span>
+
+								<span>
+									 @Html.Raw(@Model.DatePublish.ToString())
+								</span>
+							</span>
+
+						@* 	<span class="f1-s-3 cl8 m-r-15">
+								5239 Views
+							</span> *@
+
+						@* 	<a href="#" class="f1-s-3 cl8 hov-cl10 trans-03 m-r-15">
+								0 Comment
+							</a> *@
+						</div>
+
+						<div class="wrap-pic-max-w p-b-30">
+							<img src="~/@Model.NewsImage" alt="IMG">
+						</div>
+						@foreach (var content in Model.MainContent)
+            {
+							<p class="f1-s-11 cl6 p-b-25 indented">
+                 @Html.Raw(content)
+              </p>
+            }
+
+						@* <p class="f1-s-11 cl6 p-b-25">
+							Curabitur volutpat bibendum molestie. Vestibulum ornare gravida semper. Aliquam a dui suscipit, fringilla metus id, maximus leo. Vivamus sapien arcu, mollis eu pharetra vitae, condimentum in orci. Integer eu sodales dolor. Maecenas elementum arcu eu convallis rhoncus. Donec tortor sapien, euismod a faucibus eget, porttitor quis libero.
+						</p>
+
+						<p class="f1-s-11 cl6 p-b-25">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet est vel orci luctus sollicitudin. Duis eleifend vestibulum justo, varius semper lacus condimentum dictum. Donec pulvinar a magna ut malesuada. In posuere felis diam, vel sodales metus accumsan in. Duis viverra dui eu pharetra pellentesque. Donec a eros leo. Quisque sed ligula vitae lorem efficitur faucibus. Praesent sit amet imperdiet ante. Nulla id tellus auctor, dictum libero a, malesuada nisi. Nulla in porta nibh, id vestibulum ipsum. Praesent dapibus tempus erat quis aliquet. Donec ac purus id sapien condimentum feugiat.
+						</p>
+
+						<p class="f1-s-11 cl6 p-b-25">
+							Praesent vel mi bibendum, finibus leo ac, condimentum arcu. Pellentesque sem ex, tristique sit amet suscipit in, mattis imperdiet enim. Integer tempus justo nec velit fringilla, eget eleifend neque blandit. Sed tempor magna sed congue auctor. Mauris eu turpis eget tortor ultricies elementum. Phasellus vel placerat orci, a venenatis justo. Phasellus faucibus venenatis nisl vitae vestibulum. Praesent id nibh arcu. Vivamus sagittis accumsan felis, quis vulputate
+						</p> *@
+
+						<!-- Tag -->
+						<div class="flex-s-s p-t-12 p-b-15">
+							<div class="flex-wr-s-s size-w-0" style="display:flow;text-align:right">
+								<b>	@Model.Author</b>
+							</div>
+						</div>
+
+						<!-- Share -->
+						<div class="flex-s-s">
+							<span class="f1-s-12 cl5 p-t-1 m-r-15">
+								Chia sẻ:
+							</span>
+
+							<div class="flex-wr-s-s size-w-0">
+								<a href="https://www.facebook.com/sharer/sharer.php?u=@Uri.EscapeDataString(fullUrl)" class="dis-block f1-s-13 cl0 bg-facebook borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+									<i class="fab fa-facebook-f m-r-7"></i>
+									Facebook
+								</a>
+
+								<a href="#" class="dis-block f1-s-13 cl0 bg-twitter borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+									<i class="fab fa-twitter m-r-7"></i>
+									Twitter
+								</a>
+
+								<a href="https://www.google.com/search?q=@Uri.EscapeDataString(fullUrl)" class="dis-block f1-s-13 cl0 bg-google borad-3 p-tb-4 p-rl-18 hov-btn1 m-r-3 m-b-3 trans-03">
+									<i class="fab fa-google-plus-g m-r-7"></i>
+									Google+
+								</a>
+
+							
+							</div>
+						</div>
+					</div>
+
+					<!-- Leave a comment -->
+					
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div class="col-md-10 col-lg-4 p-b-30">
+				<div class="p-l-10 p-rl-0-sr991 p-t-70">
+					<!-- Category -->
+				
+
+					<!-- Archive -->
+				
+
+					<!-- Popular Posts -->
+					<div class="p-b-30">
+						<div class="how2 how2-cl4 flex-s-c">
+							<h3 class="f1-m-2 cl3 tab01-title">
+								Bài viết gần đây
+							</h3>
+						</div>
+
+						<ul class="p-t-35">
+							@foreach (var news in newsOther)
+              {
+								<li class="flex-wr-sb-s p-b-30">
+									<a asp-controller="Home" asp-action="NewsDetail" asp-route-newsId="@news.NewsId" class="size-w-10 wrap-pic-w hov1 trans-03">
+										<img src="~/@news.NewsImage" alt="IMG">
+									</a>
+
+									<div class="size-w-11">
+										<h6 class="p-b-4">
+											<a asp-controller="Home" asp-action="NewsDetail" asp-route-newsId="@news.NewsId" class="f1-s-5 cl3 hov-cl10 trans-03">
+												@Html.Raw(@news.NewsTitle)
+											</a>
+										</h6>
+
+										<span class="cl8 txt-center p-b-24">
+											<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+												@Html.Raw(@news.Type)
+											</a>
+
+											<span class="f1-s-3 m-rl-3">
+												-
+											</span>
+
+											<span class="f1-s-3">
+												@Html.Raw(@news.DatePublish)
+											</span>
+										</span>
+									</div>
+								</li>
+							}
+@* 
+							<li class="flex-wr-sb-s p-b-30">
+								<a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
+									<img src="images/popular-post-05.jpg" alt="IMG">
+								</a>
+
+								<div class="size-w-11">
+									<h6 class="p-b-4">
+										<a href="blog-detail-02.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+											Donec metus orci, malesuada et lectus vitae
+										</a>
+									</h6>
+
+									<span class="cl8 txt-center p-b-24">
+										<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+											Game
+										</a>
+
+										<span class="f1-s-3 m-rl-3">
+											-
+										</span>
+
+										<span class="f1-s-3">
+											Feb 16
+										</span>
+									</span>
+								</div>
+							</li>
+
+							<li class="flex-wr-sb-s p-b-30">
+								<a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
+									<img src="images/popular-post-06.jpg" alt="IMG">
+								</a>
+
+								<div class="size-w-11">
+									<h6 class="p-b-4">
+										<a href="blog-detail-02.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+											Donec metus orci, malesuada et lectus vitae
+										</a>
+									</h6>
+
+									<span class="cl8 txt-center p-b-24">
+										<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+											Celebrity
+										</a>
+
+										<span class="f1-s-3 m-rl-3">
+											-
+										</span>
+
+										<span class="f1-s-3">
+											Feb 12
+										</span>
+									</span>
+								</div>
+							</li> *@
+
+						</ul>
+					</div>
+
+					<!-- Tag -->
+			
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

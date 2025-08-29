@@ -1,0 +1,28 @@
+[
+	{
+		"bookId": "VD2",
+		"lessonTitle": "HÔM NAY ĐẤNG CỨ THẾ ĐÃ SINH RA ĐỜI",
+		"lessonId": "01",
+		"mainContent": [
+			"Bài Học 1",
+			"Main content 2"
+		],
+		"questions": [
+			{
+				"ask": "Khi nhắc đến Chúa Thánh Thần chúng ta thường nghĩ tới biểu tượng nào?",
+				"answer": ["Trong Thánh Kinh, Chúa Thánh Thần được nói đến với biểu tượng: Nước, dầu, lửa, mây, ánh sáng, bàn tay, ngón tay, chim bồ câu,…"
+				]
+			}
+		],
+		"memoContent": [
+			"Chương 2",
+			"memo content 2",
+			"memo content 3"
+		],
+		"actions": [
+			"action 1",
+			"action 2",
+			"action 3"
+		]
+	}
+]

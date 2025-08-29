@@ -1,0 +1,398 @@
+[
+	{
+		"bookId": "TS1",
+		"lessonTitle": "NHỮNG HÌNH ẢNH VỀ ĐẤNG CỨU ĐỘ",
+		"lessonId": "12",
+		"imageUrl": "images/TS1/B12.jpg",
+		"mainContent": [
+			"Tìm hiểu hình ảnh Đấng Cứu Độ qua các ngôn sứ."
+		],
+		"questions": [
+			{
+				"ask": "Đấng Cứu Thế mà dân Chúa mong đợi được các ngôn sứ giới thiệu dưới những tước hiệu nào?",
+				"answer": ["Dưới 3 tước hiệu chính:",
+				"Con vua Đavít (2 Sm 7, 12 – 14).",
+				"Con Người từ trời xuống (Đấng Thiên Sai) (Đn 7, 8.13).",
+				"Tôi Tớ khiêm tốn, chịu nhiều đau khổ (Is 53)."
+				]
+			},
+			{
+				"ask": "Trong ba tước hiệu ấy, dân Chúa để ý đến tước hiệu nào?",
+				"answer": ["Để ý đến tước hiệu:",
+				"Con vua Đavít",
+				"Con Người",
+				"Hai tước hiệu này có &quot;vẻ vinh quang&quot;. &quot;Người Tôi Tớ&quot; ít được để ý vì quá khiêm tốn."
+				]
+			},
+			{
+				"ask": "Khi Chúa Giêsu đến, Người sống theo hình ảnh nào?",
+				"answer": ["Khi Chúa Giêsu đến, Người sống và chết như Người Tôi Tớ của Thiên Chúa."]
+			},
+			{
+				"ask": "Vậy, kinh nào tuyên xưng việc Chúa Giêsu xuống thế làm người?",
+				"answer": ["&quot;Kinh Tin Kính&quot;Vì loài người chúng ta, và để cứu độ chúng ta, Người đã từ trời xuống  thế&quot;."]
+			}
+		],
+		"memoContent": [
+			"Thiên Chúa luôn yêu thương dân Ngài. Ngài hứa sẽ có một Đấng đến cứu vớt mọi người. Đấng ấy chính là Đức Giêsu, được sai xuống từ Trời, sinh làm người thuộc dòng tộc vua Đavít, nhưng lại chấp nhận làm một người Tôi Tớ hiền lành khiêm nhường, gánh chịu hết mọi khổ đau của nhân loại và chết trên Thập giá."
+		],
+		"actions": [
+			"Không cãi nhau.",
+			"Không chửi tục."
+		]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "DÂN THIÊN CHÚA ĐẤU TRANH GIÀNH ĐỘC LẬP",
+		"lessonId": "13",
+		"imageUrl": "images/TS1/B13.jpg",
+		"mainContent": [
+			"Các cuộc đấu tranh giành độc lập của dân Do Thái."
+		],
+		"questions": [
+			{
+				"ask": "Từ lưu đày Babylon trở về, người Do thái có được hưởng độc lập tự do không?",
+				"answer": ["Không được hưởng độc lập và tự do trọn vẹn:",
+				"Họ liên tiếp bị các đế quốc như Ba Tư, Hy Lạp, Rôma cai trị.",
+				"Thông thường, họ chỉ được tự do tôn giáo, nhưng cũng có lúc khó khăn."
+				]
+			},
+			{
+				"ask": "Cuộc đấu tranh nào là mãnh liệt nhất trong thời kỳ này?",
+				"answer": ["Là cuộc khởi nghĩa dưới quyền lãnh đạo của anh em nhà Macabê chống lại hoàng đế Antiôkhô IV",
+				"Ông này bắt người Do thái phải bỏ đạo để theo văn hóa và tôn giáo Hy lạp."
+				]
+			},
+			{
+				"ask": "Các cuộc đấu tranh thất bại giúp dân Chúa nhận ra điều gì?",
+				"answer": ["Giúp họ nhận ra rằng: Đấng Cứu Độ đích thực là Thiên Chúa."]
+			}
+		],
+		"memoContent": [
+			"Dân Israel chờ mong Thiên Chúa gửi Đấng Cứu Tinh đến giải thoát họ khỏi ách đô hộ, tìm lại độc lập tự do. Nhiều cuộc khởi nghĩa với những vị thủ lãnh anh dũng đều thất bại. Và người ta tiếp tục chờ đợi.",
+			"Thật ra Thiên Chúa muốn gửi một Đấng cứu muôn dân khỏi ách nô lệ tội lỗi và sự chết. Đấng ấy chính là Đức Giêsu Kitô."
+		],
+		"actions": [
+			"Siêng năng tham dự Thánh Lễ.",
+			"Tôn trọng mọi người."
+		]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "XỨ PALESTINE THỜI  CHÚA GIÊSU",
+		"lessonId": "14",
+		"imageUrl": "images/TS1/B14.jpg",
+		"mainContent": [
+			"Palestine là quê hương trần gian nơi Chúa Giêsu sinh ra làm người."
+		],
+		"questions": [
+			{
+				"ask": "Em hãy cho biết vị trí xứ Palestine thời Chúa Giêsu?",
+				"answer": ["Vị trí Palestine:",
+				"Bờ  Địa Trung Hải.",
+				"Bắc – Nam: 200km",
+				"Tây – Đông: 60km",
+				"Phía Đông: có sông Gio-đan chảy từ núi Hermon qua hồ Galilê đổ ra Biển Chết."
+				]
+			},
+			{
+				"ask": "Xứ Palestine thời Chúa Giêsu được phân chia như thế nào?",
+				"answer": ["Địa lý:",
+				"Miền Bắc: Ga-li-lê.",
+				"Miền Trung: Sa- ma-ri",
+				"Miền Nam: Giu-đê-a có thành thánh Giêrusalem."
+				]
+			},
+			{
+				"ask": "Vào thời Chúa Giêsu, tình trạng dân chúng ở Palestine thế nào?",
+				"answer": [
+				"Đa số dân chúng nghèo",
+				"Làm nghề trồng nho, trồng lúa mì, chăn nuôi bò, cừu.",
+				"Một số khác làm nghề chài lưới và buôn bán.",
+				"Phải nộp thuế và đi lính cho đế quốc Rôma."
+				]
+			}
+		],
+		"memoContent": [
+			"Palestine ,quê hương của Chúa Giêsu, là miền đất nhỏ, nghèo, lại còn bị đô hộ bởi đế quốc Rôma. Đây chỉ là quê hương trần gian nơi Chúa Giêsu sinh ra làm người. Miên đất Thiên Chúa hứa chính là Nước Trời mai sau, quê hương vĩnh cửu của muôn dân."
+		],
+		"actions": [
+			"Học thật giỏi để mai sau giúp ích cho đất nước.",
+			"Chăm học Giáo Lý để xứng đáng là công dân của Nước Trời."
+		]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "TÌNH HÌNH TÔN GIÁO Ở PALESTINE THỜI CHÚA GIÊSU",
+		"lessonId": "15",
+		"imageUrl": "images/TS1/B15.jpg",
+		"mainContent": [
+			"Vai trò và quan trọng của các giới răn và lề luật."
+		],
+		"questions": [
+			{
+				"ask": "Ba điều chính yếu trong đức tin của người Do Thái là gì?",
+				"answer": ["Ba điều chính yếu:",
+				"Thờ phượng một mình Thiên Chúa",
+				"Tuân giữ 10 điều răn",
+				"Mong chờ Đấng Mêsia đến giải thoát."
+				]
+			},
+			{
+				"ask": "Hai điều quan trọng nhất trong đời sống tôn giáo của người Do Thái là gì?",
+				"answer": [
+				"Hai điều quan trọng nhất trong đời sống tôn giáo của người Do Thái :",
+				"Luật Môse",
+				"Đền thờ Giêrusalem"
+				]
+			},
+			{
+				"ask": "Thế nào là ‘những người nghèo của Thiên Chúa’?",
+				"answer": ["Những người nghèo của Thiên Chúa là những người Do Thái:",
+				"Trung thành với giao ước",
+				"Đặt trọn làm tin vào Thiên Chúa",
+				"Chuyên cần cầu nguyện và học hỏi Kinh Thánh",
+				"Chấp nhận thiệt thòi trong đời sống xã hội",
+				"Mong chờ Đấng Mêsia với tâm hồn khiêm tốn và phó thác."
+				]
+			}
+		],
+		"memoContent": [
+			"Trong dân Israel có những người giàu có và quyền thế nhưng coi thường luật Chúa, lại có những người tuy nghèo khổ thấp hèn vẫn trung thành tuân giữ luật Chúa cách chân thành. Họ là ‘Người Nghe của Thiên Chúa’, Thiên chúa luôn yêu thương và bênh đỡ họ."
+		],
+		"actions": [
+			"Đọc 1 lời nguyện tắt:’Lạy Chúa Giêsu, con xin tuân giữ Lời Chúa’.",
+			"Đọc 1 lời nguyện tắt sau khi rước lễ: “Lạy Chúa Giêsu, con yêu mến Chúa”."
+			]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "ĐỨC GIÊSU LÀ CON THIÊN CHÚA",
+		"lessonId": "16",
+		"imageUrl": "images/TS1/B16.jpg",
+		"mainContent": [
+			"Chúa Giêsu Kitô là Con Thiên Chúa đã xuống thế làm người, chịu chết và sống lại để cứu chuộc nhân loại."
+		],
+		"questions": [
+			{
+				"ask": "Các môn đệ nhận biết Chúa Giêsu là Con Thiên Chúa khi nào?",
+				"answer": ["Trước khi Chúa Giêsu Phục sinh, các môn đệ tin Người là Đấng Mêsia.",
+				"Nhưng sau khi được ơn Thánh Thần do Chúa Giêsu Phục sinh ban, các môn đệ tin nhận Chúa Giêsu là Con Thiên Chúa và là Thiên Chúa làm người."
+				]
+			},
+			{
+				"ask": "Tin Chúa Giêsu là Con Thiên Chúa, điều đó giúp các Tông đồ như thế nào?",
+				"answer": [
+				"Tin Chúa Giêsu là Con Thiên Chúa giúp các tông đồ hiểu thêm rằng:",
+				"Lời nói và việc làm của Người là của chính Thiên Chúa."
+				]
+			},
+			{
+				"ask": "Chúng ta có thể thấy Thiên Chúa không?",
+				"answer": ["Chúng ta không thể thấy Thiên Chúa:",
+				"VVì Ngài vô hình",
+				"Nhưng Thiên Chúa đã tỏ mình cho ta nơi Con của Ngài:",
+				"Là Đức Giêsu Kitô",
+				"Hiện than của Thiên Chúa",
+				"Là Emmanuel, nghĩa là “Thiên Chúa ở cùng chúng ta’."
+				]
+			}
+		],
+		"memoContent": [
+			"Thiên Chúa luôn yêu thương nhân loại, Ngài đã thực hiện Lời Hứa, cho Con Một là Đức Giêsu xuống thế làm người để cứu độ tất cả chúng ta, kết thúc thời Cựu Ước và mở ra thời Tân Ước. "
+		],
+		"actions": [
+			"Học thuộc kinh Tin Kính",
+			"Đọc 1 lời nguyện tắt sau khi rước lễ: “Lạy Chúa Giêsu, con yêu mến Chúa”."
+			]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "CHÚA GIÊSU RAO GIẢNG NƯỚC TRỜI",
+		"lessonId": "17",
+		"imageUrl": "images/TS1/B17.jpg",
+		"mainContent": [
+			"Chúa Giêsu kêu gọi con người phải ăn năn sám hối và tin vào Tin Mừng."
+		],
+		"questions": [
+			{
+				"ask": "Chúa Giêsu đã giảng về Nước Trời như thế nào?",
+				"answer": ["Chúa Giêsu đã dung nhiều dụ ngôn để nói về Nước Trời:",
+				"Kho báu, mẻ lưới, men trong bột, hạt cải…."
+				]
+			},
+			{
+				"ask": "Tinh thần chủ yếu của người sống trong Nước Trời được tóm tắt như thế nào?",
+				"answer": [
+				"Tinh thần chủ yếu của người sống trong Nước Trời được tóm tắt:",
+				"Trong kinh tám mối phúc thật của Chúa Giêsu đã được công bố và thực hiện."
+				]
+			},
+			{
+				"ask": "Giáo hội có vai trò gì đối với Nước Trời?",
+				"answer": ["Giáo Hội:",
+				"Vừa là dấu chỉ",
+				"Vừa là khí cụ",
+				"Thiên Chúa dung để thực hiện Nước Trời."
+				]
+			}
+		],
+		"memoContent": [
+			"Chúa Giêsu là Đấng được Chúa Cha sai đến để cứu độ nhân loại. Ngài loan báo rằng Nước Trời đã đến rồi.Ngài kêu gọi con người hãy chân thành sám hối tội lội, thay đổi cuộc sống, sống yêu thương theo tinh thần của Tin Mừng. "
+		],
+		"actions": [
+			"Học thuộc kinh tám mối phúc thật"
+			]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "CHÚA GIÊSU LOAN BÁO THIÊN CHÚA MUỐN CỨU ĐỘ CON NGƯỜI",
+		"lessonId": "18",
+		"imageUrl": "images/TS1/B18.jpg",
+		"mainContent": [
+			"Chúa Cha đã sai Con Một xuống thế làm người là Đức Giêsu."
+		],
+		"questions": [
+			{
+				"ask": "Vì sao Thiên Chúa có ý định cứu độ con người?",
+				"answer": ["Thiên Chúa có ý định cứu độ con người vì Thiên Chúa:",
+				"Là Đấng yêu thương.",
+				"Ngài muốn cho chúng ta là con cái được tham dự vào sự sống của Ngài."
+				]
+			},
+			{
+				"ask": "Ngôi Hai xuống thế làm người để làm gì?",
+				"answer": [
+				"Ngôi Hai xuống thế làm người:",
+				"Để cứu chuộc chúng ta khỏi tội lỗi.",
+				"Để tỏ cho chúng ta biết tình yêu của Thiên Chúa.",
+				"Để làm mẫu mực cho chúng ta sống thánh thiện."
+				]
+			},
+			{
+				"ask": "Thế nào là được cứu độ?",
+				"answer": [
+				"Những người nghèo của Thiên Chúa là những người Do Thái:",
+				"Được cứu độ là được Chúa Kitô giải thoát khỏi tội lỗi để sống như con cái Thiên Chúa."
+				]
+			}
+		],
+		"memoContent": [
+			"Vì yêu thương muốn cứu nhân loại khỏi tội lỗi và sự chết đời đời, Chúa Cha đã sai Con Một xuống thế làm người là Đức Giêsu. Tất cả những ai tin vào Đức Giêsu thì đều được cứu."
+		],
+		"actions": [
+			"Đọc 1 đoạn Tin Mừng ( Ga6,40). Và cầu nguyện với Chúa Giêsu."
+			]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "NHỮNG VIỆC CHÚA GIÊSU LÀM",
+		"lessonId": "19",
+		"imageUrl": "images/TS1/B19.jpg",
+		"mainContent": [
+			"Chúa Giêsu đã minh chứng Ngài là Thiên Chúa qua nhiều phép lạ."
+		],
+		"questions": [
+			{
+				"ask": "Những việc Chúa Giêsu làm có thể được tóm tắt thế nào?",
+				"answer": ["Những việc Chúa Giêsu làm có thể được tóm tắt như sau:",
+				"Chúa Giêsu đến để thi hành ý Chúa Cha là cứu độ con người."
+				]
+			},
+			{
+				"ask": "Tại sao Chúa Giêsu làm các phép lạ?",
+				"answer": ["Chúa Giêsu làm các phép lạ để cứu giúp con người và để người ta nhận ra Ngài là Đấng Thiên Chúa cử đến."
+				]
+			},
+			{
+				"ask": "Tại sao khi làm phép lạ, Chúa Giêsu lại liên hệ đến lòng tin?",
+				"answer": [
+				"Chúa Giêsu không làm phép lạ để khoe khoang hay vì bị thách thức, nhưng Chúa muốn khơi dậy và củng cố lòng tin nơi người nghe. Ngài cũng không muốn ép buộc người ta tin Ngài. Ai tin Ngài thì được cứu độ."
+				]
+			}
+		],
+		"memoContent": [
+			"Chúa Giêsu là Đấng giàu lòng thương xót, Ngài muốn mọi người, đặc biệt là những người đau bệnh tật nguyền được chữa lành, cả những người đau bệnh phần hồn, được biến đổi. Chúa làm nhiều phép lạ để thuyết phục họ rằng Ngài chính là Đấng được Chúa Cha sai đến để cứu độ nhân loại."
+		],
+		"actions": [
+			"Nhớ Chúa luôn đồng hành với em",
+			"Nói về Chúa bằng cách sống của mình."
+		]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "NHỮNG LỜI CHÚA GIÊSU NÓI",
+		"lessonId": "20",
+		"imageUrl": "images/TS1/B20.jpg",
+		"mainContent": [
+			"Chúa Giêsu đã dạy chúng ta cầu nguyện."
+		],
+		"questions": [
+			{
+				"ask": "Khi đi giảng đạo, Chúa Giêsu đã dạy những gì?",
+				"answer": ["Khi giảng đạo Chúa Giêsu đã loan báo tin mừng:",
+				"Đã loan báo Tin Mừng về Nước Đức Chúa Trời.",
+				"Dạy cho biết Đức ChúaTrời là Cha nhân từ và mọi người đều là anh em với nhau."
+				]
+			},
+			{
+				"ask": "Chúa Giêsu có dạy về chính mình không?",
+				"answer": ["Chúa Giêsu đã dạy cho biết Ngài:",
+				"Con Đức Chúa Trời.",
+				"Đức Chúa Trời thật.",
+				"Đấng Cứu Thế loài người đợi trông."
+				]
+			},
+			{
+				"ask": "Người ta đón nhận Lời Chúa thế nào?",
+				"answer": [
+				"Có những người nghe mà không thực hành, nên Lời Chúa không sinh hoa quả gì.",
+				"Có những người đón nhận Lời Chúa như mảnh đất tốt được dọn sẵn sàng để đón nhận hạt giống, nên sinh hoa kết quả nhiều"
+				]
+			}
+		],
+		"memoContent": [
+			"Ngoài những điều Chúa Giêsu làm, Ngài còn nói nhiều điều quan trọng để mặc khải về chính Ngài, về Chúa Cha, về Chúa Thánh Thần, về Nước Trời. Những lời Ngài nói được ghi lại trong các Sách Tin Mừng mà chúng ta thường nghe trong Thánh Lễ, trong các buổi học Giáo Lý các em tự mình có thể tìm đọc trong Kinh Thánh."
+		],
+		"actions": [
+			"Em giúp cho mọi người nhận biết Chúa yêu thương họ qua một việc tốt.",
+			"Em hãy học thuộc câu Lời Chúa này: “Anh em hãy yêu thương nhau như Thầy đã yêu thương anh em” (Ga 15,12)"
+		]
+	},
+	{
+		"bookId": "TS1",
+		"lessonTitle": "CHÚA GIÊSU MỜI GỌI: “HÃY THEO TA”",
+		"lessonId": "21",
+		"imageUrl": "images/TS1/B21.jpg",
+		"mainContent": [
+			"Chúa Giêsu mời gọi con người sống theo Ngài ,sống như Ngài."
+		],
+		"questions": [
+			{
+				"ask": "Đâu là lờ hứa và tiếng gọi Chúa Giêsu ngỏ với các bạn hữu Ngài?",
+				"answer": ["Chúa hứa::",
+				"Các con sẽ nhận được sức mạnh của Thánh Thần.",
+				"Các con sẽ là nhân chứng của Thầy trong thế giới."
+				]
+			},
+			{
+				"ask": "Thế nào là theo Chúa Giêsu?",
+				"answer": ["Theo Chúa Giêsu là sống như Chúa đã sống,nghĩa là biết quên mình để phục vụ Thiên Chúa và phục vụ tha nhân."
+				]
+			},
+			{
+				"ask": "Theo Chúa Giêsu ta được gì?",
+				"answer": [
+				"Theo Chúa Giêsu ta được góp phần vào công cuộc xây dựng Nước Trời và hy vọng đươc vui hưởng hạnh phúc đời đời với Thiên Chúa và anh chị em."
+				]
+			}
+		],
+		"memoContent": [
+			"Chúa Giêsu yêu thương mọi người, Ngài kêu gọi hãy đi theo Ngài, sống như Ngài, nghĩa là biết quên mình để phụng sự Thiên Chúa và phục vụ tha nhân. Ngài bảo: &quot;Ai muốn theo Thầy, phải từ bỏ chính mình, vác thập giá mình mà theo thầy&quot;. Ðược như thế, chúng ta sẽ vui hưởng hạnh phúc Nước Trời.."
+		],
+		"actions": [
+			"Nhớ Chúa luôn đồng hành với em.",
+			"Nói về Chúa bằng cách sống của mình."
+		]
+	}
+]
