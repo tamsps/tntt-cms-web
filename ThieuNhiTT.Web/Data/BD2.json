@@ -95,6 +95,48 @@
 	},
 	{
 		"bookId": "BD2",
+		"lessonTitle": "BÍ TÍCH THÊM SỨC",
+		"lessonId": "03",
+		"imageUrl": "images/BD2/B03.jpg",
+		"mainContent": [
+			"Tìm hiểu bí tích Thêm Sức trong Hội Thánh Công Giáo"
+		],
+		"questions": [
+			{
+				"ask": "Bí tích khai tâm Kitô giáo gồm những bí tích nào?",
+				"answer": [
+					"Bí tích Thánh Tẩy, bí tích Thánh Thể và bí tích Thêm Sức là ba bí tích khai tâm Kitô giáo."
+				]
+			},
+			{
+				"ask": "Vì sao các tín hữu cần lãnh nhận bí tích Thêm Sức?",
+				"answer": [
+					"Các tín hữu cần lãnh nhận bí tích Thêm Sức để hoàn tất ân sủng Thánh Tẩy. Nhờ ơn bí tích Thêm Sức, các tin hữu gắn bó với Hội Thánh cách hoàn hảo hơn và được dư đầy sức mạnh của Chúa Thánh Thần. Do đó, họ càng có bổn phận loan truyền và bảo vệ đức tin bằng lời nói và việc làm, như những chứng nhân đích thực của Chúa Kitô (LG 11)."
+				]
+			},
+			{
+				"ask": "Bí tích Thêm Sức được thể hiện như thế nào trong Kinh Thánh?",
+				"answer": [
+					"Lc 12,12; Ga 3,5-8. Đức Kitô đã thực hiện lời hứa ban Thánh Thần cho các môn đệ trong ngày Phục Sinh và sau đó công khai trong ngày lễ ngũ tuần. Được tràn đầy Thánh Thần, các tông đồ bắt đầu rao giảng \"những kỳ công của Thiên Chúa\""
+				]
+			},
+			{
+				"ask": "Thánh Thần là ai?",
+				"answer": [
+					"Thánh Thần là Đấng thiêng liêng, ta không cảm thấy Ngài được. Nhưng ta tin vững chắc, có Ngài đang chăm sóc và trợ lực cho ta, rồi ta phấn đấu hết sức mình, dựa vào sức mạnh của Ngài. Phấn đấu suy nghĩ, sáng tạo và kiên quyết thực hiện hơn sức bình thường của ta."
+				]
+			}
+		],
+		"memoContent": [
+			"Nhận thức vai trò và sứ mạng của ta, trong Giáo Hội, trong thân mình huyền nhiệm của Chúa Kitô và đem hết sức mình thực hiện sứ mạng cao cả đó."
+		],
+		"actions": [
+			"Tập cầu nguyện và xin ơn soi sáng của Chúa Thánh Thần trong học tập, trong các chọn lựa và trong những lúc gặp khó khăn."
+		]
+	}
+,
+	{
+		"bookId": "BD2",
 		"lessonTitle": "CẦU NGUYỆN",
 		"lessonId": "12",
 		"imageUrl": "images/BD2/B12.jpg",
