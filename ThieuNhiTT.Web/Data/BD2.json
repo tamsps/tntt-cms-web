@@ -177,6 +177,65 @@
   },
   {
     "bookId": "BD2",
+    "lessonTitle": "THÁNH LỄ",
+    "lessonId": "05",
+    "imageUrl": "images/BD2/B05.jpg",
+    "mainContent": [
+      "Tìm hiểu Thánh lễ trong Hội Thánh Công Giáo"
+    ],
+    "questions": [
+      {
+        "ask": "Thánh lễ được cử hành để làm gì?",
+        "answer": [
+          "Cử hành thánh lễ là việc cả giáo hội cảm tạ Chúa Cha, cảm tạ vì Chúa Cha đã cho Chúa Giêsu chết và sống lại, cho ta khỏi chết muôn đời."
+        ]
+      },
+      {
+        "ask": "Ai là chủ trì trong mọi Thánh lễ?",
+        "answer": [
+          "Vị giám mục hay linh mục thay mặt Đức Kitô cử hành nhưng chính Người mới là thượng tế của giao ước mới, Người chủ trì trong mọi Thánh lễ, dù ẩn dạng."
+        ]
+      },
+      {
+        "ask": "Thánh lễ có bao nhiêu phần?",
+        "answer": [
+          "Thánh lễ gồm 4 phần không đều nhau: là nhập lễ, công bố Lời Chúa, tiệc Thánh Thể và nghi thức giải tán còn gọi là kết lễ."
+        ]
+      },
+      {
+        "ask": "Ý nghĩa của phần nhập lễ là gì?",
+        "answer": [
+          "Mở đầu Thánh Lễ là tập họp nhau nhân danh Chúa Cha, Chúa Con và Chúa Thánh Thần, bằng dấu thập giá Chúa Giêsu cũng là để nhìn nhận thân phận yếu đuối, đón nhận lời Chúa tha tội và cầu nguyện Chúa cho chúng ta biết lắng nghe Lời Chúa."
+        ]
+      },
+      {
+        "ask": "Ý nghĩa của phần Phụng vụ Lời Chúa là gì?",
+        "answer": [
+          "Đọc sách Thánh là công bố Lời Chúa . Lời Chúa trong tin mừng là lời của Chúa Giêsu cần phải nghe quảng diễn để hiểu và áp dụng Lời Chúa vào đời sống hàng ngày."
+        ]
+      },
+      {
+        "ask": "Ý nghĩa của phần Phụng vụ Thánh Thể là gì?",
+        "answer": [
+          "Tiệc Thánh Thể: bao gồm chuẩn bị bánh rượu và các của lễ để dâng lên Chúa Cha. Sau đó là lời Nguyện Thánh Thể, với Kinh Tiền tụng ca ngợi Chúa Cha đã cho Chúa Giêsu cứu chuộc chúng ta. Rồi Linh mục đặt tay trên bánh rượu xin Cha cho Chúa Thánh Thần làm bánh và rượu thành Mình và Máu Chúa Giêsu. •\tPhần chính Tiệc Thánh Thể là lời tường thuật việc Chúa Giêsu đã làm, khi làm cho bánh rượu trở thành Thân Mình Người. Lúc này bánh rượu là Chúa Giêsu hiện diện với chúng ta. •\tSau đó là phần chủ tế đọc lời cầu nguyện xin Chúa Cha gởi Chúa Thánh Thần tới để làm cho Giáo Hội cũng thành của lễ và một thân mình duy nhất dâng lên Cha. •\tTiếp theo là Kinh Lạy Cha và cử chỉ trao lời chúc phúc bình an, vì tất cả chúng ta là con cùng một Cha và chia nhau bánh Thánh. Rước Mình Chúa Giêsu là nhận đây là “chiên Thiên Chúa” xóa tội trần gian. Phải hết sức trân trọng và yêu mến Chúa."
+        ]
+      },
+      {
+        "ask": "Ý nghĩa của phần Phụng vụ Thánh Thể là gì?",
+        "answer": [
+          "Phần nghi thức giải tán, gồm xin Chúa chúc lành và trao sứ mạng ra đi loan báo bình an."
+        ]
+      }
+    ],
+    "memoContent": [
+      "Nhận thức được sự thánh thiêng và sự hiện diện của Chúa khi tham dự Thánh lễ."
+    ],
+    "actions": [
+      "Đến nhà thờ em nghe Lời Chúa. Em quyết tâm sống theo Lời Người."
+    ]
+  },
+  {
+    "bookId": "BD2",
     "lessonTitle": "CẦU NGUYỆN",
     "lessonId": "12",
     "imageUrl": "images/BD2/B12.jpg",
